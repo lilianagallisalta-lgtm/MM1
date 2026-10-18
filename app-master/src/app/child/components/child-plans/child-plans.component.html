@@ -1,0 +1,35 @@
+<div fxLayout="column"
+     fxLayoutGap="1rem">
+  <hk-loading-overlay *ngIf="loading || (loading$ | async)"></hk-loading-overlay>
+
+  <h1 class="card-title" translate>Programas de potenciamiento</h1>
+
+  <span *ngIf="! child?.canCreatePlan && child?.nextPlanAt">Podrás volver a crear un programa de potenciamiento {{ child?.nextPlanAt | dfnsDistanceInWordsToNow:{addSuffix: true} }}</span>
+  <ion-button *ngIf="child?.canCreatePlan"
+              (click)="createPlan()"
+              shape="round"
+              fxFlexAlign="start"
+              translate>Comenzar un nuevo programa</ion-button>
+
+  <ng-container *ngFor="let plan of (plans$ | async); index as idx">
+    <a [routerLink]="['/children', child?.id, 'plans', plan?.id]" matRipple tappable
+       class="relative p-3 bg-white rounded shadow no-underline">
+      <div fxLayout="row">
+        <div fxLayout="column"
+             fxLayoutGap="1rem"
+             fxFlex="66">
+          <span class="text-lg">{{plan?.idx}}° Programa de potenciamiento</span>
+
+          <hk-chip *ngIf="plan?.completed" color="green">Completado</hk-chip>
+          <hk-chip *ngIf="! plan?.completed" color="yellow">Incompleto</hk-chip>
+        </div>
+
+        <div fxLayout="column"
+             fxLayoutAlign="center end"
+             fxFlex="1 1 auto">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+      </div>
+    </a>
+  </ng-container>
+</div>

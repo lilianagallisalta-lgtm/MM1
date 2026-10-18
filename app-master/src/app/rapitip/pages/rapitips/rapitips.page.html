@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Rapi Tips</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <hk-loading-overlay *ngIf="(loading$ | async)"></hk-loading-overlay>
+
+  <hk-container>
+    <div fxLayout="column" fxLayout.gt-xs="row wrap"
+         fxLayoutAlign.gt-xs="center center"
+         fxLayoutGap="1rem" fxLayoutGap.gt-xs="1rem grid">
+
+      <ng-container *ngIf="! (loading$ | async) && ! (rapiTips$ | async)?.length">
+        <hk-empty>Aún no has recibido ningún Rapi Tip. Te enviaremos uno por semana.</hk-empty>
+      </ng-container>
+
+      <div *ngFor="let rapiTip of (rapiTips$ | async)"
+           fxLayout="column"
+           fxFlex="100" fxFlex.gt-xs="50" fxFlex.gt-md="33">
+        <div fxLayout="column"
+             class="bg-white rounded shadow">
+          <hk-img [src]="rapiTip?.picture"
+                  baseClass="bg-cover bg-center bg-no-repeat"
+                  class="h-32 w-full"></hk-img>
+
+          <h1 class="pt-3 px-3 card-title">{{rapiTip?.title}}</h1>
+
+          <hk-list-actions>
+            <ion-button [routerLink]="['/rapitips', rapiTip?.id]"
+                        fill="clear">Ver más</ion-button>
+          </hk-list-actions>
+        </div>
+      </div>
+    </div>
+  </hk-container>
+
+  <ion-infinite-scroll *ngIf="(paginatorInfo$ | async) as paginatorInfo"
+                       [disabled]="! (paginatorInfo$ | async)?.hasMorePages"
+                       (ionInfinite)="paginate($event, paginatorInfo.currentPage + 1)"
+                       threshold="100px">
+    <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="Cargando..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

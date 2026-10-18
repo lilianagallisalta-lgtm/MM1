@@ -1,0 +1,5 @@
+extend type Query {
+    rapiTip (id: ID!): RapiTip!
+        @middleware(checks: ["jwt.auth"])
+        @field(resolver: "App\\Modules\\RapiTip\\Graphql\\Queries\\RapiTipQuery@handle")
+}

@@ -1,0 +1,4 @@
+<hk-chip [color]="color"
+         matTooltip="{{ ago ? (datetime | dfnsFormat: 'DD/MM/YYYY [a las] HH:mm') : (datetime | dfnsDistanceInWordsToNow: {addSuffix: true}) }}">
+  {{ ago ?  (datetime | dfnsDistanceInWordsToNow: {addSuffix: true}) : (datetime | dfnsFormat: 'DD/MM/YYYY HH:mm') }}
+</hk-chip>

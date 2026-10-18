@@ -1,0 +1,25 @@
+fragment RapiTipFragment on RapiTip {
+  id
+  title
+  body
+  picture
+}
+
+query RapiTips ($page: Int!) {
+  rapiTips (page: $page) {
+    data {
+      ...RapiTipFragment
+    }
+
+    paginatorInfo {
+      currentPage
+      hasMorePages
+    }
+  }
+}
+
+query RapiTip ($id: ID!) {
+  rapiTip (id: $id) {
+    ...RapiTipFragment
+  }
+}

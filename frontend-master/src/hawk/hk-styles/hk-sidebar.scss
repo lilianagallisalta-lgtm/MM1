@@ -1,0 +1,31 @@
+.hk-sidebar {
+  //&.split-pane-md, &.split-pane-ios > .split-pane-side {
+  border-right: none !important;
+  //}
+
+  ion-content.Menu {
+    background: $clr-blue-grey-900 !important;
+
+    .scroll-content {
+      margin: 2rem;
+    }
+  }
+
+  ion-list {
+    [ion-item] {
+      background-color: $clr-blue-grey-900;
+      color: #fff;
+
+      .item-inner {
+        border-bottom-color: $clr-blue-grey-700;
+      }
+    }
+  }
+
+  .menu-inner {
+    background: $clr-blue-grey-900 !important;
+  }
+
+  &:not(.hk-sidebar-root) {
+  }
+}

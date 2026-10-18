@@ -1,0 +1,13 @@
+input SubstractStockInput {
+    stockeableType: String
+
+    stockeableId: ID
+
+    amount: Int
+}
+
+extend type Mutation {
+    substractStock (input: SubstractStockInput): Stock
+        @permissions(roles: ["admin"])
+        @hkMutation(class: "Hawk\\Stock\\Graphql\\Mutations\\SubstractStockMutation")
+}

@@ -1,0 +1,12 @@
+type Stock {
+    id: ID!
+
+    "El stock en éste momento"
+    currentStock: Int!
+
+    "El stock que ha salido"
+    stockHaveLeft: Int!
+
+    allowsNegative: Boolean!
+        @permissions(roles: ["admin"])
+}

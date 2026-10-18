@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <button *ngIf="media.isActive('lt-sm')"
+            ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-title>
+      <div fxLayout="row"
+           fxLayoutAlign="start center">
+        <span>Mentes Mejorando</span>
+
+        <span fxFlex></span>
+
+        <me fxHide.lt-sm></me>
+      </div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="Page">
+  <div fxLayout="column"
+       fxLayoutGap="1rem"
+       class="app-container mx-auto">
+
+    <div fxLayout="column"
+         class="p-3 bg-white rounded shadow">
+      <div fxLayout="row"
+           fxLayoutAlign="space-between center">
+        <h1 class="card-title">Mis niños</h1>
+
+        <button ion-button
+                color="secondary"
+                (click)="addChild()">Agregar niño</button>
+      </div>
+
+      <div fxLayout="column"
+           fxFlex="90" fxFlex.gt-md="80">
+        <children-list></children-list>
+      </div>
+    </div>
+
+    <!--<div fxLayout="row"-->
+         <!--fxLayoutAlign="center center"-->
+         <!--class="my-4">-->
+      <!--<div fxLayout="column"-->
+           <!--fxFlex="90" fxFlex.gt-md="80"-->
+           <!--class="faq rounded shadow-lg p-4">-->
+        <!--<div fxLayout="column"-->
+             <!--[style.background-image]="'url(../assets/img/undraw_working2_ce2b.svg)'"-->
+             <!--class="faq-bg relative h-full min-h-64 w-full bg-left-bottom bg-no-repeat">-->
+          <!--<h1 class="faq-headline z-10 text-white text-right w-full">¿Qué voy a necesitar?</h1>-->
+
+          <!--<div class="text-2xl z-10 text-white text-right w-full mt-3">-->
+            <!--<p>¿Es tu primera vez en Mentes Mejorando?</p>-->
+
+            <!--<p>Conocé todas las herramientas que necesitarás durante los tests</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  </div>
+</ion-content>

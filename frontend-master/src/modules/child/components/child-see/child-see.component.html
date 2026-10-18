@@ -1,0 +1,19 @@
+<div fxLayout="column"
+     fxLayoutGap="0.5rem"
+     class="p-3 bg-white rounded shadow">
+  <div fxLayout="row"
+       fxLayoutAlign="start center"
+       fxLayoutGap="0.5rem">
+    <img src="assets/icon/baby.svg"
+         class="mr-auto h-12 w-auto rounded-full">
+
+    <h1 class="p-3 card-title">{{child?.name}}</h1>
+  </div>
+
+  <hk-list>
+    <hk-item fxLayout="column">
+      <hk-label>Edad</hk-label>
+      <span>{{child?.age}} {{child?.age == 1 ? 'año' : 'años'}}</span>
+    </hk-item>
+  </hk-list>
+</div>

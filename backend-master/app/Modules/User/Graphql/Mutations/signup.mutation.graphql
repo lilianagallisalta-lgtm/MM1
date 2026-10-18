@@ -1,0 +1,15 @@
+input SignupInput {
+    firstname: String
+    lastname: String
+    country: String
+    province: String
+    email: String
+    password: String
+    passwordConfirmation: String
+    acceptTos: Boolean
+}
+
+extend type Mutation {
+    signup (input: SignupInput): String!
+        @hkMutation(class: "App\\Modules\\User\\Graphql\\Mutations\\SignupMutation")
+}

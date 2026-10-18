@@ -1,0 +1,5 @@
+mutation PayCheckoutWithMercadopago ($input: PayCheckoutWithMercadopagoInput!) {
+  payCheckoutWithMercadopago (input: $input) {
+    id
+  }
+}

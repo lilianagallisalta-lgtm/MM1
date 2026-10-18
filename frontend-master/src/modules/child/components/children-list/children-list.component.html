@@ -1,0 +1,22 @@
+<div fxLayout="row wrap"
+     fxLayoutAlign="start stretch">
+  <div *ngFor="let child of (children$ | async)"
+       fxLayout="column"
+       fxLayoutAlign="stretch stretch"
+       fxflex="90" fxFlex.gt-xs="50" fxFlex.gt-sm="25"
+       class="p-2">
+    <div fxLayout="column"
+         fxLayoutAlign="stretch center"
+         fxLayoutGap="0.5rem"
+         (click)="see(child)" ripple tappable
+         class="child-card p-3 border border-grey-300 rounded hover:shadow-lg">
+      <img src="assets/icon/baby.svg"
+           class="w-12 h-auto">
+
+      <span fxFlex></span>
+
+      <span class="font-grey-700 font-bold">{{child?.name}}</span>
+      <span class="text-sm">{{child?.age}} {{child?.age == 1 ? 'año' : 'años'}}</span>
+    </div>
+  </div>
+</div>

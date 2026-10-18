@@ -1,0 +1,99 @@
+<div fxLayout="column"
+     fxLayoutGap="1rem"
+     class="hk-datepicker-calendar p-3">
+  <div fxLayout="row">
+    <div *ngIf="! view || view === 'days'"
+         fxLayout="row"
+         fxLayoutAlign="space-between center"
+         fxFlexFill>
+      <ion-button *ngIf="showPrevMonthButton"
+                  (click)="prevMonth()"
+                  fill="clear" size="small"><ion-icon name="arrow-back"></ion-icon></ion-button>
+
+      <span fxFlex class="text-center">{{ barTitle }}</span>
+
+      <!--<ion-button (click)="toggleView()"-->
+                  <!--fxFlex-->
+                  <!--fill="clear" expand="full" color="medium">{{ barTitle }}</ion-button>-->
+
+      <ion-button *ngIf="showNextMonthButton"
+                  (click)="nextMonth()"
+                  fill="clear" size="small"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+    </div>
+
+    <div *ngIf="view === 'years'"
+         fxLayout="row"
+         fxLayoutAlign="center center"
+         fxFlexFill>
+      <span class="text-sm text-grey-700 font-bold">Selecciona un año</span>
+    </div>
+  </div>
+
+  <div *ngIf="! view || view === 'days'"
+       fxLayout="column"
+       class="main-calendar-container">
+    <div fxLayout="row">
+      <span *ngFor="let dayName of dayNames"
+            style="width: 44px; height: 44px;"
+            class="text-xs text-grey-500 text-center uppercase">{{ dayName }}</span>
+    </div>
+
+    <div fxLayout="row wrap"
+         class="main-calendar-days">
+      <div *ngFor="let day of days; let i = index;"
+           (click)="day.show && day.isSelectable && setDate(i)"
+           class="day-wrapper relative"
+           [ngClass]="{
+              'py-1': day.isInRange
+              }">
+        <!--<div *ngIf="! day.show" class="day"></div>-->
+
+        <div fxLayout="column"
+             fxLayoutAlign="center center"
+             [fxHide]="! day.show"
+             class="day bg-primary-50 w-full h-full items-center justify-center"
+             [ngClass]="{
+                'hidden': ! day.show,
+                'text-grey-500': day.show && ! day.inThisMonth && ! day.isSelected,
+                'bg-secondary-50 text-secondary-800 rounded-full': day.isToday && ! day.isSelected,
+                'bg-primary-50 text-primary-800': day.isInRange,
+                'rounded-full': ! day.isInRange
+                }">
+          <div *ngIf="day.isRangeStart"
+               class="absolute pin w-full h-full py-1 pl-2">
+            <div class="w-full h-full bg-primary-50"></div>
+          </div>
+
+          <div *ngIf="day.isRangeEnd"
+               class="absolute pin w-full h-full py-1 pr-2">
+            <div class="w-full h-full bg-primary-50"></div>
+          </div>
+
+          <div *ngIf="day.isSelected"
+               class="absolute pin w-full h-full bg-primary-500 rounded-full"></div>
+
+          <span class="z-10"
+                [ngClass]="{
+                'text-grey-500': (! day.isSelectable) || (! day.inThisMonth && ! day.isSelected && ! day.isInRange),
+                'text-white': day.isSelected
+                }">{{ day.day }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="view === 'years'"
+       fxLayout="column"
+       fxFlex
+       class="main-calendar-container">
+    <div fxLayout="column"
+         fxLayoutAlign="start stretch"
+         class="main-calendar-years overflow-y-auto">
+      <ion-button *ngFor="let year of years; let i = index;"
+                  (click)="setYear(i)"
+                  fill="clear" color="dark" expand="full"
+                  [class.bg-secondary-50]="year.isSelected"
+                  [class.bg-grey-100]="year.isThisYear && ! year.isSelected">{{ year.year }}</ion-button>
+    </div>
+  </div>
+</div>

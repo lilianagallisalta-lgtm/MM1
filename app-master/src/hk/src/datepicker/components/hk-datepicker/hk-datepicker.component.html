@@ -1,0 +1,35 @@
+<mde-popover #hkCalendarPopover="mdePopover"
+             [mdePopoverCloseOnClick]="false"
+             mdePopoverPositionY="below"
+             (close)="close()">
+  <hk-calendar></hk-calendar>
+</mde-popover>
+
+<div fxLayout="column"
+     class="relative">
+  <div *ngIf="isOpened"
+       (click)="toggle()"
+       class="backdrop"></div>
+
+  <div fxLayout="column"
+       [mdePopoverTriggerFor]="hkCalendarPopover"
+       [mdePopoverTargetAt]="targetElement"
+       [mdePopoverTriggerOn]="customContent ? 'none' : 'click'"
+       (opened)="hkCalendarPopoverOpened()"
+       class="cursor-pointer">
+    <div *ngIf="! customContent"
+         fxLayout="row wrap"
+         fxLayoutAlign="space-between center">
+      <ion-label fxFlex="0 1 auto">{{label}}</ion-label>
+
+      <ion-input [ngModel]="displayValue"
+                 clearInput
+                 readonly></ion-input>
+    </div>
+
+    <ng-content *ngIf="customContent"
+                select="[hk-datepicker-content]"></ng-content>
+  </div>
+
+  <mde-popover-target #targetElement="mdePopoverTarget"></mde-popover-target>
+</div>

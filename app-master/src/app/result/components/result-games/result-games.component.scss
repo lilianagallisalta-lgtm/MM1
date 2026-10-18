@@ -1,0 +1,24 @@
+@import "~@angular/material/theming";
+
+.scroll-content {
+  padding: 1rem 1rem 2rem 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.game-card {
+  width: 25rem;
+  min-width: 25rem;
+  max-width: 25rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+  height: 0;
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: mat-color($mat-grey, 200);
+  opacity: 0.5;
+}

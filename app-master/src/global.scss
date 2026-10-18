@@ -1,0 +1,39 @@
+// http://ionicframework.com/docs/theming/
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import "tailwind/tailwind";
+
+@import "styles/index";
+
+@import "theme/angular-material";
+@import "theme/ionic-custom";
+@import "theme/hk-toast";
+@import "theme/mat-custom";
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  outline: none 0 !important;
+}
+
+.card-title {
+  color: #424242;
+  font-weight: 700;
+  font-size: 1.125rem;
+
+  @include breakpoint($gt-sm) {
+    font-size: 1.5rem;
+  }
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}

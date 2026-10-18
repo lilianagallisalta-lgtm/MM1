@@ -1,0 +1,7 @@
+extend type Query {
+    children: [Child!]
+        @collection(
+            model: "App\\Modules\\Child\\Models\\Child"
+            scopes: ["ofMe"]
+        )
+}

@@ -1,0 +1,43 @@
+<div fxLayout="column"
+     fxLayoutAlign="start center"
+     [style.background-image]="'url(' + result?.gaugeCardBackground + ')' | safe: 'style'"
+     class="relative h-full rounded-lg shadow-lg bg-center bg-no-repeat bg-cover">
+  <ngx-gauge type="full"
+             [value]="(result?.percentage * 100) | number: '1.0-0'"
+             [thick]="15"
+             backgroundColor="#757575"
+             append="%"
+             [foregroundColor]="result?.gaugeColor"></ngx-gauge>
+
+  <div fxLayout="column"
+       fxLayoutAlign="start center"
+       class="absolute pin w-full h-full p-2">
+    <ngx-gauge-label>
+      <div fxLayout="column"
+           fxLayoutAlign="center center"
+           fxLayoutGap="0.5rem"
+           style="width: 5rem; height: 5rem;"
+           class="-mt-4 bg-white rounded-full shadow">
+        <img [src]="area?.picture"
+             class="mx-auto w-8 h-auto">
+      </div>
+    </ngx-gauge-label>
+
+    <div fxLayout="column"
+         fxLayoutAlign="center"
+         fxFlex>
+      <h1 class="text-xs text-grey-800 uppercase font-bold">{{area?.name}}</h1>
+    </div>
+  </div>
+
+  <span fxFlex></span>
+
+  <ng-content></ng-content>
+
+  <!--<div fxLayout="row"-->
+       <!--fxLayoutAlign="end center"-->
+       <!--class="w-full p-2">-->
+    <!--<ion-button (click)="seeResult(area?.result)"-->
+                <!--color="light">Ver más</ion-button>-->
+  <!--</div>-->
+</div>

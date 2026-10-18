@@ -1,0 +1,21 @@
+<div *ngIf="show"
+     fxLayout="row"
+     fxLayoutAlign="center center"
+     class="bg-blue-500 text-white w-full">
+  <div fxLayout="row wrap"
+       fxLayoutAlign="center center"
+       class="app-container">
+    <div fxLayout="column"
+         fxLayoutAlign="center start"
+         fxFlex="100" fxFlex.gt-xs="66">
+      <ng-content></ng-content>
+    </div>
+
+    <div fxLayout="row"
+         fxLayoutAlign="center center"
+         fxFlex="100" fxFlex.gt-xs="1 1 auto">
+      <ion-button (click)="ok()"
+                  color="light">¡Entendido!</ion-button>
+    </div>
+  </div>
+</div>

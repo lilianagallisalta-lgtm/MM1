@@ -1,0 +1,91 @@
+<div fxLayout="row"
+     fxLayoutAlign="center center"
+     class="h-full">
+  <hk-loading-overlay *ngIf="loading"></hk-loading-overlay>
+
+  <ion-slides fxFlex="90" fxFlex.gt-xs="66" fxFlex.gt-lg="50"
+              class="h-full bg-white rounded shadow">
+    <ion-slide>
+      <div fxLayout="column"
+           fxLayoutAlign="stretch"
+           fxLayoutGap="1rem" fxLayoutGap.gt-xs="2rem"
+           fxFlex
+           class="w-full h-full p-3 pb-2 sm:px-4 overflow-y-auto">
+        <div fxLayout="row"
+             fxLayoutAlign="start center"
+             fxLayoutGap="1rem"
+             class="mt-4">
+          <ion-icon name="alert" size="large" class="text-yellow-700"></ion-icon>
+
+          <h1 class="text-lg sm:text-2xl text-primary-900 text-left font-bold"
+              translate>
+            Atención
+          </h1>
+        </div>
+
+        <span fxFlex></span>
+
+        <p>
+          A partir de ahora tendrás que responder 36 preguntas que corresponde
+          a la edad que ingresaste; de acuerdo a las observaciones que realices.
+        </p>
+        <p>
+          Por favor, por cada pregunta sólo toca una de las posibles respuestas.
+        </p>
+
+        <span fxFlex></span>
+
+        <div fxLayout="row"
+             fxLayoutAlign="space-between center">
+          <span fxFlex></span>
+          <ion-button (click)="slides.slideNext()"
+                      color="primary">Siguiente</ion-button>
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div fxLayout="column"
+           fxLayoutAlign="stretch"
+           fxLayoutGap="1rem" fxLayoutGap.gt-xs="2rem"
+           fxFlex
+           class="w-full h-full p-3 pb-2 sm:px-4 overflow-y-auto">
+        <div fxLayout="row"
+             fxLayoutAlign="start center"
+             fxLayoutGap="1rem"
+             class="mt-4">
+          <ion-icon name="alert" size="large" class="text-yellow-700"></ion-icon>
+
+          <h1 class="text-lg sm:text-2xl text-primary-900 text-left font-bold"
+              translate>Respuestas posibles</h1>
+        </div>
+
+        <span fxFlex></span>
+
+        <p>
+          Siempre: Logra siempre la consigna.
+        </p>
+
+        <p>
+          A veces: Ocasionalmente logra la consigna.
+        </p>
+
+        <p>
+          Nunca: Lo intenta, pero no logra la consigna.
+        </p>
+
+        <span fxFlex></span>
+
+        <div fxLayout="row"
+             fxLayoutAlign="space-between center">
+          <ion-button (click)="slides.slidePrev()"
+                      fill="clear"
+                      color="primary">Anterior</ion-button>
+
+          <ion-button (click)="submit()"
+                      color="primary">Comenzar</ion-button>
+        </div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</div>

@@ -1,0 +1,6 @@
+extend type Query {
+    plans (
+        childId: ID!
+    ): [Plan!]
+        @collection(resolver: "App\\Modules\\Plan\\Graphql\\Queries\\PlansQuery@handle")
+}

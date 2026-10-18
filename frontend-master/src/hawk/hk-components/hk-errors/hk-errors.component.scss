@@ -1,0 +1,38 @@
+hk-errors {
+  .hk-errors-wrapper {
+    &.with-left-border {
+      padding-left: 2px;
+
+      &.has-errors {
+        border-left: 1px solid rgba($clr-red, 0.3);
+      }
+    }
+  }
+
+  .hk-errors {
+    display: flex;
+    flex-direction: column;
+
+    .hk-error {
+      color: $clr-red-600;
+      padding: 0.5rem;
+      width: 100%;
+    }
+  }
+
+  ion-label {
+    color: $clr-grey-600;
+  }
+}
+
+.hk-errors-group {
+  box-shadow: none;
+  //border: 0;
+  //transition: border-width 3s linear;
+  transition: box-shadow 1s linear;
+
+  &.has-errors {
+    box-shadow: 2px 2px 2px $clr-red;
+    //border: 1px solid $clr-red;
+  }
+}

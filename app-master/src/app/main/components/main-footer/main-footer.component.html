@@ -1,0 +1,52 @@
+<div fxLayout="column"
+     fxLayoutGap="1rem"
+     class="p-2">
+  <!--<div fxLayout="column"-->
+       <!--fxLayoutGap="1rem"-->
+       <!--class="mx-auto p-3 bg-white rounded shadow">-->
+    <!--<div fxLayout="row wrap"-->
+         <!--fxLayoutAlign="center center"-->
+         <!--fxLayoutGap="1rem">-->
+      <!--<img src="https://comercios.saltablackfriday.com.ar/assets/img/camaradecomercio-logo.gif"-->
+           <!--class="my-2 h-12 w-auto">-->
+
+      <!--<img src="https://comercios.saltablackfriday.com.ar/assets/img/partners/came.svg"-->
+           <!--class="my-2 h-12 w-auto">-->
+    <!--</div>-->
+
+    <!--<div fxLayout="row wrap"-->
+         <!--fxLayoutAlign="center center"-->
+         <!--fxLayoutGap="1rem">-->
+      <!--<img src="https://comercios.saltablackfriday.com.ar/assets/img/partners/gobierno-salta.svg"-->
+           <!--class="my-2 h-12 w-auto">-->
+
+      <!--<img src="https://comercios.saltablackfriday.com.ar/assets/img/partners/municipalidad-salta.svg"-->
+           <!--class="my-2 h-12 w-auto">-->
+    <!--</div>-->
+
+    <!--<div fxLayout="row"-->
+         <!--fxLayoutAlign="center center">-->
+      <!--<a href="privacy"-->
+         <!--target="_blank"-->
+         <!--class="text-sm no-underline">Privacidad</a>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <div fxLayout="row"
+       fxLayoutAlign="end center"
+       fxFlex="100" fxFlex.gt-xs="1 1 auto"
+       class="mt-3 sm:mt-0">
+    <a href="https://hawk-srl.com/?utm_source=mentesmejorando"
+       target="_blank"
+       fxLayout="row"
+       fxLayoutAlign="start center"
+       fxLayoutGap="0.5rem"
+       class="relative p-2 bg-white hover:bg-grey-200 border border-grey-300 rounded no-underline">
+      <h1 class="text-xs text-grey-800 font-bold">Powered by</h1>
+      <img src="https://hawk-srl.com/images/logo-black.png"
+           class="h-8 w-auto">
+    </a>
+  </div>
+
+  <div *ngIf="! (cookieConscent$ | async)" class="h-20vh w-full"></div>
+</div>

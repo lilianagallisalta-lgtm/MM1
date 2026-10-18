@@ -1,0 +1,271 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>{{(plan$ | async)?.child?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <hk-loading-overlay *ngIf="(loading$ | async)"></hk-loading-overlay>
+
+  <ng-container *ngIf="(plan$ | async) as plan">
+    <app-child-card [child]="plan?.child"></app-child-card>
+
+    <ng-template #loadingPlan><hk-loading></hk-loading></ng-template>
+    <div fxLayout="column"
+         fxLayoutGap="2rem"
+         fxFlex="1 1 auto"
+         class="app-container mx-auto">
+      <ng-container *ngIf="someAvailable">
+        <div fxLayout="column" fxLayoutGap="1rem">
+          <ion-button [routerLink]="['/children', plan?.child?.id]"
+                      fxFlexAlign="start"
+                      fill="clear"
+                      color="secondary"
+                      class="bg-secondary-50">
+            <ion-icon name="arrow-back" slot="start"></ion-icon>
+            Ver todos los programas
+          </ion-button>
+
+          <h1 class="p-3 text-2xl text-grey-800 font-bold">Etapas</h1>
+
+          <div fxLayout="row wrap"
+               fxLayoutAlign="center stretch"
+               fxLayoutGap="1rem grid"
+               class="-mr-3 sm:mr-0">
+            <div *ngFor="let stage of plan.stages.data; index as idx"
+                 fxLayout="column"
+                 fxFlex="100"
+                 fxFlex.gt-sm="33">
+              <div fxLayout="column"
+                   (click)="seeStage(stage, plan)" matRipple tappable
+                   class="relative min-h-full">
+                <ng-container *ngIf="stage?.slug != 2 && stage?.slug != 3">
+                  <div fxLayout="column"
+                       fxLayoutGap="0.5rem"
+                       fxFlex="1 1 auto"
+                       [class.available]="stage?.available"
+                       [class.not-available]="! stage?.available"
+                       class="stage-{{stage?.slug}} p-3 h-full min-h-64 text-white rounded shadow">
+                    <div fxLayout="row" fxLayoutAlign="start center">
+                      <span class="text-5xl">{{idx + 1}}°</span>
+
+                      <span fxFlex></span>
+                      <span class="text-2xl text-center">{{stage?.display}}</span>
+                      <span fxFlex></span>
+                    </div>
+
+                    <span fxFlex></span>
+
+                    <ng-container *ngIf="stage?.available">
+                      <div *ngIf="stage?.progress >= 1"
+                           class="button-cta p-3 rounded">
+                        <h1 class="text-lg text-center uppercase">Ver resultados</h1>
+                      </div>
+
+                      <div *ngIf="stage?.progress < 1"
+                           fxLayout="column"
+                           fxLayoutGap="0.5rem">
+                        <h1 class="text-3xl text-center">{{stage?.progress * 100 | number: '1.0-0'}}%</h1>
+                        <div class="button-cta p-3 rounded">
+                          <h1 class="text-lg text-center uppercase">Completar etapa</h1>
+                        </div>
+                      </div>
+                    </ng-container>
+
+                    <ng-container *ngIf="! stage?.available">
+                      <h1 class="p-3 text-2xl text-white text-center font-bold">¿Quieres acceder a la 1° etapa?</h1>
+
+                      <h2 class="p-3 text-lg text-white text-center">
+                        Con sólo ARS$ {{plan?.child?.licensePrice}} podrás potenciar las áreas de desarrollo
+                        de tu bebé o niñ@
+                      </h2>
+
+                      <span fxFlex></span>
+
+                      <div class="button-cta p-3 rounded">
+                        <h1 class="text-lg text-center uppercase">Acceder</h1>
+                      </div>
+
+                      <ion-button [routerLink]="['/children', plan?.child?.id, 'premium-code']" click-stop-propagation
+                                  shape="round"
+                                  color="secondary">
+                        Acceder con código premium
+                      </ion-button>
+                    </ng-container>
+                  </div>
+                </ng-container>
+
+                <ng-container *ngIf="stage?.slug == 2">
+                  <div fxLayout="column"
+                       fxLayoutGap="0.5rem"
+                       fxFlex="1 1 auto"
+                       [class.available]="stage?.available"
+                       [class.not-available]="! stage?.available"
+                       class="stage-{{stage?.slug}} p-3 h-full min-h-64 text-white rounded shadow">
+                    <ng-container *ngIf="stage?.available">
+                      <div fxLayout="row" fxLayoutAlign="start center">
+                        <span class="text-5xl">{{idx + 1}}°</span>
+
+                        <span fxFlex></span>
+                        <span class="text-2xl text-center">{{stage?.display}}</span>
+                        <span fxFlex></span>
+                      </div>
+
+                      <span fxFlex></span>
+
+                      <div *ngIf="stage?.progress >= 1"
+                           class="button-cta p-3 rounded">
+                        <h1 class="text-lg text-center uppercase">Ver resultados</h1>
+                      </div>
+
+                      <div *ngIf="stage?.progress < 1"
+                           fxLayout="column"
+                           fxLayoutGap="0.5rem">
+                        <ng-container *ngIf="stage?.unlocked">
+                          <h1 class="text-3xl text-center">{{stage?.progress * 100 | number: '1.0-0'}}%</h1>
+                          <div class="button-cta p-3 rounded">
+                            <h1 class="text-lg text-center uppercase">Completar etapa</h1>
+                          </div>
+                        </ng-container>
+                        <ng-container *ngIf="! stage?.unlocked">
+                          <div fxLayout="column"
+                               fxLayoutAlign="center"
+                               class="pb-4 text-center">
+                            <p>Completa la etapa anterior para realizar ésta</p>
+                          </div>
+                        </ng-container>
+                      </div>
+                    </ng-container>
+
+                    <ng-container *ngIf="! stage?.available">
+                      <span fxFlex></span>
+
+                      <div fxLayout="column"
+                           fxLayoutGap="0.5rem">
+                        <h1 class="p-3 text-2xl text-white text-center font-bold">¿Quieres acceder a todas las etapas?</h1>
+
+                        <h2 class="p-3 text-lg text-white text-center">
+                          Con sólo ARS$ {{plan?.child?.licensePrice}} podrás potenciar
+                          las áreas de desarrollo de tu niñ@
+                        </h2>
+
+                        <span fxFlex></span>
+
+                        <div class="button-cta p-3 rounded">
+                          <h1 class="text-lg text-center uppercase">Acceder</h1>
+                        </div>
+
+                        <ion-button [routerLink]="['/children', plan?.child?.id, 'premium-code']" click-stop-propagation
+                                    shape="round"
+                                    color="secondary">
+                          Acceder con código premium
+                        </ion-button>
+                      </div>
+                    </ng-container>
+                  </div>
+                </ng-container>
+
+                <ng-container *ngIf="stage?.slug == 3 && stage?.available">
+                  <div fxLayout="column"
+                       fxLayoutGap="0.5rem"
+                       fxFlex="1 1 auto"
+                       [class.available]="stage?.available"
+                       [class.not-available]="! stage?.available"
+                       class="stage-{{stage?.slug}} p-3 h-full min-h-64 text-white rounded shadow">
+                    <div fxLayout="row" fxLayoutAlign="start center">
+                      <span class="text-5xl">{{idx + 1}}°</span>
+
+                      <span fxFlex></span>
+                      <span class="text-2xl text-center">{{stage?.display}}</span>
+                      <span fxFlex></span>
+                    </div>
+
+                    <span fxFlex></span>
+
+                    <ng-container *ngIf="stage?.available">
+                      <div *ngIf="stage?.progress >= 1"
+                           class="button-cta p-3 rounded">
+                        <h1 class="text-lg text-center uppercase">Ver resultados</h1>
+                      </div>
+
+                      <div *ngIf="stage?.progress < 1"
+                           fxLayout="column"
+                           fxLayoutGap="0.5rem">
+                        <ng-container *ngIf="stage?.unlocked">
+                          <h1 class="text-3xl text-center">{{stage?.progress * 100 | number: '1.0-0'}}%</h1>
+                          <div class="button-cta p-3 rounded">
+                            <h1 class="text-lg text-center uppercase">Completar etapa</h1>
+                          </div>
+                        </ng-container>
+                        <ng-container *ngIf="! stage?.unlocked">
+                          <div fxLayout="column"
+                               fxLayoutAlign="center"
+                               class="pb-4 text-center">
+                            <p>Completa la etapa anterior para realizar ésta</p>
+                          </div>
+                        </ng-container>
+                      </div>
+                    </ng-container>
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div fxLayout="row"-->
+        <!--fxLayoutAlign="end">-->
+        <!--<a [routerLink]="['/children/', plan?.child?.id, 'history']" matRipple tappable-->
+        <!--class="relative w-full sm:w-auto p-2 sm:p-3 bg-primary-50 text-primary-800 rounded shadow no-underline">-->
+        <!--<div fxLayout="row"-->
+        <!--fxLayoutAlign="start center"-->
+        <!--fxLayoutGap="1rem">-->
+        <!--<ion-icon name="trending-up" class="w-12 h-12 sm:w-16 sm:h-16"></ion-icon>-->
+        <!--<span class="text-sm sm:text-lg uppercase font-bold">Análisis Comparativo</span>-->
+        <!--<span fxFlex></span>-->
+        <!--<ion-icon name="ios-arrow-forward"></ion-icon>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+      </ng-container>
+
+      <ng-container *ngIf="! someAvailable">
+        <div fxLayout="row"
+             fxLayoutAlign="center center">
+          <div fxLayout="column"
+               fxLayoutAlign="center center"
+               fxFlex="100" fxFlex.gt-sm="0 1 auto"
+               class="p-3 sm:p-4 bg-primary-50 text-primary-800 rounded border border-primary-300">
+            <h1 class="mb-3 text-2xl font-bold">¿Quieres potenciar las áreas de desarrollo de tu niñ@?</h1>
+
+            <h2 class="mb-6 text-lg">Con sólo ARS$ {{plan?.child?.licensePrice}} podrás acceder a todas las etapas</h2>
+
+            <ion-button (click)="purchaseLicense(plan?.child)"
+                        shape="round"
+                        class="w-full">Acceder</ion-button>
+
+            <ion-button *ngIf="isLocalDemo"
+                        (click)="startLocalTrial(plan)"
+                        [disabled]="trialLoading"
+                        shape="round"
+                        color="success"
+                        class="w-full">
+              {{trialLoading ? 'Activando prueba...' : 'Prueba la App'}}
+            </ion-button>
+
+            <ion-button [routerLink]="['/children', plan?.child?.id, 'premium-code']"
+                        shape="round"
+                        color="secondary"
+                        class="w-full">
+              Acceder con código premium
+            </ion-button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+</ion-content>

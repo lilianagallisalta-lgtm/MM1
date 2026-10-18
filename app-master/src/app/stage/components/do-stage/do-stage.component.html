@@ -1,0 +1,68 @@
+<div *ngIf="(stage$ | async) as stage"
+     fxLayout="column"
+     fxFlexFill
+     class="wrapper overflow-y-hidden">
+  <ng-container *ngIf="showWalkthrough">
+    <div fxLayout="column"
+         fxLayoutAlign="center stretch"
+         fxFlexFill>
+      <app-stage-walkthrough (success)="walkthroughCompleted()"
+                             class="h-80vh sm:h-60vh"></app-stage-walkthrough>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="! showWalkthrough">
+    <div class="stage-progress-wrapper">
+      <app-stage-progress [progress]="stage?.progress"></app-stage-progress>
+    </div>
+
+    <div *ngIf="stage?.questions?.data?.length === 0"
+         class="app-container mx-auto p-4 text-center bg-white rounded shadow">
+      No hay preguntas locales disponibles para esta etapa y la edad del niño.
+      El contenido incluido cubre edades de 1 a 8 años.
+    </div>
+
+    <ng-container *ngIf="stage?.progress < 1">
+      <app-stage-questions-selector></app-stage-questions-selector>
+
+      <div fxLayout="column"
+           fxFlex>
+        <div fxLayout="row"
+             fxLayoutAlign="center center"
+             fxFlex
+             class="overflow-y-auto overflow-x-hidden py-4 z-10">
+          <div *ngIf="questionActive"
+               @question
+               fxLayout="column"
+               fxFlex="90" fxFlex.gt-md="60"
+               class="bg-white p-3 rounded shadow">
+            <h1 class="p-3 card-title text-center">{{questionActive?.display}}</h1>
+          </div>
+        </div>
+
+        <div fxLayout="column"
+             class="relative">
+          <hk-loading-overlay *ngIf="(loading$ | async)"
+                              position="absolute"></hk-loading-overlay>
+
+          <div fxLayout="row wrap"
+               fxLayoutAlign="center center"
+               fxLayoutGap="1rem grid"
+               class="p-3 md:p-4 w-full mx-auto">
+            <div *ngFor="let answerOption of (answerOptions$ | async)"
+                 fxLayout="column"
+                 fxLayoutAlign="center center"
+                 class="md:py-4 md:mx-3">
+              <button (click)="answer(answerOption)" matRipple
+                      [disabled]="(loading$ | async)"
+                      [class.answered]="answerOption.id == (questionActive$ | async)?.answerOption?.id"
+                      class="answerOption-button relative">
+                {{answerOption?.display}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </ng-container>
+</div>

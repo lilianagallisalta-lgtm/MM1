@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="['/children', (child$ | async)?.id]"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Análisis Comparativo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div [style.background-image]="'url(assets/img/main/bg.jpg)' | safe: 'style'"
+       class="absolute pin w-full h-full bg-cover bg-center bg-no-repeat"></div>
+  <div class="backdrop absolute pin w-full h-full"></div>
+
+  <div *ngIf="(child$ | async) as child"
+       fxLayout="column"
+       fxLayoutGap="1rem"
+       class="z-10">
+    <app-child-card [child]="child" class="z-10"></app-child-card>
+
+    <div class="overflow-auto z-10">
+      <ngx-charts-bar-vertical-2d *ngIf="data"
+                                  [results]="data"
+                                  [yScaleMax]="100"
+                                  [xAxis]="true"
+                                  [yAxis]="true"
+                                  [showGridLines]="true"
+                                  [view]="[width, 400]"
+                                  class="mx-auto"></ngx-charts-bar-vertical-2d>
+    </div>
+  </div>
+</ion-content>

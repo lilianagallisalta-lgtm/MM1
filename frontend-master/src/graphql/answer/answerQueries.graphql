@@ -1,0 +1,9 @@
+
+query AnswerOptions {
+  answerOptions {
+    data {
+      id
+      display
+    }
+  }
+}

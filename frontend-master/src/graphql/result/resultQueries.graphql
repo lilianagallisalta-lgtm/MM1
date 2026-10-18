@@ -1,0 +1,26 @@
+query Result (
+  $childId: ID!
+  $stageId: ID!
+) {
+  result (
+    childId: $childId
+    stageId: $stageId
+  ) {
+    id
+
+    areas {
+      data {
+        slug
+        name
+        percentage
+        picture
+
+        info
+        games
+
+        gaugeColor
+        gaugeCardColor
+      }
+    }
+  }
+}

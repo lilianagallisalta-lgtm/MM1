@@ -1,0 +1,31 @@
+ion-loading.hk-loading {
+  ion-backdrop {
+    opacity: 0.8 !important;
+  }
+
+  .loading-wrapper {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  //
+  //.hk-spinner-container {
+  //  padding: 1rem;
+  //  height: 10rem;
+  //  width: 10rem;
+  //}
+  //
+  //.hk-spinner {
+  //  background-image: url('../../assets/imgs/logo.png');
+  //  background-size: cover;
+  //  width: 100%;
+  //  height: 100%;
+  //
+  //  -webkit-animation: rotating 2s linear infinite;
+  //  -moz-animation: rotating 2s linear infinite;
+  //  -ms-animation: rotating 2s linear infinite;
+  //  -o-animation: rotating 2s linear infinite;
+  //  animation: rotating 2s linear infinite;
+  //}
+  //@import "loading-deineko";
+  @import "loading-jeremboo";
+}

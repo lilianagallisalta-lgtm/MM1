@@ -1,0 +1,7 @@
+mutation UpsertChild ($input: UpsertChildInput!) {
+  upsertChild (input: $input) {
+    id,
+    name,
+    age,
+  }
+}

@@ -1,0 +1,60 @@
+<div fxLayout="column" fxLayout.gt-sm="row"
+     fxLayoutAlign="stretch stretch">
+  <div fxLayout="column"
+       fxLayoutAlign="center center" fxLayoutAlign.gt-sm="center start"
+       class="ml-0 mt-1 md:ml-1 md:mt-0 min-w-12">
+    <button (click)="prevMonth()" matRipple
+            [disabled]="prevMonthDisabled"
+            class="absolute w-12 h-12 bg-white rounded-full shadow z-50">
+      <ion-icon [name]="media.isActive('gt-sm') ? 'ios-arrow-back' : 'ios-arrow-up'"
+                class="m-auto"></ion-icon>
+    </button>
+  </div>
+
+  <div fxLayout="row wrap"
+       fxFlex="1 1 auto"
+       class="overflow-y-auto">
+    <div fxLayout="row"
+         fxLayoutAlign="center"
+         fxFlex="100" fxFlex.gt-sm="0 0 auto">
+      <hk-calendar [rangeMode]="true"
+                   [start]="start"
+                   [end]="end"
+                   [showPrevMonthButton]="false"
+                   [showNextMonthButton]="false"
+                   [customRangleHandler]="true"
+                   [showOthersMonthsDays]="false"
+                   [startAt]="_currentMonth"
+                   [options]="startDatepickerOptions"
+                   (selectedChange)="_selectedChange($event)"
+                   class="overflow-x-auto"></hk-calendar>
+    </div>
+
+    <div fxLayout="row"
+         fxLayoutAlign="center"
+         fxFlex="100" fxFlex.gt-sm="0 0 auto">
+      <hk-calendar [rangeMode]="true"
+                   [start]="start"
+                   [end]="end"
+                   [showPrevMonthButton]="false"
+                   [showNextMonthButton]="false"
+                   [customRangleHandler]="true"
+                   [showOthersMonthsDays]="false"
+                   [startAt]="_nextMonth"
+                   [options]="endDatepickerOptions"
+                   (selectedChange)="_selectedChange($event)"
+                   class="overflow-x-auto"></hk-calendar>
+    </div>
+  </div>
+
+  <div fxLayout="column"
+       fxLayoutAlign="center center" fxLayoutAlign.gt-sm="center start"
+       class="mr-0 mb-1 md:mr-1 md:mb-0 min-w-12">
+    <button (click)="nextMonth()" matRipple
+            [disabled]="nextMonthDisabled"
+            class="absolute w-12 h-12 bg-white rounded-full shadow z-50">
+      <ion-icon [name]="media.isActive('gt-sm') ? 'ios-arrow-forward' : 'ios-arrow-down'"
+                class="m-auto"></ion-icon>
+    </button>
+  </div>
+</div>

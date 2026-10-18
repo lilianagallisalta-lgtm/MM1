@@ -1,0 +1,10 @@
+type PriceType {
+    id: ID!
+    slug: String!
+    name: String!
+    default: Boolean!
+}
+
+extend type Query {
+    pricesTypes: [PriceType!]! @collection(model: "App\\Modules\\Price\\Models\\PriceType")
+}

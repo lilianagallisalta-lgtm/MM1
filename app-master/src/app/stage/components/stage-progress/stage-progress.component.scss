@@ -1,0 +1,38 @@
+@import "~@angular/material/theming";
+@import "../../../../styles/utils/breakpoints";
+
+.progress-wrapper {
+  position: relative;
+  width: 100%;
+
+  .progress-bar {
+    position: absolute;
+    top: 2px;
+
+    width: 100%;
+    border-radius: 0.25rem;
+
+    background-color: mat-color($mat-grey, 300);
+
+    height: 12px;
+    @include breakpoint($gt-xs) {
+      height: 3rem;
+    }
+
+    .progress {
+      position: relative;
+
+      border-radius: 0.25rem;
+
+      background-color: mat-color($mat-light-green, 500);
+      background-image: linear-gradient(90deg, mat-color($mat-light-green, A700), mat-color($mat-teal, A700));
+
+      transition: all 0.5s ease-in;
+
+      height: 12px;
+      @include breakpoint($gt-xs) {
+        height: 3rem;
+      }
+    }
+  }
+}

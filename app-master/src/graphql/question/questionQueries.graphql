@@ -1,0 +1,48 @@
+fragment QuestionFragment on Question {
+    id
+    display
+    idx
+    answered (planId: $planId)
+    answerOption (planId: $planId) {
+      id
+    }
+}
+
+query NextQuestion (
+  $stageId: ID!
+  $planId: ID!
+) {
+  nextQuestion (
+    stageId: $stageId
+    planId: $planId
+  ) {
+    ...QuestionFragment
+  }
+}
+
+query Questions (
+  $stageId: ID!
+  $planId: ID!
+) {
+  questions (
+    stageId: $stageId
+    planId: $planId
+  ) {
+    data {
+      ...QuestionFragment
+    }
+  }
+}
+
+query Question (
+  $id: ID!
+  $childId: ID!
+  $planId: ID!
+) {
+  question (
+    id: $id
+    childId: $childId
+  ) {
+    ...QuestionFragment
+  }
+}

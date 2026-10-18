@@ -1,0 +1,5 @@
+mutation Answer ($input: AnswerInput!) {
+  answer (input: $input) {
+    id
+  }
+}

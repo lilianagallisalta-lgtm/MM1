@@ -1,0 +1,7 @@
+{
+  "name": "frontend-onecarrental",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

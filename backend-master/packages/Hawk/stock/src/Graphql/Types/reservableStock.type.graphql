@@ -1,0 +1,26 @@
+type ReservableStock {
+    id: ID!
+
+    "El stock en un determinado momento"
+    stock: Int!
+
+#    "El stock que ha salido"
+#    stockHaveLeft: Int!
+
+    allowsNegative: Boolean!
+        @permissions(roles: ["admin"])
+
+    start: DateTime!
+        @permissions(roles: ["admin"])
+
+    end: DateTime!
+        @permissions(roles: ["admin"])
+
+    "Indica si, de entre todos los stocks, este es el activo"
+    isActive: Boolean!
+        @modelMethod(method: "isActive")
+
+    "Indica si, de entre todos los stocks, este es el `fallback`"
+    isDefault: Boolean!
+        @modelMethod(method: "isDefault")
+}

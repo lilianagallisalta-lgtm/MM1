@@ -1,0 +1,24 @@
+$size: 24px;
+
+help-card {
+  .card {
+    background: $clr-blue-grey-600;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+
+    .card-icon {
+      background: $clr-blue-grey-500;
+      width: $size;
+      height: $size;
+      border-radius: $size;
+      margin-right: 1rem;
+
+      ion-icon {
+        color: $clr-yellow;
+        font-size: 3rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "~@angular/material/theming";
+
+hk-datepicker {
+  .backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(#fff, 0.7);
+    z-index: 99;
+    cursor: pointer;
+  }
+}
+
+.hk-datepicker-calendar {
+  //width: 300px;
+  //height: 22rem;
+  z-index: 99;
+
+  .main-calendar-container {
+    //width: 100%;
+    //height: 100%;
+    //
+    //overflow-y: auto;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    .main-calendar-days {
+      width: 308px;
+      //width: 100%;
+      //
+      //display: inline-block;
+      //
+      //overflow-y: auto;
+
+      .day-wrapper {
+        width: 44px;
+        height: 44px;
+        float: left;
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+          .day {
+            border: 1px solid var(--ion-color-primary);
+          }
+        }
+
+        .is-prev-month {
+          color: mat-color($mat-grey, 500);
+        }
+      }
+    }
+
+    .main-calendar-years {
+      width: 100%;
+      height: 100%;
+
+      padding: 0;
+
+      overflow-y: auto;
+
+      .year-unit {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+
+        padding: 0.5rem 1rem;
+
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+  }
+}

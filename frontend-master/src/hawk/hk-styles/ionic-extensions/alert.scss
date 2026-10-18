@@ -1,0 +1,14 @@
+.alert-wrapper {
+  max-width: 95% !important;
+
+  .alert-radio-label {
+    white-space: normal;
+  }
+}
+
+ion-popover.select-popover {
+  .popover-content {
+    width: auto;
+    max-width: 90%;
+  }
+}

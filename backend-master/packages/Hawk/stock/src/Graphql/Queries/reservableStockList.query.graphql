@@ -1,0 +1,14 @@
+input ReservableStockTaxonInput {
+    taxonType: String!
+    taxonId: Mixed!
+}
+
+extend type Query {
+    reservableStockList (
+        slug: String
+        stockeableType: String!
+        stockeableId: String
+        taxons: [ReservableStockTaxonInput!]
+    ): ReservableStockList!
+        @field(resolver: "Hawk\\Stock\\Graphql\\Queries\\ReservableStockListQuery@handle")
+}

@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{(child$ | async)?.name}}</ion-title>
+
+    <ion-buttons end>
+      <button (click)="delete()"
+              ion-button
+              hk-icon-button
+              color="warn">
+        <ion-icon name="trash" color="warn"></ion-icon>
+      </button>
+
+      <button (click)="upsert()"
+              ion-button
+              hk-icon-button
+              color="light">
+        <ion-icon name="create"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="Page">
+  <div fxLayout="column"
+       fxLayoutGap="2rem"
+       fxFlex="1 1 auto"
+       class="app-container mx-auto overflow-y-auto">
+    <child-see *ngIf="(child$ | async) as child"
+               [child]="child">
+    </child-see>
+
+    <div fxLayout="column"
+         class="p-3 bg-white rounded shadow">
+      <h1 class="p-3 card-title">Etapas</h1>
+
+      <div fxLayout="row wrap"
+           fxLayoutAlign="start stretch">
+        <div *ngFor="let stage of (stages$ | async); index as idx"
+             fxLayout="column"
+             fxFlex="90" fxFlex.gt-sm="33"
+             class="p-3">
+          <div (click)="seeStage(stage)" ripple tappable
+               fxLayout="column"
+               fxLayoutGap="0.5rem"
+               [class.bg-green-500]="stage?.available"
+               [class.bg-green-300]="! stage?.available"
+               class="relative p-3 h-full text-white rounded">
+            <div fxLayout="row" fxLayoutAlign="start center">
+              <span class="text-5xl">{{idx + 1}}°</span>
+
+              <span fxFlex></span>
+              <span class="text-2xl text-center">{{stage?.display}}</span>
+              <span fxFlex></span>
+            </div>
+
+            <span fxFlex></span>
+
+            <ng-container *ngIf="stage?.available">
+              <div *ngIf="stage?.progress >= 1"
+                   class="p-3 bg-green-50 text-green-800 rounded">
+                <h1 class="text-lg text-center uppercase">Ver resultados</h1>
+              </div>
+
+              <div *ngIf="stage?.progress < 1"
+                   fxLayout="column"
+                   fxLayoutGap="0.5rem">
+                <h1 class="text-3xl text-center">{{stage?.progress * 100 | number: '1.0-0'}}%</h1>
+                <div class="p-3 bg-green-50 text-green-800 rounded">
+                  <h1 class="text-lg text-center uppercase">Completar etapa</h1>
+                </div>
+              </div>
+            </ng-container>
+
+            <ng-container *ngIf="! stage?.available">
+              <div fxLayout="column"
+                   fxLayoutGap="0.5rem">
+                <h1 class="p-3 text-3xl text-white text-center font-bold">¿Quieres acceder a la {{idx+1}}° etapa?</h1>
+
+                <h2 class="p-3 text-2xl text-white text-center">Con sólo $200 ARS podés mejorar el rendimiento de tu niño</h2>
+
+                <div class="p-3 bg-green-50 text-green-800 rounded">
+                  <h1 class="text-lg text-center uppercase">Acceder</h1>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

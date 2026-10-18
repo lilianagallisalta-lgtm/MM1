@@ -1,0 +1,26 @@
+type Stage {
+    id: ID!
+    slug: Int!
+    display: String!
+
+    "Progreso de ésta etapa para un determinado niño"
+    progress (planId: ID!): Float!
+        @field(resolver: "App\\Modules\\Stage\\Graphql\\Types\\StageProgressField@handle")
+
+    "Indica si esta etapa está disponible para un niño en particular, teniendo en cuenta si compró la licencia o no"
+    available (planId: ID!): Boolean!
+        @field(resolver: "App\\Modules\\Stage\\Graphql\\Types\\StageAvailableField@handle")
+
+    # Lista de preguntas, inyectando el `plan` en cada una para saber, por ejemplo,
+    # si ya contesto cada pregunta.
+    questions (planId: ID!): [Question!]
+        @collection(resolver: "App\\Modules\\Stage\\Graphql\\Types\\StageQuestionsField@handle")
+
+    "Indica si esta etapa está desbloqueada, teniendo en cuenta si ya realizó la etapa anterior"
+    unlocked (planId: ID!): Boolean!
+        @field(resolver: "App\\Modules\\Stage\\Graphql\\Types\\StageUnlockedField@handle")
+
+    price: Price!
+        @morphTo
+
+}

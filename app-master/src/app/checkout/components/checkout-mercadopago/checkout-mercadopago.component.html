@@ -1,0 +1,105 @@
+<ion-list class="shadow">
+  <hk-loading-overlay *ngIf="_loading"></hk-loading-overlay>
+
+  <img src="assets/img/mercadopago.png"
+       class="w-32 h-auto mb-3">
+
+  <form #cardFormElement
+        [formGroup]="cardForm"
+        fxLayout="row wrap">
+    <h1 fxFlex="100" class="p-3 card-title">Datos de la tarjeta</h1>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="66">
+      <ion-label position="floating">Número de la tarjeta</ion-label>
+      <ion-input formControlName="cardNumber"
+                 data-checkout="cardNumber"
+                 type="phone"></ion-input>
+    </ion-item>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="33">
+      <ion-label position="floating">Código de seguridad</ion-label>
+      <ion-input formControlName="securityCode"
+                 data-checkout="securityCode"></ion-input>
+    </ion-item>
+
+    <ion-item fxFlex="100">
+      <ion-label position="floating">Nombre que figura en la tarjeta</ion-label>
+      <ion-input formControlName="cardholderName"
+                 data-checkout="cardholderName"></ion-input>
+    </ion-item>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="50">
+      <ion-label position="floating">Mes de vencimiento</ion-label>
+      <ion-input formControlName="cardExpirationMonth"
+                 data-checkout="cardExpirationMonth"></ion-input>
+    </ion-item>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="50">
+      <ion-label position="floating">Año de vencimiento</ion-label>
+      <ion-input formControlName="cardExpirationYear"
+                 data-checkout="cardExpirationYear"></ion-input>
+    </ion-item>
+
+    <h1 fxFlex="100" class="p-3 card-title">Titular de la tarjeta</h1>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="50"
+              lines="none">
+      <mat-form-field class="t-mat-select w-full">
+        <mat-select formControlName="docType"
+                    placeholder="Tipo de documento">
+          <mat-option *ngFor="let dniType of dniTypes"
+                      [value]="dniType.id">
+            {{dniType.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </ion-item>
+
+    <ion-item fxFlex="100" fxFlex.gt-xs="50">
+      <ion-label position="floating">Número de documento</ion-label>
+      <ion-input formControlName="docNumber"
+                 data-checkout="docNumber"></ion-input>
+    </ion-item>
+
+    <input hidden
+           fxFlex="100" fxFlex.gt-xs="0"
+           id="docType"
+           name="docType"
+           formControlName="docType"
+           data-checkout="docType">
+  </form>
+
+  <form #formElement
+        [formGroup]="form"
+        fxLayout="row wrap">
+    <h1 fxFlex="100" class="p-3 card-title">Opciones de cuota</h1>
+
+    <p *ngIf="! installments && ! _loadingInstallments && ! _installmentsErrors"
+       class="p-3 text-grey-700">Completa los datos de tu tarjeta</p>
+
+    <p *ngIf="! _loadingInstallments && _installmentsErrors"
+       class="p-3 text-red-700">Revisa los datos de tu tarjeta</p>
+
+    <hk-loading *ngIf="_loadingInstallments"></hk-loading>
+
+    <ion-item *ngIf="installments"
+              fxFlex="100"
+              lines="none">
+      <mat-form-field class="t-mat-select w-full">
+        <mat-select formControlName="installments"
+                    placeholder="Cuotas">
+          <mat-option *ngFor="let installment of installments"
+                      [value]="installment.installments">
+            {{installment.recommended_message}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </ion-item>
+  </form>
+
+  <hk-list-actions>
+    <ion-button (click)="submit()"
+                [disabled]="_loading || _loadingInstallments">Aceptar</ion-button>
+  </hk-list-actions>
+</ion-list>
+

@@ -1,0 +1,12 @@
+input PayCheckoutWithMercadopagoInput {
+    checkoutId: ID
+    email: String
+    token: String
+    installments: String
+    paymentMethodId: String
+}
+
+extend type Mutation {
+    payCheckoutWithMercadopago (input: PayCheckoutWithMercadopagoInput!): Payment
+        @hkMutation(class: "Hawk\\Checkout\\Graphql\\Mutations\\PayCheckoutWithMercadopagoMutation")
+}

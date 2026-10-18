@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{(stage$ | async)?.display}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="Page">
+  <div *ngIf="(stage$ | async) as stage"
+       fxLayout="column"
+       fxFlexFill
+       class="overflow-y-hidden">
+    <div class="p-3 h-24">
+      <examined-progress [progress]="stage?.progress"></examined-progress>
+    </div>
+
+    <div *ngIf="stage?.progress >= 1"
+         fxLayout="column"
+         fxLayoutAlign="center center"
+         fxLayoutGap="2rem"
+         fxFlex
+         class="app-container mx-auto">
+      <h1 class="text-white text-center">¡Finalizaste la {{stage?.display}}!</h1>
+
+      <button (click)="seeResults()"
+              ion-button
+              color="secondary">Ver resultados</button>
+
+      <button (click)="seeResults()"
+              ion-button
+              color="secondary">Quiero saber más sobre {{(child$ | async)?.name}}</button>
+    </div>
+
+    <ng-container *ngIf="stage?.progress < 1">
+      <div class="bg-blue-700 overflow-x-auto">
+        <div fxLayout="row"
+             fxLayoutAlign="start center"
+             class="app-container mx-auto">
+          <div *ngFor="let question of (stage$ | async)?.questions?.data"
+               class="px-2">
+            <button (click)="changeQuestion(question)"
+                    fxLayout="column"
+                    fxLayoutAlign="center center"
+                    [class.answered]="question?.answered"
+                    [class.not-answered]="! question?.answered"
+                    [class.active]="question?.id == currentQuestion?.id"
+                    class="question-button p-2 h-12 w-12 bg-blue-600 text-white rounded-full">
+              {{question?.idx}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div fxLayout="column"
+           fxFlex>
+        <div fxLayout="row"
+             fxLayoutAlign="center center"
+             fxFlex
+             class="overflow-y-auto overflow-x-hidden py-4 z-10">
+          <div *ngIf="currentQuestion"
+               @question
+               fxLayout="column"
+               fxFlex="90" fxFlex.gt-md="60"
+               class="bg-white p-3 rounded shadow-md">
+            <h1 class="text-4xl p-3 text-center">{{currentQuestion?.display}}</h1>
+          </div>
+        </div>
+
+        <div fxLayout="column"
+             class="bg-blue-700">
+          <mat-progress-bar *ngIf="loading" color="accent" mode="indeterminate"></mat-progress-bar>
+
+          <div fxLayout="row"
+               fxLayoutAlign="space-between center"
+               fxLayoutGap="1rem"
+               class="p-3 md:p-4 w-full mx-auto">
+            <div *ngFor="let answerOption of (answerOptions$ | async)"
+                 fxLayout="column"
+                 fxLayoutAlign="center center"
+                 class="py-4">
+              <button [disabled]="loading"
+                      (click)="answer(answerOption)" ripple
+                      [class.answered]="answerOption.id == currentQuestion?.answerOption?.id"
+                      class="answerOption-button">
+                {{answerOption?.display}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</ion-content>

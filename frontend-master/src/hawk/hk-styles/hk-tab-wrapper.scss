@@ -1,0 +1,14 @@
+.hk-tab-wrapper {
+  border: 1px solid $clr-indigo-50;
+  border-bottom-width: 2px;
+
+  .hk-tab-top, .mat-tab-header {
+    background-color: $clr-indigo-50;
+  }
+
+  .hk-tab-top {
+    ion-label {
+      margin: 0.5rem;
+    }
+  }
+}

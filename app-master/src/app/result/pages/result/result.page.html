@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="['/children', childId, 'plans', planId, 'stages', stageId]"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Area: {{(result$ | async)?.area?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ng-template #loading>
+    <hk-loading-overlay></hk-loading-overlay>
+  </ng-template>
+
+  <ng-container *ngIf="(result$ | async) as result; else loading">
+    <app-child-card [child]="result?.plan?.child"></app-child-card>
+
+    <div fxLayout="column"
+         fxLayoutGap="1rem"
+         class="app-container mx-auto">
+      <div fxLayout="column"
+           fxLayoutGap="1rem"
+           fxLayoutAlign="center center">
+        <p *ngIf="result?.slug === 'bad' || result?.slug === 'very bad'"
+           class="p-2 bg-red-50 text-red-800 text-center rounded">
+          Te sugerimos que visites prontamente al pediatra, estimulador y/o
+          psicopedagogo de cabecera y que pases al siguiente nivel de estimulación.
+        </p>
+
+        <app-result-gauge [result]="result"
+                          [area]="result?.area"
+                          fxFlex="100" fxFlex.gt-sm="66"></app-result-gauge>
+      </div>
+
+      <h1 *ngFor="let info of result?.info?.data"
+          class="card-title text-center">
+        {{info?.display}}
+      </h1>
+
+      <ng-container *ngIf="nextStage && nextStage?.progress < 1">
+        <div fxLayout="row" fxLayoutAlign="end center" class="app-container mx-auto my-3">
+          <ion-button (click)="goToNextStage()" color="secondary">
+            Pasá a la siguiente etapa
+            <ion-icon name="arrow-forward" slot="end"></ion-icon>
+          </ion-button>
+        </div>
+      </ng-container>
+
+      <h1 class="pb-3 card-title">Juegos recomendados</h1>
+      <div fxLayout="column"
+           fxLayoutGap="2rem">
+        <div *ngFor="let game of result?.games?.data"
+             class="relative bg-white rounded shadow bg-repeat">
+          <div [style.background-image]="'url(assets/img/game-bg.jpg)' | safe: 'style'"
+               style="opacity: 0.1;"
+               class="absolute pin w-full h-full"></div>
+
+          <div fxLayout="column" class="z-10">
+            <div fxLayout="row" fxLayoutAlign="start start" class="z-20">
+              <img src="assets/icon/game.png"
+                   class="w-10 h-10 -mt-3 -ml-2 sm:-ml-3">
+
+              <h1 class="pt-3 px-3 pb-2 text-title">{{game?.title}}</h1>
+            </div>
+
+            <div *ngIf="game?.materials != ''"
+                 fxLayout="column"
+                 fxLayoutGap="0.5rem"
+                 style="max-width: 90%;"
+                 class="mr-auto p-2 pr-4 bg-grey-100 rounded-r-full z-20">
+              <h1 class="text-sm text-blue-grey-800 uppercase font-bold">Materiales</h1>
+              <p class="text-sm text-blue-grey-800">{{game?.materials}}</p>
+            </div>
+
+            <div [innerHTML]="game?.body" class="p-3 z-20"></div>
+          </div>
+        </div>
+      </div>
+
+      <ng-container *ngIf="result?.suggestions?.data?.length">
+        <h1 class="pb-3 card-title">Sugerencias</h1>
+        <div fxLayout="column"
+             fxLayoutGap="2rem">
+          <div *ngFor="let suggestion of result?.suggestions?.data"
+               class="relative bg-white rounded shadow bg-repeat">
+            <div [style.background-image]="'url(assets/img/game-bg.jpg)' | safe: 'style'"
+                 style="opacity: 0.1;"
+                 class="absolute pin w-full h-full"></div>
+
+            <div fxLayout="column" class="z-10">
+              <div fxLayout="row" fxLayoutAlign="start start" class="z-20">
+                <img src="assets/icon/suggestion.png"
+                     class="w-10 h-10 -mt-3 -ml-2 sm:-ml-3">
+
+                <h1 class="pt-3 px-3 pb-2 text-title">{{suggestion?.title}}</h1>
+              </div>
+
+              <div [innerHTML]="suggestion?.body" class="p-3 z-20"></div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+</ion-content>

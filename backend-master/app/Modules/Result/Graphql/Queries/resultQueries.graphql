@@ -1,0 +1,72 @@
+type ResultType {
+    id: ID!
+    name: String!
+    slug: String!
+}
+
+type ResultInfo {
+    display: String!
+}
+
+type Result {
+    id: ID!
+    code: String!
+
+    resultType: ResultType!
+        @belongsTo
+}
+
+type Result {
+    id: ID!
+    percentage: Float!
+    slug: String!
+
+    info: [ResultInfo!]
+        @collection(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@info")
+
+    games: [Game!]
+        @collection(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@games")
+
+    suggestions: [Suggestion!]
+        @collection(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@suggestions")
+
+    gaugeColor: String
+        @field(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@gaugeColor")
+    gaugeCardColor: String
+        @field(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@gaugeCardColor")
+    gaugeCardBackground: String
+        @field(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultFields@gaugeCardBackground")
+
+    plan: Plan!
+        @belongsTo
+
+    area: Area!
+        @belongsTo
+}
+
+type Game {
+    id: ID!
+    title: String!
+    body: String!
+    materials: String!
+}
+
+type Suggestion {
+    id: ID!
+    title: String!
+    body: String!
+}
+
+extend type Query {
+    # TODO: Proteger que sólo pueda ver los resultados de los niños del usuario logueado.
+    result (id: ID! @eq): Result
+        @middleware(checks: ["jwt.auth"])
+        @find(model: "App\\Modules\\Result\\Models\\Result")
+}
+
+#extend type Stage {
+#    # Resultado de la etapa para un determinado niño.
+#    result (planId: ID!): Result
+#        @middleware(checks: ["jwt.auth"])
+#        @field(resolver: "App\\Modules\\Stage\\Graphql\\Queries\\asd@result")
+#}

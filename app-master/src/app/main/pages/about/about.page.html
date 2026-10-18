@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title translate>Acerca de</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="--background: #fff">
+  <div fxLayout="column"
+       class="min-h-full">
+    <ion-list lines="full">
+      <ion-item routerLink="/tos"
+                button
+                detail
+                translate>Términos y condiciones</ion-item>
+    </ion-list>
+
+    <div fxLayout="column"
+         fxLayoutAlign="center center"
+         fxLayoutGap="2rem"
+         fxFlex="1 1 auto">
+      <a href="http://www.fundacionpass.org/" matRipple tappable
+         target="_blank"
+         class="min-w-48 p-3 border rounded no-underline">
+        <div fxLayout="column">
+          <span class="mb-1 text-sm text-grey-800 text-center">Una app de</span>
+          <img src="assets/img/fundacionpass.png"
+               class="mx-auto h-16 w-16">
+        </div>
+      </a>
+
+      <a href="https://hawk-srl.com" matRipple tappable
+         target="_blank"
+         class="min-w-48 p-3 border rounded no-underline">
+        <div fxLayout="column">
+          <span class="mb-1 text-sm text-grey-800 text-center">Powered by</span>
+          <img src="https://hawk-srl.com/images/logo-black.png"
+               class="mx-auto h-16 w-auto">
+        </div>
+      </a>
+    </div>
+  </div>
+</ion-content>

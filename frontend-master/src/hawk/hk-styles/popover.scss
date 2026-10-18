@@ -1,0 +1,135 @@
+@mixin popover-size($height, $width) {
+  .popover-content {
+    width: $width * 1% !important;
+    height: $height * 1% !important;
+    max-width: $width * 1% !important;
+    max-height: $height * 1% !important;
+    top: ((100 - $height) / 2) * 1% !important;
+    left: ((100 - $width) / 2) * 1% !important;
+
+    .popover-viewport {
+      height: 100%;
+    }
+  }
+}
+
+$hk-popover-footer-height: 56px;
+$md-header-height: 56px;
+$ios-header-height: 84px;
+
+ion-content {
+  &.Popover {
+    background: $background;
+
+    div.scroll-content {
+      height: 100%;
+      overflow-y: auto;
+      margin-top: 0 !important;
+      padding-top: 56px;
+    }
+
+    &.without-header {
+      div.scroll-content {
+        padding-top: 0;
+      }
+    }
+
+    &.has-footer {
+      padding-bottom: $hk-popover-footer-height;
+    }
+  }
+
+  &.OptionPopover {
+    div.scroll-content {
+      overflow-y: auto;
+    }
+  }
+}
+
+.hk-popover {
+  .popover-content {
+    overflow: hidden;
+  }
+
+  @for $i from 1 through 10 {
+    @for $j from 1 through 10 {
+      &.popover-gt-lg-#{$i * 10}-#{$j * 10} {
+        @include lg() {
+          @include popover-size($i * 10, $j * 10);
+        }
+      }
+
+      &.popover-gt-md-#{$i * 10}-#{$j * 10} {
+        @include md() {
+          @include popover-size($i * 10, $j * 10);
+        }
+      }
+
+      &.popover-gt-sm-#{$i * 10}-#{$j * 10} {
+        @include sm() {
+          @include popover-size($i * 10, $j * 10);
+        }
+      }
+
+      &.popover-#{$i * 10}-#{$j * 10} {
+        @include xs() {
+          @include popover-size($i * 10, $j * 10);
+        }
+      }
+    }
+  }
+
+  ion-backdrop {
+    opacity: 0.8 !important;
+  }
+
+  ion-footer {
+    height: $hk-popover-footer-height;
+    max-height: $hk-popover-footer-height;
+    background-color: #fff;
+  }
+
+  &.popover-transparent {
+    .popover-content {
+      background: transparent;
+    }
+  }
+}
+
+ion-footer[popover-footer] {
+  padding: 8px;
+}
+
+.hk-footer, .hk-popover-footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.MenuPopover {
+  div.scroll-content {
+    overflow: hidden;
+  }
+}
+
+.hk-popover-datepicker {
+  @include lt-sm() {
+    .popover-content {
+      height: auto !important;
+      left: calc(50% - 14.5rem) !important;
+      top: calc(50% - 14.5rem) !important;
+      bottom: auto !important;
+    }
+  }
+
+  .popover-content {
+    width: 29rem;
+    overflow: auto;
+  }
+}

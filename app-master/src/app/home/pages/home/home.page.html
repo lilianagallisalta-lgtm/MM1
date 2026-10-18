@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <div fxLayout="row"
+         fxLayoutAlign="start center">
+      <ion-menu-button></ion-menu-button>
+
+      <img src="assets/img/logo.png"
+           class="mx-auto h-12 w-auto">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div fxLayout="column"
+       fxLayoutGap="1rem"
+       class="app-container mx-auto">
+    <div fxLayout="column"
+         class="p-3 bg-white rounded shadow">
+      <div fxLayout="row"
+           fxLayoutAlign="space-between center">
+        <h1 class="card-title">Mis niñ@s</h1>
+      </div>
+
+      <div fxLayout="column"
+           fxFlex="90" fxFlex.gt-md="80"
+           class="relative">
+        <app-children-list></app-children-list>
+
+        <div fxLayout="column"
+             fxLayoutAlign="end end"
+             class="sticky pin-b pin-r">
+          <button routerLink="/child-create"
+                  class="m-2 px-4 py-3 bg-blue-500 text-white rounded-full">Agregar niñ@</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

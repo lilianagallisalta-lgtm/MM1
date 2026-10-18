@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "singular": "Checkout",
+    "plural": "Checkouts"
+  },
+  "component": {
+    "checkout-mercadopago":{
+      "title": "Ingresa los datos de la tarjeta",
+      "installments title": "¿En cuántas cuotas deseas pagar?",
+      "select a installment": "Cuotas",
+      "next": "Siguiente",
+      "submit": "Aceptar",
+      "card": {
+        "number": "Número",
+        "securityCode": "Código de seguridad",
+        "name": "Nombre que figura en la tarjeta",
+        "mm": "Mes de vencimiento",
+        "yyyy": "Año de vencimiento",
+        "dniType": "Tipo de documento",
+        "dni": "N° de documento",
+        "email": "E-mail de tu cuenta en MercadoPago"
+      }
+    }
+  },
+  "request": {
+    "mercadopago-payment": {
+      "card": {
+        "token": {
+          "required": "No pudimos conectarnos con MercadoPago. Por favor intenta más tarde"
+        },
+        "installments": {
+          "required": "Selecciona las cuotas"
+        },
+        "email": {
+          "required": "Ingresa tu e-mail",
+          "email": "Ingresa un e-mail válido"
+        },
+        "paymentMethodId": {
+          "required": "Indica el método de pago"
+        }
+      }
+    }
+  }
+}

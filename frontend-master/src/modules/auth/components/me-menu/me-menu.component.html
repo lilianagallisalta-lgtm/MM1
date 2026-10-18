@@ -1,0 +1,19 @@
+<hk-list *ngIf="(data$ | async | select: 'me') as me">
+  <hk-item fxLayout="column"
+           fxLayoutGap="1rem"
+           class="p-4">
+    <span class="text-3xl text-white">{{me?.name}}</span>
+    <span class="text-2xl text-white">{{me?.email}}</span>
+  </hk-item>
+
+  <hk-item fxLayout="row"
+           class="hover:bg-blue-600">
+    <span class="p-3 text-2xl text-white">Mi cuenta</span>
+  </hk-item>
+
+  <hk-item fxLayout="row"
+           (click)="logout()" ripple
+           class="hover:bg-blue-600">
+    <span class="p-3 text-2xl text-white">Cerrar sesión</span>
+  </hk-item>
+</hk-list>

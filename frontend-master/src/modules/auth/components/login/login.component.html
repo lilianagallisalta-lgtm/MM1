@@ -1,0 +1,22 @@
+<form [formGroup]="form">
+  <hk-list >
+    <ion-item>
+      <ion-label floating>E-mail</ion-label>
+      <ion-input formControlName="email"
+                 type="email"
+                 autocomplete="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Contraseña</ion-label>
+      <ion-input formControlName="password"
+                 type="password"></ion-input>
+    </ion-item>
+
+    <hk-list-actions>
+      <span fxFlex></span>
+      <button ion-button color="secondary" (click)="submit()">Ingresar</button>
+    </hk-list-actions>
+  </hk-list>
+</form>
+

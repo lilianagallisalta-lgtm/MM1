@@ -1,0 +1,44 @@
+<div fxLayout="column"
+     class="bg-white rounded shadow">
+  <form *ngIf="form"
+        [formGroup]="form">
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input formControlName="email"
+                   type="email"
+                   autocomplete="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input formControlName="password"
+                   type="password"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="submit()"
+                  expand="full"
+                  shape="round"
+                  class="mx-4 my-3">Iniciar sesión</ion-button>
+    </ion-list>
+
+    <!--<div fxLayout="row" fxLayoutAlign="stretch center" fxLayoutGap="1rem" class="my-3 px-4">-->
+      <!--<hr class="border-t border-grey-400 w-full h-px">-->
+      <!--<span class="text-grey-400">ó</span>-->
+      <!--<hr class="border-t border-grey-400 w-full h-px">-->
+    <!--</div>-->
+
+    <!--<div fxLayout="row" fxLayoutAlign="center center" class="p-3">-->
+      <!--<button (click)="googleSignin()" matRipple-->
+              <!--class="googleplus-button relative">-->
+        <!--<img src="assets/img/google.svg"-->
+             <!--class="w-4 w-4 mr-2">-->
+
+        <!--<span>Ingresar con Google</span>-->
+      <!--</button>-->
+    <!--</div>-->
+
+    <!--<p class="p-4 text-center text-grey-800">Al registrarte estás aceptando nuestros <a>Términos y Condiciones</a>.</p>-->
+  </form>
+</div>
+

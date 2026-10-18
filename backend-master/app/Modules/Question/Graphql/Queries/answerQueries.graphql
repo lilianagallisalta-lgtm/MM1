@@ -1,0 +1,13 @@
+type AnswerOption {
+    id: ID!
+    display: String!
+}
+
+type Answer {
+    id: ID!
+}
+
+extend type Query {
+    answerOptions: [AnswerOption!]
+        @collection(model: "App\\Modules\\Question\\Models\\AnswerOption")
+}

@@ -1,0 +1,13 @@
+mutation Signup ($input: SignupInput!) {
+    signup (input: $input)
+}
+
+mutation Signin ($input: SigninInput!) {
+    signin (input: $input)
+}
+
+mutation RegisterPushToken ($input: RegisterPushTokenInput!) {
+  registerPushToken (input: $input) {
+    token
+  }
+}

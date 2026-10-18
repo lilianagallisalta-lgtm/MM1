@@ -1,0 +1,8 @@
+input RegisterPushTokenInput {
+    token: String
+}
+
+extend type Mutation {
+    registerPushToken (input: RegisterPushTokenInput!): PushToken!
+        @hkMutation(class: "App\\Modules\\User\\Graphql\\Mutations\\RegisterPushTokenMutation")
+}

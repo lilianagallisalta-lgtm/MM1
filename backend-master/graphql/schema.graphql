@@ -1,0 +1,36 @@
+"A datetime string with format 'Y-m-d H:i:s', e.g. '2018-01-01 13:00:00'."
+scalar DateTime @scalar(class: "Hawk\\LighthouseExtended\\Schema\\Types\\Scalars\\DateTime")
+
+"A date string with format 'Y-m-d', e.g. '2011-05-23'."
+scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
+
+"A stringify JSON"
+scalar JSON @scalar(class: "Hawk\\LighthouseExtended\\Schema\\Types\\Scalars\\JsonScalar")
+
+"A string or integer"
+scalar Mixed @scalar(class: "MLL\\GraphQLScalars\\Mixed")
+
+type Query {
+    ping: Int
+        @field(resolver: "PingQuery@handle")
+
+    tos: String!
+        @field(resolver: "TosQuery@handle")
+}
+
+type Mutation {
+    pong: Int
+        @field(resolver: "Pong@resolve")
+}
+
+type Status {
+    id: ID!
+
+    slug: String!
+        @rename(attribute: "name")
+
+    display: String!
+        @rename(attribute: "reason")
+}
+
+#import ../app/Modules/*/Graphql/*.graphql

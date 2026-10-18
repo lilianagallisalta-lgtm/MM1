@@ -1,0 +1,4286 @@
+[
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿apila de 2 a 4 objetos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza garabatos en una hoja?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿levanta objetos del suelo ?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para si le doy la mano?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿si se cae, se para solit@?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina apoyándose de muebles?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿levanta objetos pequeños usando los dedos como pincita?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para con objetos en la mano, por ejemplo con juguetes?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿si esta sentad@, se para con ayuda?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina sin apoyo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre de un mueble a otro, en distancias cortas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina solit@ distancias cada vez más largas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿come con las manos alimentos cortados pequeños?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿levanta y toma agua de un vaso inclinándolo y absorbiendo de a poquito?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede apilar de 4 a 6 objetos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina sin apoyo y raramente se cae?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube escaleras gateando o sosteniéndose de la baranda?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre detrás de una pelota sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿permanece parad@ por 10 minutos sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se sienta y se para sin ayuda?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega con una pelota lanzándola con las dos manos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recibe una pelota con ambas manos sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estando de pie baila o mueve su cuerpo de un lado a otro sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿trepa a una silla para alcanzar un juguete?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿come con cuchara?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿presiona el botón de un teléfono de juguete con intención?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita trazos hacia abajo sobre un papel?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza más de 15 pasos sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre tambaleándose?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube y baja escaleras sosteniéndose del pasamanos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a lanzar pelotas pequeñas a otras personas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a arrastrar juguetes por detrás mientras camina?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 1",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿para sentarse dobla sus rodillas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estando de pie levanta algún juguete del suelo sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estando sentad@ se levanta sosteniendo algún objeto con la mano?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿patea y sigue una pelota sin caerse?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿señala una parte del cuerpo si le pedimos, por ejemplo dónde está la pancita?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega golpeando objetos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿investiga los objetos de diferentes maneras, los golpea, los tira o sacude?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿gatea?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce animales en fotos o dibujos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce el rostro de mamá y de otros familiares?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca con la mirada un objeto o figura que nombramos dentro de la habitación?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora cuando no esta acompañad@?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llama a mamá o papá cuando quiere algo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice no y sacude la cabeza con negación?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice de 3 a 20 palabras sencillas con significado, por ejemplo dice agua cuando se refiere al agua?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿entiende preguntas sencillas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita gestos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe para que sirven algunos objetos, por ejemplo peine para peinar, la cuchara para comer?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a poner y sacar objetos de un recipiente?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra lo que le que quiere y lo que no durante las comidas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce sus pertenencias, por ejemplo el chupete, la mamadera o algún juguete?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue instrucciones sencillas como levantar un juguete si se lo pedimos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando quiere algo, por ejemplo un juguete lo pide con gestos o sonidos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca diferentes maneras de conseguir lo que quiere, por ejemplo gritando o llorando?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿señala para pedir lo que quiere?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita sonidos, por ejemplo de animales o de objetos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice que no frecuentemente?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita palabras que escucha?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza señas para llamar la atención de otras personas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿mueve la cabeza para decir \"no\" o la mano para saludar?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza garabatos con ayuda?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sonríe antes de hacer una picardía?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita acciones como barrer o hablar por teléfono?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia que le gusta más, por ejemplo bailar o pintar o cantar?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca y encuentra los juguetes que le son escondidos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza objetos para poder alcanzar algo que quiere, por ejemplo un palo para llegar a un juguete?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube a una silla para alcanzar un juguete que está en la mesa?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se refiere a sí mism@ por su nombre?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia alrededor de 50 palabras?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿forma frases de 2 o 3 palabras, por ejemplo \"mamá agua\"?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora cuando pierde o se olvida su objeto o juguete favorito, por ejemplo una manta o un osito?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra ansiedad ante situaciones nuevas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora cuando mamá o papá se van?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿muestra interés por libros de cuentos?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca que mamá se ría haciéndole morisquetas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se reconoce en el espejo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tranquil@ cuando otro niñ@ le quita un juguete?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora si se golpea?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra que esta molest@ cuando algo no le gusta?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sonríe si mamá lo mira y también sonríe?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra nervios@ o tímid@ cuándo se le acerca una persona extraña?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se acerca cuando se l@ llama por su nombre?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra miedo ante personas desconocidas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se siente cada vez más cómod@ con las rutinas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se ríe cuando algo no le gusta?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega durante toda la noche?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explora lugares solit@?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿desarma sus juguetes?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿tiene preferencias, por ejemplo al momento de comer?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta calmarse solit@ cuando algo no le gusta?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando tiene sueño llora o se pone molest@?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuándo llega a un lugar nuevo intenta socializar con otras personas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estira los brazos para alcanzar un juguete, lo sostiene y se lo da a su mamá?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se oculta detrás de alguien cuando se acerca un desconocido?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca objetos o alimentos que le gustan?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega solit@ en un cuarto por un tiempo prolongado?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta llamar la atención cuando quiere algo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explora su entorno de diferentes maneras, por ejemplo descalzo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se anima a participar de actividades a las que antes temía, por ejemplo entrar a un pelotero?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se divierte con cosas que antes no le llamaban la atención?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿quiere hacer las cosas solit@, por ejemplo caminar sin que le den la mano, tomar de un vaso solit@?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra feliz cuando papá o mamá vuelven del trabajo?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿empieza a entender los límites?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega con niños y niñas?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pelea con otr@s niñ@s cuando le quitan un juguete?"
+  },
+  {
+    "EDAD": "1 a 2 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿usa el \"no\" frecuentemente?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza garabatos en un papel?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿construye torres con más de 6 objetos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sostiene más de un juguete en la mano?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina sin dificultad?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿patea una pelota?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿trepa y baja del sillón sin ayuda?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿viste y desviste a sus muñec@s?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube solit@ a un tobogán pequeño?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se cepilla los dientes solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se ayuda con otros objetos para alcanzar algo que quiere?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estando de pie, levanta objetos del suelo sin caerse?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se lleva diferentes objetos a la boca?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿come utilizando el tenedor solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿arma rompecabezas sencillos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibujar líneas verticales u horizontales?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre o trota?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para en puntitas de pie?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre detrás de una pelota?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿va al baño solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se saca las medias solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede lavarse las manos solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede subir y bajar del sofá o de una silla solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿da vuelta un vaso para ver como cae el agua?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿empuja un juguete con rueditas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿toma la mamadera solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿abre cajones y armarios buscando objetos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a tirar una pelota hacia arriba?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se levanta y sienta sin ayuda?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para de puntas de pies sin caerse?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita tareas caseras como barrer?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explora su entorno solit@ alejándose cada vez más?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ordena sus juguetes solit@ cuando se lo piden?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se saca una prenda de ropa solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿traslada juguetes de un lado a otro de la casa?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube y baja escaleras solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿desenrosca las tapas de los frascos para abrirlos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ubica dónde está, por ejemplo la nariz, la boca o los pies?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿completa las frases de un cuento mientras se las leen?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿nombra ilustraciones de un libro, por ejemplo pelota, gato, auto?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿conoce el uso de los objetos, por ejemplo el peine para peinar?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿combina palabras para expresar posesión, por ejemplo \"mi juguete\"?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿combina palabras para expresar repetición, por ejemplo \"más jugo\"?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imagina que por ejemplo una caja puede ser un avión o un palito, un caballo ?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿encuentra cosas escondidas detrás de los objetos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue instrucciones sencillas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda los nombres de personas conocidas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice frases de 2 a 4 palabras, por ejemplo \"papá dame agua\"?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿repite palabras que escuchó?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce colores, por ejemplo rojo, amarillo, azul?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuenta hasta 10?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿saluda cuando se le indica?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce en fotos a personas más cercanas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿presta atención a dibujos o canciones cortas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿identifica lugares que frecuenta, por ejemplo la plaza o la casa de algún familiar?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue dobles instrucciones, por ejemplo \"levanta tus juguetes y guárdalos en su lugar\"?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se reconoce o encuentra en fotos en las que está con otras personas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se comunica con gestos y mímicas además del lenguaje oral?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice su nombre claramente?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuenta lo que hizo en una salida o en el jardín?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿habla en primera persona, diciendo \"yo\"?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿no se deja ayudar, por ejemplo dice que él/ella puede solit@ o rechaza la mano del adulto para subir una escalera?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿decide entre dos opciones, por ejemplo elegir cual de los dos abrigos nuevos ponerse?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega al papá y a la mamá o a la cocinita?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a clasificar juguetes u objetos por formas y colores?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿avisa cuando quiere ir al baño?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia los alimentos dulces de los salados?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca diferentes formas hasta lograr armar un rompecabezas sencillo?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿encuentra sin ayuda un juguete que, por ejemplo escondimos detrás de un almohadón?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube a una silla y estira los brazos para alcanzar lo que quiere, por ejemplo un juguete o galletas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza oraciones de 2 a 4 palabras?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿repite palabras, por ejemplo que escuchó en una película?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿apunta a un objeto o imagen cuando se lo mencionan?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿consigue lo que quiere sin llorar?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de aprender nuevos juegos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de jugar con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explora lugares nuevos solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿es independiente y busca las cosas que quiere por sí sol@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se entusiasma cuando está con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra un comportamiento tranquilo haciendo lo que se le pide?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sonríe cuando algo le gusta?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tranquil@ aún cuando le quitan un juguete?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿muestra afecto hacia niñ@s más pequeñ@s y animales domésticos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿espera su turno, por ejemplo para jugar?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta más jugando solit@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra cada vez más independencia, por ejemplo intentar ir solit@ al baño?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta subir cada vez más alto en la misma escalera?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿muestra alegría cuando tiene que hacer algo que no quiere?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca sus galletas solit@ si tiene hambre?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca ayuda cuando quiere algún objeto y no lo alcanza?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre y abraza a alguien que quiere o sonríe cuando se le hacen mimos?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tranquil@ cuando no se le da algo que quiere?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta hacer las cosas solit@, por ejemplo vestirse o comer?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se pone content@ cuando supera sus propios límites, como trepar más alto de lo que lo hacía?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿copia actitudes de otras personas especialmente de adultos y niñ@s mayores?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega con otr@s niñ@s, por ejemplo a perseguirl@s?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tranquil@ cuando se acerca una persona extraña?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿tiene amig@s?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se frustra fácilmente cuando algo no le sale?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta varias veces hasta lograr lo que quiere, por ejemplo armar una torre?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se reconoce en el espejo?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tímid@ aún cuando conoce a las personas que se le acercan?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿busca conseguir lo que quiere hablando, pidiendo por favor o con sonrisas?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora cuando ve llorar a otr@ niñ@?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ intenta calmar a un/a niñ@ que está llorando?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se calma solit@ aún cuando no consigue lo que quiere?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comparte y cuida sus juguetes?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿espera su turno para jugar?"
+  },
+  {
+    "EDAD": "2 a 3 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿duerme todos los días a la misma hora?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja círculos en un papel?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pasa las hojas de un libro o revista una por vez?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿arma torres con más de 6 objetos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre sin caerse?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina en diferentes direcciones?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para en un pie por un instante?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿duerme 8 horas seguidas durante la noche?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se coloca las zapatillas solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿come con cuchara solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se viste y se desviste solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿negocia cuando quiere conseguir algo, por ejemplo trata de cambiar un juguete por una galleta?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube y baja las escaleras sin ayuda?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega con plastilina o masa y arma diferentes formas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corta papeles con los dedos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿arruga un papel con la mano?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube y baja las escaleras colocando un pie en cada escalón?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se arrodilla y se levanta solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta del escalón al piso con los dos pies?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se golpea o golpea a los demás cuando está enojad@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿va al baño a orinar solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta arreglar sus juguetes solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se lava las manos solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿anda en triciclo o bicicleta con rueditas de apoyo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿trepa a diferentes lugares y toma objetos pequeños?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta recortar con tijera libremente sin respetar contornos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿lanza objetos primero con una mano y luego con la otra?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pinta intentando respetar los bordes del dibujo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta lateralmente (de costado)?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce su cuerpo y se mueve de diferentes formas, por ejemplo bailando?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se pone los pantalones solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿inventa juegos nuevos y los comparte?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega a hacer dramatizaciones con otr@s niños y niñas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda instrucciones de tres pasos o más, por ejemplo \"guarda tus juguetes, lávate las manos y acércate a cenar\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pierde habilidades que ya tenía adquiridas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina 5 pasos hacia atrás?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se lava y seca las manos solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuenta cuentos o historias breves?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿enrosca y desenrosca la tapa de un frasco solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿nombra las partes de su cuerpo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue instrucciones como, por ejemplo \"pásame la pelota\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿aprieta botones y mueve palancas de juguetes con intención?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce sus juguetes y cuando alguno le pertenece dice \"es mío\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿abre la puerta para salir?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿arma rompecabezas de 3 o 4 piezas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta el nombre de las cosas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿combina 3 o más palabras para armar frases, por ejemplo \"dame agua por favor\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice correctamente cómo se llama y cuantos años tiene si se lo preguntan?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se expresa con claridad, de modo que todos l@ entienden?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿copia el trazo de un círculo con un lápiz o crayón?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿canta sus canciones favoritas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿conoce el significado de la palabra \"dos\", por ejemplo \"quiero dos galletas\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿relaciona los objetos por semejanza, por ejemplo un cuadrado con una caja?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿entiende la diferencia entre mucho y poco?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿agrupa objetos según se lo pidas, por ejemplo por colores?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza garabatos y les da un sentido para transmitir un mensaje?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce objetos o situaciones de peligro, por ejemplo \"no tocar el horno cuando está caliente\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta todo el tiempo \"por qué\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿conoce el significado de las palabras adentro, afuera, arriba y abajo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza frases sencillas de agrado o rechazo para comunicar sus ideas o emociones?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente palabras plurales como, por ejemplo \"autos, perros, etc.\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja círculos y líneas en un papel?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿conversa utilizando 2 o 3 oraciones?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe los nombres de sus amig@s?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿nombra y reconoce el cuadrado, el círculo y el triángulo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre largo y corto?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencias texturas, suaves y ásperas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia el día de la noche?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿describe las acciones que realiza, por ejemplo \"mientras se baña dice: me lavo el pelo, los brazos, etc.\"?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿inventa historias o cuentos breves?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue instrucciones de más de 3 pasos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿relata historias mientras juega?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuenta lo que hizo, por ejemplo si salió a la plaza?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se pone incómodo si se disfraza, por ejemplo de animalito?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿expresa cuando está enojad@ o content@ por algo que le pasó?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se esconde cuando tiene miedo?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza de diferentes formas un mismo juguete?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿mira a los ojos cuando le hablan?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se pone feliz cuando algo no le sale?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuándo esta cansad@, se muestra molest@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se ríe cuando está content@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reacciona positivamente con los cambios repentinos en su rutina?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de la compañía de otr@s niñ@s?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega en grupo con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comparte sus juguetes?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra tranquilo en lugares y situaciones nuevas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿toma decisiones por sí mism@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿elige entre diferentes opciones, por ejemplo ir al parque o comer un helado?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve sus problemas solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta calmar al/a la niñ@ que llora?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se interesa por una gran variedad de objetos y juegos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿espera su turno para jugar?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra celos@ cuando alguien se le acerca a papá  a mamá?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿abraza y besa a sus amig@s y prim@s espontáneamente?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿presta los juguetes aunque los este usando?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se separa de mamá y papá con facilidad?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿saluda cuando llega o se va de algún lugar?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se muestra ansios@ ante nuevas situaciones?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta límites?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿está todo el tiempo al lado de papá y mamá?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿conoce la ubicación de las cosas en su casa y puede buscarlas solit@, por ejemplo si quiere algún juguete sabe dónde está?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega al papá y a la mamá?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿intenta varias veces hasta lograr lo que quiere, por ejemplo armar un rompecabezas?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se queda sin llorar cuando mamá o papá se van a trabajar?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿expresa como se siente, por ejemplo enojad@, triste, feliz, si se lo preguntamos?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿entiende cuando se le explica que lastimó a un/a amig@ al pegarle o al quitarle un juguete?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se divierte más cuando está con amig@s que estando solit@?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ayuda a otr@s niñ@s, por ejemplo si alguno se cayó lo ayuda a pararse?"
+  },
+  {
+    "EDAD": "3 a 4 años",
+    "NIVEL": 3,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ayuda a poner la mesa o guardar objetos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recorta figuras con tijera?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿abrocha un botón de su ropa solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja letras y números?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta con sus dos pies juntos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para en un pie por más de 5 segundos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿agarra una pelota que rebota?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿arroja la basura en un cesto solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se lava las manos sin ayuda?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿guarda solit@ sus cosas en la mochila?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue el contorno de un dibujo con el dedo?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta abriendo y cerrando las piernas en forma de tijera?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza un cuchillo para cortar, bajo la supervisión de un adulto?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sostiene los cubiertos con los dedos, en vez de sostenerlo con los puños?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿completa solit@ rompecabezas de 6 unidades o menos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pinta respetando los contornos de un dibujo?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿atrapa pelotas pequeñas con una sola mano?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se trepa a una silla utilizando todo su cuerpo?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿alterna los pies para bajar las escaleras solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se lava los dientas, la cara y las manos solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se viste y se desviste sin ayuda?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se coloca o se saca un abrigo según el frio o calor del ambiente?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre rápido y lento alternando la velocidad y los tiempos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿patea una pelota con intención y dirección a un punto específico, ejemplo a un arco?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación 2",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede servirse agua de una botella sin derramar?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se concentra más mirando imágenes o películas?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda y canta canciones?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda y realiza coreografías de bailes?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"antes\" y \"después\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia \"arriba\" y \"abajo\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia \"adentro\" y \"afuera\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice cuantos años tiene?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comprende lo que significa \"mucho\", \"poco\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe su nombre?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente: \"M, N, Ñ, P, T, K, B, J, L\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia su nombre y apellido claramente?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta contando historias o cuentos que escuchó?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿parece haber olvidado todo lo que aprendió?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja una figura humana incluyendo el torso y las extremidades?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comprende lo que significa, \"mucho\", \"poco\" y \"más o menos\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"ayer\", \"hoy\" y \"mañana\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre \"adelante\" y \"atrás\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe los números del 1 al 10?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce todas las vocales?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe palabras simple como \"mamá\", \"papá\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce figuras como círculos, cuadrados, triángulos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las letras \"D\", \"G\", \"F\", \"CH\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta sobre el significado de nuevas palabras?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿olvidó todas las palabras que aprendió?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce sus preferencias, por ejemplo qué le gusta comer y qué no?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿confía en sus capacidades?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿opina y elige que quiere hacer cuando le preguntan?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando necesita algo dice \"por favor\" y \"gracias\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿obedece órdenes complejas, \"lávate las manos y siéntate a la mesa\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta y obedece las reglas de convivencia?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa emociones como \"alegría\", \"enojo\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿prefiere dirigir los juegos?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿colabora con otr@s niñ@s cuando está jugando?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra cariño a las personas a través de gestos o palabras?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta más jugando solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comparte cosas, juguetes o comida con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se alegra por sus logros?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora o se esconde ante situaciones o personas desconocidas?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿tiene un amig@ imaginari@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta lo que le interesa saber?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta a todo \"por qué\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta únicamente jugando solit@?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta haciendo cosas nuevas?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega al papá y a la mamá?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa emociones como \"miedo\", \"desagrado\" y \"tristeza\"?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se acerca solit@ a otr@s niñ@s para jugar?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve solit@ los problemas con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "4 a 5 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿espera su turno para jugar?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recorta figuras con tijera?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pinta respetando los contornos de un dibujo?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿copia palabras y números?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se para en un pie por más de 10 segundos?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta de costado y hacia atrás?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre y salta obstáculos manteniendo el equilibrio?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pierde habilidades que había adquirido?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se concentra en una actividad por más de 5 minutos?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿prepara solit@ su mochila y uniforme de la escuela para el día siguiente?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿baila controlando sus movimientos y siguiendo el ritmo de la música?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿maneja una bicicleta pequeña con ruedas auxiliares?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sostiene frecuentemente el tenedor con su mano izquierda para comer?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza tenedor, cuchara y a veces cuchillo?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿completa rompecabezas sencillos de 8 unidades o menos?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede abrochar un botón solit@?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿alterna los pies para subir y bajar las escaleras?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre en diferentes velocidades, cambia de dirección y se detiene rápidamente?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina siguiendo una línea recta manteniendo el equilibrio?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se viste y se desviste sin ayuda?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se saca la ropa y la deja en el canasto de ropa sucia, cuando se lo piden?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cierra el grifo una vez que termino de utilizarlo?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿para patear una pelota usa frecuentemente la pierna izquierda?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿maneja una bicicleta pequeña sin ruedas auxiliares?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce cuál es la derecha y la izquierda respecto de su cuerpo?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿responde a la pregunta ¿cómo? Por ejemplo, \"¿cómo abro la puerta?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice la dirección de su casa?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escucha una canción y repite una estrofa determinada, bailando al ritmo de la música?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"antes\" y \"después\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre \"arriba\" y \"abajo\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia \"adentro\" y \"afuera\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice cuantos años tiene?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comprende lo que significa \"mucho\", \"poco\", \"más o menos\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe su nombre?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las letras \"M\", \"N\", \"Ñ\", \"P\", \"T\", \"K\", \"B\", \"J\", \"L\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia su nombre y apellido claramente?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta contando historias o cuentos que escucho?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿en sus conversaciones realiza muchas preguntas?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja una figura humana con tres partes del cuerpo diferentes?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comprende lo que significa, \"mucho\", \"poco\" y \"más o menos\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"ayer\", \"hoy\" y \"mañana\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre \"adelante\" y \"atrás\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe los números del 1 al 10?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce todas las vocales?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe palabras simple como \"mamá\", \"papá\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce figuras como círculos, cuadrados, triángulos?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las letras \"D\", \"G\", \"F\", \"CH\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta sobre el significado de nuevas palabras?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿olvidó todas las palabras que aprendió?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿elije con qué amig@s jugar?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿confía en sus capacidades, por ejemplo dice: \"yo puedo abrir esta puerta\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿opina y elige que quiere hacer cuando le preguntan?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando necesita algo dice \"por favor\" y \"gracias\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿tiene un temperamento tranquilo y no se enoja cuando le quitan un juguete?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta y obedece las reglas de convivencia?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa emociones como \"alegría\", \"enojo\", \"tristeza\", \"miedo\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿prefiere dirigir los juegos?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿colabora con otr@s niñ@s cuando está jugando?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra cariño a las personas a través de gestos o palabras?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta más jugando solit@?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comparte cosas, juguetes o comida con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se alegra por sus logros?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora o se esconde ante situaciones o personas desconocidas?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ tiene un amig@ imaginari@?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta lo que le interesa saber?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta a todo \"por qué\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta únicamente jugando solit@?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta haciendo cosas nuevas?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega al papá y a la mamá?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa emociones como \"miedo\", \"desagrado\" y \"tristeza\"?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se acerca solit@ a otr@s niñ@s para jugar?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve solit@ los problemas con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "5 a 6 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿espera su turno para jugar?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recorta figuras con tijera para niñ@s respetando los contornos?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se ata los cordones sin ayuda?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe palabras y números?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se sostiene en un solo pie con los ojos cerrados?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿estando de pie se toca la punta de sus pies?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre y salta obstáculos manteniendo el equilibrio?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se concentra en una actividad por más de 15 minutos?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pierde habilidades que había adquirido?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿prepara solit@ su mochila y uniforme de la escuela para el día siguiente?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿para patear una pelota usa frecuentemente la pierna izquierda?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿maneja una bicicleta pequeña sin ruedas auxiliares?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce cuál es la derecha y la izquierda respecto de su cuerpo?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza el cuchillo para cortar carne o frutas bajo la supervisión de un adulto?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿completa rompecabezas sencillos de 12 unidades o más?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede abrochar un botón y subir el cierre de una campera solit@?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sube y baja las escaleras corriendo?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre en diferentes velocidades, cambia de dirección y se detiene rápidamente?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿camina siguiendo una línea recta o zigzag manteniendo el equilibrio?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se viste y se desviste sin ayuda?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se baña solit@?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿toma decisiones por sí mism@, por ejemplo, busca solit@ lo que quiere comer?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce cuál es la derecha y la izquierda respecto de su cuerpo y respecto del cuerpo de otra persona?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿para comer, pintar o dibujar usa frecuentemente la mano izquierda?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿maneja una bicicleta pequeña sin ruedas auxiliares?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explica cómo jugar un juego o cómo usar algún juguete?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice cuál es el camino, por ejemplo de casa a la escuela?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda y canta alguna canción que le gusta mucho?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"antes\" y \"después\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿describe sus ideas y argumenta el por qué de ellas?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve problemas matemáticos?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice cuándo es su cumpleaños?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comprende lo que significa \"mucho\", \"poco\", \"más o menos\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe las vocales?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las letras \"G\", \"R\", \"Ñ\", \"Z\", \"T\", \"K\", \"B\", \"J\", \"L\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente palabras como flauta, dragón, playa, brazo, grande?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta contando historias que conoce o escuchó?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de inventar y contar historias?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja una figura humana completa y con detalles?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿describe objetos o cosas, por ejemplo el oso es suave, lindo, grande?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿utiliza correctamente las palabras \"ayer\", \"hoy\" y \"mañana\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre \"adelante\" y \"atrás\", \"cerca\" y \" lejos\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe los números del 1 al 100?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y escribe las vocales y las letras del abecedario?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe oraciones simples como \"Mi mamá baila\", \"Mi papá juega\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿asocia figuras como círculos, cuadrados, triángulos a otros objetos; por ejemplo la rueda es un círculo?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿olvidó todas las palabras que aprendió?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta sobre el significado de nuevas palabras?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las letras \"R\", \"Z\", \"F\", \"G\", \"CH\", \"LL\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega en equipo con otr@s compañer@s ?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿confía en sus capacidades, por ejemplo dice \"yo se que puedo saltar el charco de lodo\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿si le preguntan qué hacer, elige y argumenta el porqué de su decisión?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escucha y espera su turno cuando los demás hablan?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿no se enoja cuando alguien no comparte o no quiere jugar con él/ella?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta y obedece las reglas de convivencia?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿expresa y argumenta el porqué de emociones como \"alegría\", \"enojo\", \"tristeza\", \"miedo\"?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se propone metas y hace todo por lograrlas?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿colabora con otr@s niñ@s cuando está jugando?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra cariño a las personas a través de gestos o palabras?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta el turno de los demás y espera tranquil@ el suyo?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta jugando con niñ@s que no conoce?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se alegra por sus logros?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora o se enoja cuando su amig@ gana un premio y no él/ella?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de opinar y participar en juegos o actividades nuevas?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta cuando no sabe algo?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta las instrucciones de los juegos o actividades?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se enoja, llora o grita cuando recibe un \"NO\" por respuesta?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y se alegra de sus logros y de los logros de los demás?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de jugar con títeres e inventar historias?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa qué cosas le gustan y qué cosas no le gustan?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta y se alegra de tener amig@s para jugar y compartir con ell@s?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve sol@ los problemas con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "6 a 7 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pide prestado los juguetes a otr@s niñ@s?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recorta figuras con tijera para niñ@s respetando los contornos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se ata los cordones sin ayuda?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza dibujos o escribe palabras o números claros y nítidos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿salta sin pisar las líneas de las baldosas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@,  ¿sube solit@ a los juegos de la plaza?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corre y salta sobre obstáculos manteniendo el equilibrio?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuándo tiene que realizar una tarea, como por ejemplo regar las plantas, poner la mesa, la hace?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pierde habilidades que había adquirido?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se sienta solit@ a realizar sus tareas escolares o a estudiar?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dibuja o se peina con la mano izquierda?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿maneja una bicicleta pequeña sin ruedas auxiliares?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿realiza alguna coreografía de baile completa?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿corta con un cuchillo carne o frutas bajo la supervisión de un adulto?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿moldea la plastilina creando diferentes formas según sus deseos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Fina",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿abrocha un botón y  se sube el cierre de una campera solit@?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿puede recorrer un camino trazado alternando y saltando con los ambos pies como jugando a la rayuela?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿imita movimientos y sonidos de animales?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Motricidad Gruesa",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿baila diferentes ritmos de música, más lentos y más rápidos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se queda acompañad@ de otra persona en casa, tranquil@, por ejemplo cuando mamá o papá necesitan salir a comprar algo?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de fiestas o cumpleaños sin la compañía de mamá o papá ?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Autonomía",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿toma decisiones por sí mism@, por ejemplo qué quiere comprar en el negocio?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿práctica algún deporte?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando se le da una instrucción realiza lo contrario, por ejemplo sentarse y haciendo lo contrario se para?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Cuerpo",
+    "SUBAREA": "Coordinación",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sigue instrucciones que se le dan?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿explica cómo jugar un juego o cómo usar algún juguete?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿sabe y dice cuál es el camino, por ejemplo de la casa a la escuela?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿recuerda, canta y baila alguna canción que le gusta mucho?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿diferencia entre \"qué acciones están bien\" y \"qué acciones están mal\"?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿describe sus ideas y argumenta el por qué de ellas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve problemas matemáticos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿cuando está aburrido improvisa algún tipo de juego?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de trabajar en equipo con niñ@s que no conoce?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿ayuda a otr@s niñ@s que lo necesitan?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿es coherente entre lo que dice y hace, por ejemplo dice: voy a comer galletas, las busca y las come?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe correctamente las palabras que dice?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿lee cuentos cortos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿comparte sus conocimientos y experiencias con los demás?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escribe, lee y resuelve problemas matemáticos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Aprendizaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿interpreta y dice la hora?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿dice que día es hoy, en qué mes estamos y el correspondiente año?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿expresa y argumenta el porqué de sus ideas o decisiones?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Razonamiento",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta cuándo no entiende algo?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿resuelve solit@ los problemas con otr@s niñ@s?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿tiene empatía con otras personas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Resolución de Problemas",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿crea nuevos juguetes o nuevos juegos utilizando los que ya tiene?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pronuncia claramente las palabras cuando habla?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta sobre el significado de nuevas palabras?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Mente",
+    "SUBAREA": "Lenguaje",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿olvidó todas las palabras que aprendió?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿juega en equipo con otr@s compañer@s ?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce sus capacidades y habilidades?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿si le preguntan qué hacer, elige y argumenta el porqué de su decisión?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@,  ¿escucha y espera su turno cuando los demás hablan?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿es responsable respecto a la realización de sus tareas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta y obedece las reglas de convivencia?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿expresa y argumenta el porqué de emociones como \"alegría\", \"enojo\", \"tristeza\", \"miedo\"?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se propone metas y hace todo por lograrlas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿colabora con otr@s niñ@s cuando está jugando?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿demuestra afecto a las personas a través de gestos o palabras?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿escucha y respeta el turno de los demás y espera tranquil@ el suyo?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 1,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta jugando con niñ@s que no conoce?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@,¿confía en sus capacidades y habilidades, por ejemplo dice: \"yo puedo saltar ese charco de lodo\"?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿llora o se enoja cuando otr@ niñ@ gana un premio y él/ella no?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Autoestima",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta de opinar y participar en juegos o actividades nuevas?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿pregunta cuando no sabe algo?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿respeta las instrucciones de los juegos o actividades?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Curiosidad",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se enoja, llora o grita cuando recibe un \"NO\" por respuesta?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿se alegra por sus logros y los logros de los demás?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta jugar con títeres e inventar historias?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Desarrollo Emocional",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿reconoce y expresa que cosas le gustan y que cosas no le gustan?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿disfruta y se alegra de tener amig@s para jugar y compartir con ell@s?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿inventa junto a otr@s niñ@s juegos nuevos?"
+  },
+  {
+    "EDAD": "7 a 8 años",
+    "NIVEL": 2,
+    "AREA": "Corazón",
+    "SUBAREA": "Socialización",
+    "RAZONAMIENTO": "#Nombreniñ@, ¿coopera con otr@ niñ@ para lograr algo?"
+  }
+]

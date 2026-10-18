@@ -1,0 +1,10 @@
+input AnswerInput {
+    planId: ID!
+    questionId: ID!
+    answerOptionId: ID!
+}
+
+extend type Mutation {
+    answer (input: AnswerInput): Answer!
+        @hkMutation(class: "App\\Modules\\Question\\Graphql\\Mutations\\AnswerMutation")
+}

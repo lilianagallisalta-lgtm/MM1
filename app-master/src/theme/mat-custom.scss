@@ -1,0 +1,59 @@
+//ion-header ion-toolbar {
+//  --ion-toolbar-background: #fff;
+//  --color: #212121;
+//}
+
+mat-form-field {
+  width: 100%;
+  min-height: 48px;
+
+  //.mat-form-field-wrapper, .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+  //  padding-bottom: 0 !important;
+  //}
+
+  .mat-form-field-flex {
+    padding: 0 0.5rem;
+    background: #fafafa;
+
+    .mat-form-field-underline {
+      bottom: 0;
+    }
+  }
+}
+
+// Para contrarestar tanto padding de .mat-expansion-body.
+.-m-expansion-body {
+  margin: 0 -24px -16px;
+}
+
+mat-table.hk-table {
+  min-width: 576px;
+  @media (min-width: 768px) {
+    min-width: 768px;
+  }
+  @media (min-width: 992px) {
+    min-width: 992px;
+  }
+  @media (min-width: 1200px) {
+    min-width: 1200px;
+  }
+
+  mat-header-row {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  &+mat-paginator {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+  }
+}
+
+// top para que el `underline` de `mat-select` quede alineado a los de `ionic`.
+.t-mat-select {
+  top: 1.3rem;
+}

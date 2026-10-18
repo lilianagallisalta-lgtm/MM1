@@ -1,0 +1,40 @@
+@import "~@angular/material/theming";
+
+.stage-1 {
+  background-color: mat-color($mat-green, 300);
+
+  &.not-available {
+    background-color: mat-color($mat-green, 500);
+  }
+
+  .button-cta {
+    background-color: mat-color($mat-green, 50);
+    color: mat-color($mat-green, 900);
+  }
+}
+
+.stage-2 {
+  background-color: mat-color($mat-blue, 300);
+
+  &.not-available {
+    background-color: mat-color($mat-blue, 500);
+  }
+
+  .button-cta {
+    background-color: mat-color($mat-blue, 50);
+    color: mat-color($mat-blue, 900);
+  }
+}
+
+.stage-3 {
+  background-color: mat-color($mat-pink, 300);
+
+  &.not-available {
+    background-color: mat-color($mat-pink, 500);
+  }
+
+  .button-cta {
+    background-color: mat-color($mat-pink, 50);
+    color: mat-color($mat-pink, 900);
+  }
+}

@@ -1,0 +1,171 @@
+<ion-content>
+  <div fxLayout="column"
+       class="min-h-full">
+    <div fxLayout="row"
+         fxLayoutAlign="center center"
+         fxFlex
+         class="relative w-full sm:w-5/6 md:w-2/3 mx-auto">
+      <ion-slides #slides
+                  [pager]="true"
+                  (ionSlideDidChange)="slideChange()"
+                  class="w-full">
+        <ion-slide fxFlexFill class="my-3 p-3">
+          <div class="slide-wrapper shadow-lg">
+            <div fxLayout="column"
+                 fxLayoutAlign="center"
+                 fxLayoutGap="1rem"
+                 class="min-h-full">
+              <div fxLayout="row"
+                   fxLayoutAlign="center center">
+                <hk-img src="assets/img/walkthrough/family.png"
+                        class="h-32 sm:h-48 w-full"></hk-img>
+              </div>
+
+              <p class="card-title">
+                Mentes Mejorando es un programa de potenciamiento y estimulación
+                de las 3 áreas más importantes para el desarrollo en bebés y
+                niñ@s, de 1 a 7 años y 11 meses de edad.
+              </p>
+            </div>
+          </div>
+        </ion-slide>
+
+        <ion-slide fxFlexFill class="my-3 p-3">
+          <div class="slide-wrapper shadow-lg">
+            <div fxLayout="column"
+                 fxLayoutAlign="center"
+                 fxLayoutGap="1rem"
+                 class="min-h-full">
+              <div fxLayout="row"
+                   fxLayoutAlign="center center">
+                <hk-img src="assets/icon/isotipo.png"
+                        class="h-32 sm:h-48 w-full"></hk-img>
+              </div>
+
+              <p class="card-title">
+                Al contestar 36 simples preguntas (en sólo 3min aprox.) nos permitirá
+                observar a tu bebé o niñ@ en las 3 áreas más importantes de su desarrollo:
+              </p>
+
+              <div fxLayout="row wrap"
+                   fxLayoutAlign="center center"
+                   fxLayoutGap="2rem grid"
+                   class="block pt-3">
+                <div fxLayout="column">
+                  <div fxLayout="row"
+                       fxLayoutAlign="start center"
+                       class="h-12 md:h-16 bg-green-50 text-green-900 rounded-full uppercase">
+                    <div fxLayout="column"
+                         fxLayoutAlign="center center"
+                         class="p-2 w-12 h-12 md:w-16 md:h-16 bg-white rounded-full shadow">
+                      <img src="assets/icon/girl.png">
+                    </div>
+
+                    <h1 class="px-3 py-2 text-lg md:text-2xl">Cuerpo</h1>
+                  </div>
+                </div>
+
+                <div fxLayout="column">
+                  <div fxLayout="row"
+                       fxLayoutAlign="start center"
+                       class="h-12 md:h-16 bg-blue-50 text-blue-900 rounded-full uppercase">
+                    <div fxLayout="column"
+                         fxLayoutAlign="center center"
+                         class="p-2 w-12 h-12 md:w-16 md:h-16 bg-white rounded-full shadow">
+                      <img src="assets/img/areas/brain.svg">
+                    </div>
+
+                    <h1 class="px-3 py-2 text-lg md:text-2xl">Mente</h1>
+                  </div>
+                </div>
+
+                <div fxLayout="column">
+                  <div fxLayout="row"
+                       fxLayoutAlign="start center"
+                       class="h-12 md:h-16 bg-red-50 text-red-900 rounded-full uppercase">
+                    <div fxLayout="column"
+                         fxLayoutAlign="center center"
+                         class="p-2 w-12 h-12 md:w-16 md:h-16 bg-white rounded-full shadow">
+                      <img src="assets/img/areas/heart.svg">
+                    </div>
+
+                    <h1 class="px-3 py-2 text-lg md:text-2xl">Corazón</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ion-slide>
+
+        <ion-slide fxFlexFill class="my-3 p-3">
+          <div class="slide-wrapper shadow-lg">
+            <div fxLayout="column"
+                 fxLayoutAlign="center"
+                 fxLayoutGap="1rem"
+                 class="min-h-full">
+              <div fxLayout="row"
+                   fxLayoutAlign="center center">
+                <hk-img src="assets/icon/game.png"
+                        class="h-32 sm:h-48 w-full"></hk-img>
+
+                <hk-img src="assets/icon/suggestion.png"
+                        class="h-32 sm:h-48 w-full"></hk-img>
+              </div>
+
+              <p class="card-title">
+                Al finalizar cada etapa te propondremos juegos, sugerencias y derivaciones
+                a especialistas (en casos puntuales) para potenciar las áreas del
+                desarrollo de tu bebé o niñ@.
+              </p>
+            </div>
+          </div>
+        </ion-slide>
+
+        <ion-slide fxFlexFill class="m-0 p-3">
+          <div class="slide-wrapper shadow-lg">
+            <div fxLayout="column"
+                 fxLayoutGap="1rem"
+                 fxFlex>
+              <span fxFlex></span>
+
+              <div fxLayout="column"
+                   fxLayoutAlign="center stretch" fxLayoutAlign.gt-sm="center center"
+                   fxLayoutGap="2rem"
+                   fxFlex>
+                <div class="absolute pin w-full h-full bg-cover bg-no-repeat bg-center rounded"
+                     [style.background-image]="'url(assets/img/walkthrough/4.jpg)'"></div>
+
+                <h1 class="text-2xl text-white font-bold text-shadow-light z-10">
+                  ¿Estás list@?
+                </h1>
+
+                <ion-button routerLink="/child-create"
+                            expand="full"
+                            shape="round"
+                            class="whitespace-pre-wrap">Crea el perfíl de tu niñ@</ion-button>
+              </div>
+
+              <span fxFlex></span>
+            </div>
+          </div>
+        </ion-slide>
+      </ion-slides>
+
+      <div *ngIf="showPrev"
+           class="swiper-button-prev sm:-ml-3">
+        <ion-fab-button (click)="slides.slidePrev()"
+                        color="light">
+          <ion-icon name="ios-arrow-back"></ion-icon>
+        </ion-fab-button>
+      </div>
+
+      <div *ngIf="showNext"
+           class="swiper-button-next sm:-mr-3">
+        <ion-fab-button (click)="slides.slideNext()"
+                        color="light">
+          <ion-icon name="ios-arrow-forward"></ion-icon>
+        </ion-fab-button>
+      </div>
+    </div>
+  </div>
+</ion-content>

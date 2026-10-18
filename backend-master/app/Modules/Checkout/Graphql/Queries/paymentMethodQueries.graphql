@@ -1,0 +1,13 @@
+type PaymentMethod {
+    id: ID!
+    slug: String!
+    name: String!
+    description: String!
+    picture: String!
+    charge: Float!
+}
+
+extend type Query {
+    paymentMethods: [PaymentMethod!]!
+        @collection(model: "Hawk\\Modules\\Checkout\\Models\\PaymentMethod")
+}

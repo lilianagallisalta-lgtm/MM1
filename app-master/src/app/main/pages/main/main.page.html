@@ -1,0 +1,37 @@
+<ion-content>
+  <div [style.background-image]="'url(assets/img/main/bg.jpg)' | safe: 'style'"
+       class="fixed pin w-full h-full bg-cover bg-center bg-no-repeat"></div>
+
+  <div fxLayout="column"
+       fxLayoutAlign="center stretch"
+       class="absolute pin w-full min-h-full">
+    <h1 class="text-2xl md:text-4xl py-3 text-center font-bold text-shadow-light">
+      Bienvenid@
+    </h1>
+
+    <img src="assets/img/logo.png"
+         class="h-16 sm:h-24 w-auto mx-auto">
+
+    <h2 class="text-lg md:text-3xl py-2 text-center font-bold text-shadow-light">
+      Programa de Potenciamiento y Estimulación Temprana
+    </h2>
+
+    <div fxLayout="row"
+         fxLayoutAlign="center"
+         class="my-4">
+      <div fxLayout="column"
+           fxLayoutAlign="start stretch"
+           fxLayoutGap="1rem"
+           fxFlex="90" fxFlex.gt-sm="60" fxFlex.gt-lg="40">
+        <a routerLink="/signup" matRipple
+           class="relative p-2 sm:p-3 rounded-full text-center text-lg sm:text-2xl no-underline bg-teal-500 text-white">¡Regístrate Gratis!</a>
+
+        <a routerLink="/signin" matRipple
+           class="relative p-2 sm:p-3 rounded-full text-center text-lg sm:text-2xl no-underline bg-white border border-teal-500 text-teal-500">Iniciar sesión</a>
+
+        <a routerLink="/signup" matRipple
+           class="relative p-2 sm:p-3 rounded-full text-center text-lg sm:text-2xl no-underline bg-white border border-teal-500 text-teal-500">Tengo un código premium</a>
+      </div>
+    </div>
+  </div>
+</ion-content>

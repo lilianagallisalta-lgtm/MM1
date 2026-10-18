@@ -1,0 +1,12 @@
+input PurchaseLicenseInput {
+    childId: ID
+    token: String
+    installments: String
+    paymentMethodId: String
+}
+
+extend type Mutation {
+    purchaseLicense (input: PurchaseLicenseInput!): License!
+        @middleware(checks: ["jwt.auth"])
+        @hkMutation(class: "App\\Modules\\License\\Graphql\\Mutations\\PurchaseLicenseMutation")
+}

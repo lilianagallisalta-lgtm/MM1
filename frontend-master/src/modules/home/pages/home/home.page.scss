@@ -1,0 +1,67 @@
+page-home {
+  ion-header {
+    ion-navbar, .toolbar-background {
+      transition: all 0.5s ease;
+    }
+
+    .brand-picture {
+      transition: height 0.3s ease-in;
+    }
+
+    &.hk-header-clear {
+      ion-navbar, .toolbar-title {
+        height: 78px;
+
+        .brand-picture {
+          height: 64px;
+        }
+      }
+
+      .toolbar-background, .toolbar-background.toolbar-background-md {
+        background-color: transparent !important;
+        background-image: none;
+      }
+
+      ion-icon, .toolbar-title {
+        color: $clr-grey-900 !important;
+      }
+    }
+
+    &.hk-header-normal {
+      ion-navbar, .toolbar-title {
+        height: 56px;
+      }
+
+      ion-navbar {
+        box-shadow: 0 1px 0 0 rgba(0,0,0,.07), 0 0 24px 0 rgba(0,0,0,.15);
+      }
+
+      .toolbar-background {
+        background-color: #fff;
+      }
+    }
+  }
+
+  ion-content.Page {
+    div.scroll-content {
+      margin-top: 0 !important;
+      background-color: $clr-blue-500 !important;
+    }
+  }
+
+  main-footer {
+    button[ion-button] {
+      color: #fff !important;
+    }
+
+    .cielosandinos-wrapper {
+      background-color: rgba(#fff, 0.5);
+      padding: 1rem;
+      border-radius: 0.25rem;
+    }
+
+    .hawk-wrapper {
+      color: #fff !important;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+input DeleteReservableStockInput {
+    id: ID
+}
+
+extend type Mutation {
+    deleteReservableStock (input: DeleteReservableStockInput!): Boolean!
+        @permissions(includes: ["stock.manage"])
+        @hkMutation(class: "Hawk\\Stock\\Graphql\\Mutations\\DeleteReservableStockMutation")
+}

@@ -1,0 +1,40 @@
+<form *ngIf="form"
+      [formGroup]="form"
+      hkMutation="UpsertChild">
+  <ion-list lines="full" class="shadow">
+    <hk-loading-overlay *ngIf="loading"></hk-loading-overlay>
+
+    <h1 class="p-3 card-title">{{child?.id ? 'Editar niñ@' : 'Agregar niñ@'}}</h1>
+
+    <ion-item>
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input formControlName="name"
+                 autofocus
+                 autocapitalize="words"></ion-input>
+    </ion-item>
+    <hk-errors control="name"></hk-errors>
+
+    <ion-item>
+      <ion-label>Fecha de nacimiento</ion-label>
+      <ion-datetime formControlName="birthdate"
+                    display-format="DD/MM/YYYY"
+                    min="{{minDate | dfnsFormat: 'YYYY-MM-DD'}}"
+                    cancelText="Cancelar"
+                    doneText="Aceptar"></ion-datetime>
+    </ion-item>
+    <hk-errors control="birthdate"></hk-errors>
+
+    <ion-item>
+      <ion-label position="floating">Sexo</ion-label>
+      <ion-select formControlName="gender">
+        <ion-select-option value="female">Niña</ion-select-option>
+        <ion-select-option value="male">Niño</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <hk-errors control="gender"></hk-errors>
+
+    <div fxLayout="row" fxLayoutAlign="end center" class="p-3">
+      <ion-button (click)="submit()">Aceptar</ion-button>
+    </div>
+  </ion-list>
+</form>

@@ -1,0 +1,7 @@
+#type StagePurchase {
+#    id: ID!
+#
+#    checkout: Checkout
+#    @modelMethod(method: "getCheckout")
+#}
+#

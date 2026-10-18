@@ -1,0 +1,63 @@
+ion-header {
+  transition: all 0.5s ease;
+  ion-navbar {
+    transition: all 0.5s ease;
+    .toolbar-background {
+      transition: all 0.5s ease;
+    }
+
+    &.hk-navbar {
+      .toolbar-background {
+        background: $clr-primary-500;
+      }
+
+      ion-title {
+        .toolbar-title {
+          color: #fff;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          max-width: 100%;
+        }
+
+        .isologo {
+          height: 36px;
+          width: auto;
+        }
+      }
+
+      // Navbar en ion-menu.
+      &.hk-navbar-menu {
+        ion-title {
+          .isologo {
+            height: 36px;
+            width: auto;
+          }
+
+          .toolbar-title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &.hk-header-clear {
+    ion-navbar {
+      align-items: flex-start;
+    }
+
+    .toolbar-background, .hk-navbar .toolbar-background {
+      background: transparent;
+    }
+
+    &::after {
+      background-image: none !important;
+    }
+  }
+}

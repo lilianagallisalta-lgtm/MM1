@@ -1,0 +1,25 @@
+type Question {
+    id: ID!
+    display: String!
+
+    idx: Int!
+        @schemalessAttribute(select: "idx")
+
+    answerOptions: [AnswerOption!]
+        @collection(model: "App\\Modules\\Question\\Models\\AnswerOption")
+
+    stage: Stage!
+        @belongsTo
+
+    "Indica si la pregunta ha sido respondida para un determinado niño"
+    answered (planId: ID!): Boolean!
+        @field(resolver: "App\\Modules\\Question\\Graphql\\Types\\QuestionAnsweredField@handle")
+
+#    "Indica si ésta es la próxima pregunta para un determinado niño"
+#    isNextQuestion (planId: ID!): Boolean!
+#        @field(resolver: "App\\Modules\\Question\\Graphql\\Types\\QuestionIsNextQuestionField@handle")
+
+    "Opción contestada para un determinado niño"
+    answerOption (planId: ID!): AnswerOption
+        @field(resolver: "App\\Modules\\Question\\Graphql\\Types\\QuestionAnswerOptionField@handle")
+}

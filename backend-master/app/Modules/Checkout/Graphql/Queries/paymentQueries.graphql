@@ -1,0 +1,12 @@
+type Payment {
+    id: ID!
+    amount: Float!
+    description: String
+    created_at: DateTime!
+
+    comments: String
+        @schemalessAttribute(select: "comments")
+
+    paymentMethod: PaymentMethod!
+        @morphTo(relation: "paymentMethod")
+}

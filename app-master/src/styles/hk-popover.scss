@@ -1,0 +1,32 @@
+.hk-popover-80-70 {
+  ion-backdrop {
+    opacity: 0.85 !important;
+    background-color: #fff !important;
+  }
+
+  .popover-content {
+    top: 5% !important;
+    left: 5% !important;
+    width: 90%;
+    height: 90%;
+
+    //@include breakpoint($gt-xs) {
+    //  top: 10% !important;
+    //  left: 15% !important;
+    //  width: 70%;
+    //  height: 80%;
+    //}
+
+    @include breakpoint($gt-sm) {
+      top: 10% !important;
+      left: 15% !important;
+      width: 70%;
+      height: 80%;
+    }
+
+    //.popover-viewport {
+    //  height: 100%;
+    //  overflow: auto;
+    //}
+  }
+}

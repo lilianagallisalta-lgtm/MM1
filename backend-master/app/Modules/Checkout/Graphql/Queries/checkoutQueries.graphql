@@ -1,0 +1,41 @@
+type CheckoutDetail {
+    id: ID!
+    description: String!
+    price: Float!
+}
+
+type Checkout {
+    id: ID!
+    code: String!
+    from: DateTime!
+
+    status: Status!
+        @modelMethod(method: "status")
+
+    total: Float!
+        @modelMethod(method: "getTotal")
+
+    balance: Float!
+        @modelMethod(method: "getBalance")
+
+    details: [CheckoutDetail]!
+        @collection(relation: "details")
+
+    # Payment
+
+    totalPaid: Float!
+        @modelMethod(method: "totalPaid")
+
+    paymentMethod: PaymentMethod!
+        @belongsTo
+
+    payments: [Payment!]
+        @collection(relation: "payments")
+}
+
+#extend type Query {
+#    checkout(code: String!): Checkout!
+#        @field(resolver: "App\\Modules\\Checkout\\Graphql\\Queries\\CheckoutQuery@checkout")
+#
+#    checkouts: [Checkout!]! @collection(type: "paginator" model: "Hawk\\Modules\\Checkout\\Models\\Checkout")
+#}

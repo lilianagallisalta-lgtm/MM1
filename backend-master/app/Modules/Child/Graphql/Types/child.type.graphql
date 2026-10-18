@@ -1,0 +1,42 @@
+type Child {
+
+    id: ID!
+        @rename(attribute: "uuid")
+    name: String!
+    birthdate: DateTime!
+    gender: String!
+    age: Int!
+    picture: String!
+
+    user: User!
+        @belongsTo
+
+    licensePrice: Float!
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildLicensePriceField@handle")
+
+    hasActiveLicense: Boolean
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildHasActiveLicenseField@handle")
+
+    history: String
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildHistoryField@handle")
+
+#    stages: [Stage!]
+#        @collection(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildStagesField@handle")
+
+    "Plan activo"
+    currentPlan: Plan
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildCurrentPlanField@handle")
+
+    "Indica cuando podrá volver a crear un plan"
+    nextPlanAt: DateTime
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildNextPlanAtField@handle")
+
+    "Indica si puede crear un nuevo plan"
+    canCreatePlan: Boolean!
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildCanCreatePlanField@handle")
+
+     "Cantidad de planes completados"
+    plansCompletedCount: Int!
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Types\\ChildPlansCompletedCountField@handle")
+
+}

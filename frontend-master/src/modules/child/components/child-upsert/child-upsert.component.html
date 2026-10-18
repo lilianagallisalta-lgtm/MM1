@@ -1,0 +1,27 @@
+<div class="app-container mx-auto">
+  <div fxLayout="column"
+       class="bg-white rounded shadow">
+    <form *ngIf="form"
+          [formGroup]="form">
+      <hk-list>
+        <ion-item>
+          <ion-label floating>Nombre</ion-label>
+          <ion-input formControlName="name"
+                     autofocus></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Edad</ion-label>
+          <ion-input formControlName="age"></ion-input>
+        </ion-item>
+
+        <hk-list-actions>
+          <span fxFlex></span>
+          <button ion-button
+                  color="secondary"
+                  (click)="submit()">Aceptar</button>
+        </hk-list-actions>
+      </hk-list>
+    </form>
+  </div>
+</div>

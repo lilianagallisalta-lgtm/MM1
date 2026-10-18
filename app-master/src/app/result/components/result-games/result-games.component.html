@@ -1,0 +1,31 @@
+<div fxLayout="row">
+  <div fxLayout="column"
+       fxLayoutAlign="center">
+    <ion-fab-button (click)="scrollLeft()"
+                    color="light">
+      <ion-icon name="arrow-back" color="dark"></ion-icon>
+    </ion-fab-button>
+  </div>
+
+  <div #scrollContent
+       fxLayout="row"
+       fxLayoutGap="2rem"
+       fxFlex
+       class="scroll-content">
+    <div *ngFor="let game of games"
+         fxLayout="column"
+         class="game-card p-4 bg-white rounded mat-elevation-z1">
+      <h1 class="card-title">{{game?.title}}</h1>
+
+      <div [innerHTML]="game?.body"></div>
+    </div>
+  </div>
+
+  <div fxLayout="column"
+       fxLayoutAlign="center">
+    <ion-fab-button (click)="scrollRight()"
+                    color="light">
+      <ion-icon name="arrow-forward" color="dark"></ion-icon>
+    </ion-fab-button>
+  </div>
+</div>

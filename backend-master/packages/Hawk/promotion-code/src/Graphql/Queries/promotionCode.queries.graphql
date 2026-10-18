@@ -1,0 +1,21 @@
+extend type Query {
+    promotionCode (
+        id: ID @permissions(roles: ["admin"])
+        code: String
+    ): PromotionCode
+        @field(resolver: "Hawk\\PromotionCode\\Graphql\\Queries\\PromotionCodeQuery@promotionCode")
+
+    promotionCodes(
+        code: String
+        onlyActives: Boolean
+        status: String
+        start: String
+        end: String
+        withoutTrashed: Boolean = true
+    ): [PromotionCode!]
+        @permissions(role: ["admin"])
+        @collection(
+            resolver: "Hawk\\PromotionCode\\Graphql\\Queries\\PromotionCodeQuery@promotionCodes"
+            type: "paginator"
+        )
+}

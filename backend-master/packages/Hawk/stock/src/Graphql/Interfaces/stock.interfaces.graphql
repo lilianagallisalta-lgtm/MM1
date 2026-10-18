@@ -1,0 +1,5 @@
+interface Stockeable {
+    id: ID!
+    display: String!
+    picture: String
+}

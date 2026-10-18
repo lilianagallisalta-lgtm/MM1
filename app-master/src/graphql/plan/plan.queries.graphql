@@ -1,0 +1,36 @@
+fragment PlanFragment on Plan {
+  id
+  idx
+  completed
+  completedAt
+}
+
+query Plan (
+  $planId: ID!
+) {
+  plan (planId: $planId) {
+    ...PlanFragment
+
+    stages {
+      data {
+        ...StageFragment
+      }
+    }
+
+    child {
+      ...ChildFragment
+    }
+  }
+}
+
+query Plans (
+  $childId: ID!
+) {
+  plans (
+    childId: $childId
+  ) {
+    data {
+      ...PlanFragment
+    }
+  }
+}

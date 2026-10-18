@@ -1,0 +1,33 @@
+<div fxLayout="column"
+     class="relative">
+  <hk-loading-overlay *ngIf="(loading$ | async)"></hk-loading-overlay>
+
+  <hk-empty *ngIf="! (children$ | async)?.length">
+    <span>Aún no has agregado tu niñ@.</span>
+  </hk-empty>
+
+  <div fxLayout="row wrap"
+       fxLayoutAlign="center stretch">
+    <div *ngFor="let child of (children$ | async)"
+         fxLayout="column"
+         fxLayoutAlign="stretch stretch"
+         fxFlex="90" fxFlex.gt-xs="50" fxFlex.gt-sm="25"
+         class="p-2">
+      <a (click)="see(child)" matRipple tappable
+         class="relative p-3 h-full border border-grey-300 rounded hover:shadow-lg transition-all no-underline">
+        <div fxLayout="column"
+             fxLayoutAlign="stretch center"
+             fxLayoutGap="0.5rem"
+             class="h-full">
+          <span fxFlex></span>
+          <img [src]="child.picture"
+               class="w-12 h-auto">
+          <span fxFlex></span>
+
+          <span class="text-grey-800 font-bold">{{child?.name}}</span>
+          <span class="text-sm text-grey-700">{{child?.age}} {{child?.age == 1 ? 'año' : 'años'}}</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

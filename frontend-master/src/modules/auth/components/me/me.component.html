@@ -1,0 +1,19 @@
+<mde-popover #appPopover="mdePopover"
+             mdePopoverPositionY="below">
+  <div class="bg-menu-background rounded-lg shadow-lg py-3">
+    <me-menu></me-menu>
+  </div>
+</mde-popover>
+
+<div *ngIf="(data$ | async | select: 'me') as me"
+     [mdePopoverTriggerFor]="appPopover"
+     mdePopoverTriggerOn="click"
+     ripple
+     fxLayout="row"
+     fxLayoutAlign="start center"
+     fxLayoutGap="1rem">
+  <div [style.background-image]="'url(' + me?.picture + ')' | safe: 'style'"
+       class="w-12 h-12 rounded-full bg-cover bg-center bg-no-repeat"></div>
+
+  <span class="text-lg text-white">{{me?.name}}</span>
+</div>

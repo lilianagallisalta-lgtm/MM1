@@ -1,0 +1,27 @@
+$md-header-height: 56px;
+$ios-header-height: 84px;
+
+.Menu {
+  background: $background;
+
+  div.scroll-content {
+    overflow-y: auto;
+  }
+}
+
+.md {
+  .Menu {
+    div.scroll-content {
+      //padding-top: $md-header-height;
+    }
+  }
+}
+
+.ios {
+  .Menu {
+    div.scroll-content {
+      //padding-top: $ios-header-height;
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+!--<div [class.has-errors]="hasErrors"-->
+     <!--class="hk-errors-wrapper">-->
+  <!--<div *ngIf="position == 'top'"-->
+       <!--fxLayout="column"-->
+       <!--class="hk-errors hk-errors-top">-->
+    <!--<div *ngIf="errors" fxLayout="column">-->
+      <!--<span *ngFor="let error of errors"-->
+            <!--class="hk-error">-->
+        <!--{{error.message}}-->
+      <!--</span>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="hk-errors-content">-->
+    <!--<ng-content></ng-content>-->
+  <!--</div>-->
+
+  <!--<div *ngIf="position == 'bottom'"-->
+       <!--fxLayout="column"-->
+       <!--class="hk-errors hk-errors-bottom">-->
+    <!--<div *ngIf="errors"-->
+         <!--fxLayout="column">-->
+      <!--<div *ngFor="let error of errors"-->
+            <!--fxLayout="row"-->
+            <!--class="hk-error">-->
+        <!--<span class="hk-error-message">{{error.message}}</span>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->

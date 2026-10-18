@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>{{(child$ | async)?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <hk-loading-overlay *ngIf="(loading$ | async)"></hk-loading-overlay>
+
+  <ng-container *ngIf="(child$ | async) as child">
+    <app-child-card [child]="child"></app-child-card>
+
+    <hk-container class="w-full sm:max-w-2/3 mx-auto">
+      <ng-container *ngIf="child?.plansCompletedCount > 1">
+        <a [routerLink]="['/children/', child?.id, 'history']" matRipple tappable
+           fxFlexAlign.gt-xs="end"
+           class="relative w-full sm:w-auto p-2 sm:p-3 bg-primary-50 text-primary-800 rounded shadow no-underline">
+        <div fxLayout="row"
+             fxLayoutAlign="start center"
+             fxLayoutGap="1rem">
+          <ion-icon name="trending-up" class="w-12 h-12 sm:w-16 sm:h-16"></ion-icon>
+            <span class="text-sm sm:text-lg uppercase font-bold">Análisis Comparativo</span>
+            <span fxFlex></span>
+            <ion-icon name="ios-arrow-forward"></ion-icon>
+          </div>
+        </a>
+      </ng-container>
+
+      <app-child-plans [child]="child"></app-child-plans>
+    </hk-container>
+  </ng-container>
+</ion-content>

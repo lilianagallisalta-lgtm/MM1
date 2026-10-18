@@ -1,0 +1,31 @@
+{
+  "resource": {
+    "singular": "Precio",
+    "plural": "Precios"
+  },
+  "component": {
+    "price-sidebar": {
+      "cars prices": "Precios de autos"
+    }
+  },
+  "request": {
+    "post": {
+      "data": {
+        "attributes": {
+          "price": {
+            "required": "Debes ingresar un precio",
+            "numeric": "El precio debe ser numérico"
+          },
+          "from": {
+            "required": "Debes indicar la fecha de inicio para que se efectúen los cambios en el precio",
+            "date": "La fecha de inicio ingresada es incorrecta"
+          },
+          "to": {
+            "required": "Debes indicar la fecha de fin para que se efectúen los cambios en el precio",
+            "date": "La fecha de fin ingresada es incorrecta"
+          }
+        }
+      }
+    }
+  }
+}

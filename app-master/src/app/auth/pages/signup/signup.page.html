@@ -1,0 +1,46 @@
+<ion-content>
+  <div fxLayout="column"
+       fxLayoutGap="2rem"
+       class="min-h-full">
+    <div fxLayout="column"
+         fxLayoutAlign="center stretch"
+         fxLayoutGap="2rem"
+         fxFlex="1 1 auto">
+      <a routerLink="/main" matRipple
+         class="pt-3 relative mx-auto rounded no-underline">
+        <img src="assets/img/logo.png"
+             class="h-16 w-auto mx-auto">
+      </a>
+
+      <div fxLayout="row"
+           fxLayoutAlign="center center">
+        <div fxLayout="column"
+             fxLayoutGap="1rem"
+             fxFlex="90" fxFlex.gt-xs="66" fxFlex.gt-lg="50">
+          <div fxLayout="row wrap"
+               fxLayoutAlign="center center"
+               fxLayoutGap="1rem grid">
+            <h1 class="card-title text-center">Crea una cuenta <span class="text-teal-500 font-bold">gratuita</span></h1>
+
+            <h2 class="text-sm text-grey-800 text-center py-2">(no necesitas tarjeta de crédito)</h2>
+          </div>
+
+          <div class="bg-white rounded shadow">
+            <app-signup></app-signup>
+          </div>
+
+          <div fxLayout="row wrap"
+               fxLayoutAlign="center center"
+               fxLayoutGap="1rem">
+            <span>¿Ya tienes una cuenta?</span>
+            <ion-button routerLink="/signin"
+                        fill="clear"
+                        class="bg-primary-50 text-primary-800">Inicia sesión</ion-button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-main-footer></app-main-footer>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+mutation UpsertChild ($input: UpsertChildInput!) {
+  upsertChild (input: $input) {
+    id
+    name
+    age
+    birthdate
+    gender
+    picture
+
+    currentPlan {
+      ...PlanFragment
+    }
+  }
+}

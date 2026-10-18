@@ -1,0 +1,19 @@
+type PromotionCode {
+    id: ID!
+        @permissions(roles: ["admin"])
+
+    code: String!
+
+    percentage: Float!
+
+    percentageDisplay: String!
+
+    start: DateTime!
+        @permissions(roles: ["admin"])
+
+    end: DateTime!
+        @permissions(roles: ["admin"])
+
+    isValid: Boolean
+        @modelMethod(method: "isValid")
+}

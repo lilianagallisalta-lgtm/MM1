@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Agregar niñ@</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="absolute pin w-full h-full bg-cover bg-center bg-no-repeat"
+       [style.background-image]="'url(assets/img/child-create/bg.jpg)'"></div>
+
+  <div fxLayout="row"
+       fxLayoutAlign="center center"
+       class="app-container mx-auto min-h-full">
+    <app-child-upsert fxFlex="90" fxFlex.gt-sm="66"
+                      class="rounded shadow"></app-child-upsert>
+  </div>
+</ion-content>

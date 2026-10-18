@@ -1,0 +1,44 @@
+page-stage {
+  .question-button {
+    &.answered {
+      background-color: $clr-green-500;
+    }
+
+    &.active {
+      background-color: #fff;
+      color: $clr-blue-700;
+    }
+  }
+
+  .answerOption-button {
+    color: $clr-grey-100;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    background-color: rgba($clr-grey-100, 0.1);
+    border: 2px solid $clr-blue-900;
+
+    padding: 1rem 1rem;
+    border-radius: 16rem;
+
+    transition: all 0.5s ease;
+
+    &.answered {
+      border-color: #fff;
+    }
+
+    @include breakpoint($gt-xs) {
+      font-size: 2.3rem;
+
+      padding: 2rem 4rem;
+
+      &:hover {
+        color: $clr-blue-900;
+        background-color: $clr-grey-200;
+
+        box-shadow: $tw-shadow;
+      }
+    }
+  }
+}

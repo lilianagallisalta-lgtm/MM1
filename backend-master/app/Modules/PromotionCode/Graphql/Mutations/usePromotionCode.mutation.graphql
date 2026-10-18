@@ -1,0 +1,10 @@
+input UsePromotionCodeInput {
+    childId: ID
+    code: String
+}
+
+extend type Mutation {
+    usePromotionCode (input: UsePromotionCodeInput!): License!
+        @middleware(checks: ["jwt.auth"])
+        @hkMutation(class: "App\\Modules\\PromotionCode\\Graphql\\Mutations\\UsePromotionCodeMutation")
+}

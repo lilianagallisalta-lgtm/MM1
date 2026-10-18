@@ -1,0 +1,13 @@
+mutation PurchaseLicense ($input: PurchaseLicenseInput!) {
+  purchaseLicense (input: $input) {
+    uuid
+    expiresAt
+  }
+}
+
+mutation UsePromotionCode ($input: UsePromotionCodeInput!) {
+  usePromotionCode (input: $input) {
+    uuid,
+    expiresAt
+  }
+}

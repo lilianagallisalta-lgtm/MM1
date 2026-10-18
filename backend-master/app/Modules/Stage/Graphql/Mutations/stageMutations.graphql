@@ -1,0 +1,9 @@
+#input PurchaseStageInput {
+#    stageId: ID
+#    childId: ID
+#}
+#
+#extend type Mutation {
+#    purchaseStage (input: PurchaseStageInput!): Stage!
+#        @hkMutation(module: "stage")
+#}

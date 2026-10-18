@@ -1,0 +1,8 @@
+input DeletePromotionCodeInput {
+    id: ID!
+}
+extend type Mutation {
+    deletePromotionCode (input: DeletePromotionCodeInput!): Boolean!
+        @permissions(roles: ["admin"])
+        @delete(model: "Hawk\\PromotionCode\\Models\\PromotionCode")
+}

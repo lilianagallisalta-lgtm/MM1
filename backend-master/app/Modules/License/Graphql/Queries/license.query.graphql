@@ -1,0 +1,5 @@
+extend type Query {
+    license (childId: ID!): License
+        @middleware(checks: ["jwt.auth"])
+        @field(resolver: "App\\Modules\\License\\Graphql\\Queries\\LicenseQuery@handle")
+}

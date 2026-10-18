@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/children/{{(child$ | async)?.id}}"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>{{(stage$ | async)?.display || 'Cargando...'}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ng-template #loading>
+    <hk-loading-overlay></hk-loading-overlay>
+  </ng-template>
+
+  <ng-container *ngIf="(stage$ | async) as stage; else loading">
+    <app-do-stage *ngIf="stage?.available && stage?.progress < 1"></app-do-stage>
+
+    <ng-container *ngIf="stage?.available && stage.progress >= 1">
+      <ng-container *ngIf="(child$ | async) as child">
+        <app-child-card [child]="child"></app-child-card>
+
+        <div fxLayout="column"
+             fxLayoutGap="2rem"
+             fxFlex="1 1 auto"
+             class="app-container mx-auto">
+          <ion-button [routerLink]="['/children', child?.id]"
+                      fxFlexAlign="start"
+                      fill="clear"
+                      color="secondary"
+                      class="bg-secondary-50">
+            <ion-icon name="arrow-back" slot="start"></ion-icon>
+            Ver todos los programas
+          </ion-button>
+
+          <app-stage-results [plan]="(plan$ | async)"
+                             [stage]="stage"
+                             [child]="child"></app-stage-results>
+        </div>
+      </ng-container>
+
+      <ng-container *ngIf="nextStage && nextStage?.progress < 1">
+        <div fxLayout="row" fxLayoutAlign="end center" class="app-container mx-auto">
+          <ion-button (click)="goToNextStage()" color="secondary">
+            Pasá a la siguiente etapa
+            <ion-icon name="arrow-forward" slot="end"></ion-icon>
+          </ion-button>
+        </div>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</ion-content>

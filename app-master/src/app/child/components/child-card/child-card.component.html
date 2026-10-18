@@ -1,0 +1,24 @@
+<div fxLayout="column"
+     fxLayoutGap="0.5rem"
+     class="p-3 bg-white rounded shadow">
+  <div fxLayout="row"
+       fxLayoutAlign="start center"
+       fxLayoutGap="0.5rem">
+    <img [src]="child?.picture"
+         class="mr-auto h-12 w-auto rounded-full">
+
+    <div fxLayout="column"
+         fxLayoutAlign="center start"
+         fxLayoutGap="0.5rem">
+      <h1 class="px-3 card-title">{{child?.name}}</h1>
+
+      <div fxLayout="row" fxLayoutGap="0.5rem" class="ml-3">
+        <span class="p-2 bg-blue-50 text-blue-800 text-sm rounded">{{child?.age}} {{child?.age == 1 ? 'año' : 'años'}}</span>
+        <!--<span *ngIf="child?.plansCompletedCount == 0"-->
+              <!--class="p-2 bg-secondary-50 text-secondary-800 text-sm rounded">Aún no completaste ningún programa</span>-->
+        <span *ngIf="child?.plansCompletedCount > 0"
+              class="p-2 bg-secondary-50 text-secondary-800 text-sm rounded">{{child?.plansCompletedCount}} {{child?.plansCompletedCount == 1 ? 'programa completado' : 'programas completados'}}</span>
+      </div>
+    </div>
+  </div>
+</div>

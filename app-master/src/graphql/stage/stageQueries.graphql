@@ -1,0 +1,46 @@
+fragment StageFragment on Stage {
+  id
+  slug
+  display
+  available (planId: $planId)
+  progress (planId: $planId)
+  unlocked (planId: $planId)
+}
+
+query Stages (
+  $planId: ID!
+) {
+  stages (planId: $planId) {
+    data {
+      ...StageFragment
+    }
+  }
+}
+
+query StagePage (
+  $id: ID!
+  $planId: ID!
+) {
+  stage (
+    id: $id
+  ) {
+    ...StageFragment
+
+    questions (planId: $planId) {
+      data {
+        ...QuestionFragment
+      }
+    }
+  }
+}
+
+query StageWithProgress (
+  $id: ID!
+  $planId: ID!
+) {
+  stage (
+    id: $id
+  ) {
+    ...StageFragment
+  }
+}

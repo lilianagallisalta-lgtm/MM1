@@ -1,0 +1,6 @@
+extend type Query {
+    stage (
+        id: ID!
+    ): Stage
+        @field(resolver: "App\\Modules\\Stage\\Graphql\\Queries\\StageQuery@handle")
+}

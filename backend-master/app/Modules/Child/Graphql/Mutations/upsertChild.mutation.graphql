@@ -1,0 +1,11 @@
+input UpsertChildInput {
+    id: ID
+    name: String
+    birthdate: String
+    gender: String
+}
+
+extend type Mutation @group(checks: ["jwt.auth"]) {
+    upsertChild (input: UpsertChildInput!): Child!
+        @hkMutation(class: "App\\Modules\\Child\\Graphql\\Mutations\\UpsertChildMutation")
+}

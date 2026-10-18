@@ -1,0 +1,16 @@
+input UpsertPromotionCodeInput {
+    id: ID
+    code: String
+    "El porcentaje expresado en decimal"
+    percentage: Float
+    "El porcentaje expresado en 0-100"
+    percentageDisplay: Float
+    start: String
+    end: String
+    initialStock: Int
+}
+extend type Mutation {
+    upsertPromotionCode (input: UpsertPromotionCodeInput): PromotionCode!
+        @permissions(roles: ["admin"])
+        @hkMutation(class: "Hawk\\PromotionCode\\Graphql\\Mutations\\UpsertPromotionCodeMutation")
+}

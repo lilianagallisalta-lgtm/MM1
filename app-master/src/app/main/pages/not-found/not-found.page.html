@@ -1,0 +1,24 @@
+<ion-content>
+  <div fxLayout="column"
+       fxLayoutAlign="center stretch"
+       fxLayoutGap="2rem"
+       class="min-h-full">
+    <div fxLayout="column"
+         fxLayoutAlign="center center"
+         fxLayoutGap="2rem"
+         fxFlex="1 1 auto"
+         class="mt-4 relative">
+      <div [style.background-image]="'url(assets/img/empty.svg)'"
+           class="absolute pin w-full h-auto bg-contain bg-center bg-no-repeat"></div>
+
+      <h1 class="text-3xl text-grey-800 font-bold">Página no encontrada</h1>
+
+      <h1 class="ml-4 sm:ml-8 text-5xl font-bold">404</h1>
+
+      <ion-button routerLink="/home">Volver al inicio</ion-button>
+    </div>
+
+    <span fxFlex></span>
+    <app-main-footer></app-main-footer>
+  </div>
+</ion-content>

@@ -1,0 +1,126 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@mixin xs() {
+  $max: breakpoint-max('xs');
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin lt-sm() {
+  $max: breakpoint-max('sm');
+
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin lte-sm() {
+  $max: breakpoint-max('sm');
+
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin sm() {
+  $min: breakpoint-min('sm');
+  $max: breakpoint-max('sm');
+
+  @if ($min && $max) {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin md() {
+  $min: breakpoint-min('md');
+  $max: breakpoint-max('md');
+
+  @if ($min && $max) {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin lg() {
+  $max: breakpoint-max('md');
+  @if $max {
+    @media (min-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin gt-xs() {
+  $max: breakpoint-max('xs');
+  @if $max {
+    @media (min-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin gt-sm() {
+  $max: breakpoint-max('sm');
+  @if $max {
+    @media (min-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin gt-md() {
+  $max: breakpoint-max('md');
+  @if $max {
+    @media (min-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin gte-md() {
+  $b: breakpoint-min('md');
+  @if $b {
+    @media (min-width: $b) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin gt-lg() {
+  $max: breakpoint-max('lg');
+  @if $max {
+    @media (min-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

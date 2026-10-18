@@ -1,0 +1,7 @@
+extend type Query {
+    stages (
+        planId: ID
+    ): [Stage!]
+        @middleware(checks: ["jwt.auth"])
+        @collection(resolver: "App\\Modules\\Stage\\Graphql\\Queries\\StagesQuery@handle")
+}

@@ -1,0 +1,7 @@
+extend type Query {
+    currentPlan (
+        childId: ID!
+    ): Plan
+        @middleware(checks: ["jwt.auth"])
+        @field(resolver: "App\\Modules\\Plan\\Graphql\\Queries\\CurrentPlanQuery@handle")
+}

@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="['children', (child$ | async)?.id]"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Comprar licencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ng-template #loading>
+    <hk-loading-overlay></hk-loading-overlay>
+  </ng-template>
+
+  <ng-container *ngIf="(child$ | async) as child; else loading">
+    <div *ngIf="! purchased"
+         @card
+         fxLayout="column"
+         fxLayoutGap="1rem"
+         class="app-container mx-auto min-h-full">
+      <div fxLayout="column"
+           fxLayoutGap="1rem"
+           class="p-3 bg-green-50 text-green-800 rounded border border-green-300">
+        <h1 class="text-2xl font-bold">Licencia para {{child?.name}}</h1>
+
+        <p>
+          Con sólo ARS$ {{child?.licensePrice}} podrás potenciar las áreas de desarrollo
+          de tu niñ@.
+        </p>
+      </div>
+
+      <app-checkout-mercadopago [childId]="child?.id"
+                                [amount]="child?.licensePrice"
+                                (success)="_purchased()"></app-checkout-mercadopago>
+    </div>
+
+    <div *ngIf="purchased"
+         @card
+         fxLayout="column"
+         fxLayoutAlign="center center"
+         fxLayoutGap="1rem"
+         class="app-container mx-auto min-h-full">
+      <div fxLayout="column"
+           fxLayoutAlign="center center"
+           class="p-3 sm:p-4 bg-green-50 text-center rounded border">
+        <div fxLayout="column"
+             fxLayoutAlign="center center"
+             fxLayoutGap="1rem">
+          <ion-icon name="checkmark" class="text-5xl text-green-700"></ion-icon>
+
+          <h1 class="text-2xl text-green-800">¡Pago realizado con éxito!</h1>
+
+          <h2 class="text-green-800">Ahora podrás realizar todas las etapas para {{child?.name}}</h2>
+
+          <p class="text-green-800">Al finalizarlas podrás hacer un seguimiento de tu niñ@.</p>
+        </div>
+
+        <ion-button (click)="goBack()"
+                    shape="round"
+                    class="my-4">Volver</ion-button>
+
+        <h1 class="mb-2 text-2xl text-green-800">¡Muchas gracias!</h1>
+        <img src="assets/img/logo.png"
+             class="h-16 w-auto">
+      </div>
+    </div>
+  </ng-container>
+</ion-content>

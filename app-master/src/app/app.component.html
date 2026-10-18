@@ -1,0 +1,58 @@
+<ion-app>
+  <hk-loading-overlay *ngIf="(loading$ | async)"></hk-loading-overlay>
+
+  <ion-menu [disabled]="! (me$ | async)">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div fxLayout="row"
+               fxLayoutAlign="center center"
+               fxFlex="1 1 auto">
+            <img src="assets/img/logo.png"
+                 class="h-10 w-auto">
+          </div>
+
+          <ion-menu-toggle>
+            <ion-button fill="clear"><ion-icon name="close"></ion-icon></ion-button>
+          </ion-menu-toggle>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content color="white">
+      <ion-menu-toggle>
+        <ion-list lines="full">
+          <ion-item *ngIf="(me$ | async) as me">
+            <div fxLayout="column">
+              <div fxLayout="row"
+                   fxLayoutAlign="start center"
+                   fxLayoutGap="0.5rem"
+                   class="py-2">
+                <img [src]="me?.picture"
+                     class="w-10 h-10 rounded-full">
+                <span class="text-sm">{{me?.name}}</span>
+              </div>
+            </div>
+          </ion-item>
+
+          <ion-item routerLink="/home"
+                    button
+                    translate>Mis niñ@s</ion-item>
+
+          <ion-item routerLink="/rapitips"
+                    button
+                    translate>Rapi Tips</ion-item>
+
+          <ion-item routerLink="/about"
+                    button
+                    translate>Acerca de</ion-item>
+
+          <ion-item (click)="logout()"
+                    [button]="true">Salir</ion-item>
+        </ion-list>
+      </ion-menu-toggle>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

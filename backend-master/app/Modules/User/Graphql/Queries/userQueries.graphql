@@ -1,0 +1,43 @@
+type Role {
+    id: ID!
+    name: String!
+
+    guard: String
+        @rename(attribute: "guard_name")
+}
+
+type Permission {
+    id: ID!
+    name: String!
+
+    guard: String
+        @rename(attribute: "guard_name")
+}
+
+type User {
+    id: ID!
+        @rename(attribute: "uuid")
+    name: String!
+    picture: String!
+    email: String!
+
+    # Role
+
+    role: Role!
+        @modelMethod(method: "role")
+
+    roles: [Role!]
+        @collection(relation: "roles")
+
+    permissions: [Permission!]
+        @collection(relation: "permissions")
+
+    # Niños del usuario.
+    children: [Child!]
+        @collection(relation: "children")
+}
+
+extend type Query @middleware(checks: ["jwt.auth"]) {
+    me: User
+        @field(resolver: "App\\Modules\\User\\Graphql\\Queries\\UserQuery@me")
+}

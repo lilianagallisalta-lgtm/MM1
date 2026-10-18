@@ -1,0 +1,51 @@
+@import "../../../../styles/utils/breakpoints";
+
+ion-content {
+  --background: #2196f3;
+}
+
+.slide-wrapper {
+  //block p-4 h-100vh md:h-60vh bg-white rounded shadow-lg overflow-y-auto
+  display: block;
+  width: 100%;
+  padding: 2rem;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  overflow-y: auto;
+
+  //@include breakpoint($gt-sm) {
+  //  height: 60vh;
+  //}
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  //margin: 0 1rem;
+  //padding: 1rem;
+  //border-radius: 100%;
+  z-index: 31;
+
+  //width: 5rem;
+  //height: 5rem;
+
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  //background-color: #fff;
+}
+
+ion-slides {
+  --bullet-background-active: #fff;
+  --bullet-background: #eeeeee;
+}
+

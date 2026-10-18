@@ -1,0 +1,43 @@
+query Stages ($childId: ID!) {
+  stages (childId: $childId) {
+    data {
+      id
+      slug
+      display
+      available
+
+      progress (childId: $childId)
+    }
+  }
+}
+
+query StagePage (
+  $id: ID!
+  $childId: ID!
+) {
+  stage (
+    id: $id
+    childId: $childId
+  ) {
+    id
+    slug
+    display
+    available
+
+    progress (childId: $childId)
+
+    questions (childId: $childId) {
+      data {
+        id
+        display
+        answered
+        idx
+        isNextQuestion
+
+        answerOption (childId: $childId) {
+          id
+        }
+      }
+    }
+  }
+}

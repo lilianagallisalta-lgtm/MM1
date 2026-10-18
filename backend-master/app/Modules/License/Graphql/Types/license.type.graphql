@@ -1,0 +1,11 @@
+type License {
+
+    id: ID!
+        @permissions(roles: ["admin"])
+
+    uuid: String!
+
+    expiresAt: DateTime!
+        @rename(attribute: "expires_at")
+
+}

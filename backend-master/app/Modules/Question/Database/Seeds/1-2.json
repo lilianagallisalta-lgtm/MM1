@@ -1,0 +1,872 @@
+[
+  [
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan se para y a la vez sostiene objetos con la mano, por ejemplo juguetes?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan si está sentado se para con ayuda?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1 ",
+      "PREGUNTA": "¿Juan levanta objetos pequeños usando los dedos como pincita?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿Juan camina sin apoyo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2 ",
+      "PREGUNTA": "¿Juan camina distancias cortas, por ejemplo de un mueble hacia otro?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2 ",
+      "PREGUNTA": "¿Juan camina solito?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA",
+      "PREGUNTA": "¿Juan apila de 2 a 4 objetos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA",
+      "PREGUNTA": "¿Juan realiza garabatos en una hoja?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA",
+      "PREGUNTA": "¿Juan levanta objetos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan se para si le doy la mano?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan se para sosteniendose de algo, como por ejemplo muebles?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan camina apoyándose, por ejemplo de muebles?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1 ",
+      "PREGUNTA": "¿Juan permanece parado por 3 minutos sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan se sienta y se para sin ayuda?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan juega con una pelota lanzándola con las dos manos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿Juan estando de pie baila o mueve su cuerpo de un lado a otro sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿Juan recibe una pelota con ambas manos sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿Juan  trepa a una silla para alcanzar un juguete?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA ",
+      "PREGUNTA": "¿Juan come con las manos alimentos cortados pequeños?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA",
+      "PREGUNTA": "¿Juan levanta y toma agua de un vaso inclinándolo y absorviendo de a poquito?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA ",
+      "PREGUNTA": "¿Juan puede apiliar de 4 a 6 objetos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan camina sin apoyo y rara vez se cae?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan sube escaleras gateando o sosteniéndose de la baranda?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan corre detrás de una pelota sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan para sentarse dobla sus rodillas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan juega a arrastrar juguetes por detrás mientras camina?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 1",
+      "PREGUNTA": "¿Juan juega a lanzar pelotas pequeñas a otras personas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿El niño patea y sigue una pelota sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2",
+      "PREGUNTA": "¿Juan estando sentado se levanta sosteniendo algún objeto con la mano?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "COORDINACIÓN 2 ",
+      "PREGUNTA": "¿Juan estando de pie levanta algún juguete del suelo sin caerse? ",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA",
+      "PREGUNTA": "¿Juan come con cuchara?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA ",
+      "PREGUNTA": "¿Juan presiona el botón de un teléfono de juguete con intención?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD FINA ",
+      "PREGUNTA": "¿Juan imita trazos hacia abajo sobre un papel?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan realiza más de 15 pasos sin caerse?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan corre tambaleándose?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CUERPO": "MOTRICIDAD GRUESA ",
+      "PREGUNTA": "¿Juan sube y baja escaleras sosteniendose del pasamanos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    }
+  ],
+  [
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan investiga los objetos de diferentes maneras: los golpea, los tira o sacude?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan señala alguna parte del cuerpo si se lo pedimos, por ejemplo dónde está la pancita? ",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan juega golpeando objetos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan dice no y mueve la cabeza como gesto de negación?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan dice de 3 a 20 palabras sencillas con significado?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan comprende preguntas sencillas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan gatea?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan reconoce animales en fotos o dibujos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan reconoce el rostro de mamá y de otros familiares?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan busca con la mirada al objeto o figura que nombramos dentro de la habitación?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan llora cuando no esta acompañado?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan llama a mamá o papá cuando quiere algo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan imita gestos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan conoce la utilidad de cosas comunes, por ejemplo el peine para peinar, el teléfono para hablar, la cuchara para comer? ",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan juega a poner y sacar objetos de un recipiente?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan imita sonidos por ejemplo de animales o de objetos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan dice que no frecuentemente?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan imita palabras que escucha?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan sigue instrucciones sencillas como levantar un juguete si se lo pedimos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan demuestra lo que quiere y lo que no durante las comidas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan reconoce sus pertenencias, por ejemplo su chupete, su mamadera o algún juguete?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan cuando quiere algo, por ejemplo un juguete lo pide con gestos o sonidos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan busca diferentes maneras de conseguir lo que quiere, por ejemplo gritando o llorando?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan señala para pedir lo que quiere?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan realiza señas para llamar la atención de otras personas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan mueve la cabeza para decir \"no\" o la mano para saludar?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Aprendizaje ",
+      "PREGUNTA": "¿Juan realiza garabatos con ayuda?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan se refiere a sí mismo por su nombre?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan pronuncia alrededor de 50 palabras?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Lenguaje",
+      "PREGUNTA": "¿Juan forma frases de 2 o 3 palabras, por ejemplo: Mamá agua?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan sonríe antes de hacer una picardía?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan imita acciones como barrer o hablar por teléfono?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "Razonamiento",
+      "PREGUNTA": "¿Juan diferencia las cosas que le gustan más, por ejemplo bailar, pintar, cantar?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan busca y encuentra los juguetes que le son escondidos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan utiliza objetos para poder alcanzar algo que quiere, por ejemplo un palo para llegar a un juguete?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "MENTE": "RESOLUCIÓN DE PROBEMAS ",
+      "PREGUNTA": "¿Juan sube a una silla para alcanzar un juguete que esta en la mesa?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    }
+  ],
+  [
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan llora cuando pierde o se olvida su objeto o juguete favorito, por ejemplo una manta o un osito?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan demuestra ansiedad ante situaciones nuevas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan llora cuando mamá o papá se van?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan muestra interés por libros de cuentos?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": " ¿Juan busca que mamá se ría haciendole morisquetas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan se reconoce en el espejo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan se muestra tranquilo cuando otro niño le quita un juguete?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan llora si se golpea?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan demuestra que esta molesto cuando algo no le gusta?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan sonríe si mamá lo mira y también sonríe?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan se muestra nervioso o tímido cuándo se le acerca una persona extraña?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan se acerca cuando se lo llama por su nombre?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 1"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan demuestra miedo ante personas desconocidas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan se siente cada vez más cómodo con las rutinas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan se ríe cuando algo no le gusta?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan juega durante toda la noche?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan explora lugares solito?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan desarma sus juguetes?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan tiene preferencias al momento de comer por ejemplo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan intenta calmarse solo cuando algo no le gusta?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan cuando tiene sueño llora o se pone molesto?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan cuándo llega a un lugar nuevo se aferra a quien lo está cuidando?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan estira los brazos para alcanzar un juguete, lo sostiene y se lo da a su mamá?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan se oculta detrás de alguien cuando se acerca un desconocido?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 2"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan busca objetos o comidas que le gustan?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan juega solito en un cuarto por un tiempo prolongado?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "AUTOESTIMA",
+      "PREGUNTA": "¿Juan intenta llamar la atención cuando quiere algo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan explora su entorno de diferentes maneras, por ejemplo descalso?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan se anima a participar de actividades a las que antes temía, por ejemplo entrar a un pelotero?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "CURIOSIDAD ",
+      "PREGUNTA": "¿Juan se divierte con cosas que antes no le llamaban la atención?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan quiere hacer las cosas solito, por ejemplo, caminar sin que le den la mano, tomar de un baso solito? ",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan se muestra feliz cuando papá o mamá vuelven del trabajo?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "DESARROLLO EMOCIONAL",
+      "PREGUNTA": "¿Juan empieza a entender los límites?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan juega con niños y niñas?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan pelea con otros niños cuando le quitan un juguete?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    },
+    {
+      "CORAZÓN": "SOCIALIZACIÓN",
+      "PREGUNTA": "¿Juan usa el \"no\" frecuentemente?",
+      "SIEMPRE": "",
+      "AVECES": "",
+      "NUNCA": "",
+      "NIVEL": "Nivel 3"
+    }
+  ]
+]

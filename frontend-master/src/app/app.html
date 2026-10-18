@@ -1,0 +1,9 @@
+<ion-menu *ngIf="media.isActive('lt-sm')"
+          [content]="content">
+  <ion-content>
+    <me-menu></me-menu>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #content main [root]="rootPage"></ion-nav>
+

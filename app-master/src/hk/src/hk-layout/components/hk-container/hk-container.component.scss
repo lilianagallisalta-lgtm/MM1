@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+.hk-container {
+  width: 100%;
+  margin: 0 auto;
+  &:not(.p-0) {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .hk-container {
+    max-width: 576px !important;
+    &:not(.p-0) {
+      padding: 1rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hk-container {
+    max-width: 768px !important;
+    &:not(.p-0) {
+      padding: 1rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .hk-container {
+    max-width: 992px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hk-container {
+    max-width: 1200px !important;
+  }
+}

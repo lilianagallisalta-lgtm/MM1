@@ -1,0 +1,56 @@
+@import "~@angular/material/theming";
+@import "../../../../styles/utils/breakpoints";
+
+.wrapper {
+  background-image: url(assets/img/do-stage-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.answerOption-button {
+  color: mat-color($mat-blue, 800);
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  background-color: rgba(mat-color($mat-blue, 100), 0.1);
+  border: 2px solid mat-color($mat-blue, 300);
+
+  border-radius: 16rem;
+
+  transition: all 0.5s ease;
+
+  &.answered {
+    border-color: mat-color($mat-pink, 500);
+    color: mat-color($mat-pink, 800);
+  }
+
+  font-size: 1rem;
+  padding: 0.5rem;
+  @include breakpoint($gt-xs) {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+  @include breakpoint($gt-sm) {
+    font-size: 2.3rem;
+    padding: 2rem 4rem;
+
+    &:hover {
+      color: mat-color($mat-pink, 800);
+      border: 2px solid mat-color($mat-pink, 500);
+      background-color: #fff;
+
+      @include mat-elevation(4, mat-color($mat-pink, 500))
+    }
+  }
+}
+
+.stage-progress-wrapper {
+  height: 14px;
+  padding: 0.25rem;
+
+  @include breakpoint($gt-xs) {
+    height: 5rem;
+    padding: 1rem;
+  }
+}

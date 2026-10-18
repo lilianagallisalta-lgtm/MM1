@@ -1,0 +1,33 @@
+{
+  "mutation":{
+    "signup": {
+      "firstname": {
+        "required": "Ingresa tu nombre"
+      },
+      "lastname": {
+        "required": "Ingresa tu apellido"
+      },
+      "email": {
+        "required": "Ingresa tu E-mail",
+        "email": "Ingresa un E-mail válido",
+        "unique": "Este E-mail ya ha sido utilizado"
+      },
+      "country": {
+        "required": "Ingresa tu País de residencia"
+      },
+      "province": {
+        "required": "Ingresa tu Provincia/Estado de recidencia"
+      },
+      "password": {
+        "required": "Ingresa una contraseña"
+      },
+      "passwordConfirmation": {
+        "required": "Ingresa la confirmación de tu contraseña",
+        "same": "Las contraseñas no coinciden"
+      },
+      "acceptTos": {
+        "accepted": "Debes aceptar los Términos y Condiciones"
+      }
+    }
+  }
+}

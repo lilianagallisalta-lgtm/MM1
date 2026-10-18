@@ -1,0 +1,27 @@
+ion-header.header {
+  &.header-md {
+    &::after {
+      background-image: none;
+    }
+  }
+
+  .toolbar-background {
+    &.toolbar-background-md, &.toolbar-background-ios {
+      background-color: $clr-light-blue-900 !important;
+      //background: transparent !important;
+      //background-image: linear-gradient(45deg, $clr-blue-700 0%, $clr-teal-700 130%) !important;
+    }
+  }
+
+  .toolbar-title {
+    &.toolbar-title-md, &.toolbar-title-ios {
+      font-weight: 300;
+      font-size: 2.2rem;
+      color: #fff;
+    }
+  }
+
+  ion-icon {
+    color: #fff !important;
+  }
+}

@@ -1,0 +1,7 @@
+extend type Query {
+    rapiTips: [RapiTip!]
+        @collection(
+            resolver: "App\\Modules\\RapiTip\\Graphql\\Queries\\RapiTipsQuery@handle"
+            type: "paginator"
+        )
+}

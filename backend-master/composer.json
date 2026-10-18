@@ -1,0 +1,126 @@
+{
+    "name": "mentesmejorando/backend",
+    "description": "Backend for Mentes Mejorando",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.3.0",
+        "ext-json": "*",
+        "adbario/php-dot-notation": "^2.0",
+        "barryvdh/laravel-cors": "^0.11.0",
+        "cakephp/chronos": "^1.2",
+        "dyrynda/laravel-efficient-uuid": "^2.2",
+        "dyrynda/laravel-model-uuid": "~4.1",
+        "fideloper/proxy": "^4.0",
+        "gguney/rseeder": "^1.1",
+        "hawk/generators": "dev-master",
+        "hawk/laravel-support": "dev-master",
+        "hawk/laravel-translation": "dev-master",
+        "hawk/lighthouse-extended": "dev-master",
+        "laravel-notification-channels/onesignal": "^1.2",
+        "laravel/framework": "5.7.*",
+        "laravel/tinker": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "mercadopago/dx-php": "dev-master",
+        "mll-lab/graphql-php-scalars": "^2.0",
+        "nuwave/lighthouse": "dev-master",
+        "prettus/l5-repository": "^2.6",
+        "spatie/image": "^1.5",
+        "spatie/laravel-backup": "^5.11",
+        "spatie/laravel-event-projector": "^1.0.0",
+        "spatie/laravel-medialibrary": "^6.0.0",
+        "spatie/laravel-model-status": "^1.6",
+        "spatie/laravel-permission": "^2.12",
+        "spatie/laravel-schemaless-attributes": "^1.0",
+        "spatie/laravel-sluggable": "^2.1",
+        "spatie/laravel-translatable": "^2.2",
+        "tymon/jwt-auth": "1.0.0-rc.3"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.5",
+        "filp/whoops": "^2.0",
+        "fzaninotto/faker": "^1.4",
+        "jeroen-g/laravel-packager": "^2.1",
+        "laravel/telescope": "^1.0",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^2.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories",
+            "packages"
+        ],
+        "psr-4": {
+            "Hawk\\Checkout\\": "packages/Hawk/Checkout/src",
+            "Hawk\\Price\\": "packages/Hawk/Price/src",
+            "Hawk\\PromotionCode\\": "packages/Hawk/PromotionCode/src",
+            "Hawk\\Stock\\": "packages/Hawk/Stock/src",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hawk\\Checkout\\": "packages/Hawk/Checkout/src",
+            "Hawk\\Price\\": "packages/Hawk/Price/src",
+            "Hawk\\PromotionCode\\": "packages/Hawk/PromotionCode/src",
+            "Hawk\\Stock\\": "packages/Hawk/Stock/src",
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "hawk/promotioncode"
+            ]
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hkapp/hk-laravel-module-price"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hkapp/hk-laravel-support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hkapp/hk-laravel-translation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hkapp/hk-laravel-module-checkout"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hkapp/hk-generators"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/hawksrl/lighthouse-extended"
+        }
+    ]
+}

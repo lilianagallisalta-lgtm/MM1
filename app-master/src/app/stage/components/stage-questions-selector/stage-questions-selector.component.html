@@ -1,0 +1,19 @@
+<div #scrollContent
+     fxLayout="row"
+     fxLayoutAlign="start center"
+     class="scroll-content px-0 md:px-8 py-2 md:py-3">
+  <div *ngFor="let question of (questions$ | async)"
+       class="px-2">
+    <button (click)="select(question)" matRipple
+            id="button-question-{{question?.id}}"
+            fxLayout="column"
+            fxLayoutAlign="center center"
+            [class.answered]="question?.answered"
+            [class.not-answered]="! question?.answered"
+            [class.active]="question?.id == (questionActive$ | async)?.id"
+            [class.next-question]="question?.id == (nextQuestion$ | async)?.id"
+            class="question-button relative p-2 h-6 w-6 sm:h-12 sm:w-12 text-xs sm:text-base text-blue-800 font-bold rounded-full">
+      {{question?.idx}}
+    </button>
+  </div>
+</div>

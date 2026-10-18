@@ -1,0 +1,8 @@
+input CreatePlanInput {
+    childId: ID!
+}
+
+extend type Mutation {
+   createPlan (input: CreatePlanInput!): Plan!
+        @hkMutation(class: "App\\Modules\\Plan\\Graphql\\Mutations\\CreatePlanMutation")
+}

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/rapitips"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Rapi Tip</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ng-container *ngIf="(rapiTip$ | async) as rapiTip">
+    <hk-img [src]="rapiTip?.picture"
+            class="w-full h-50vh"></hk-img>
+
+    <hk-container>
+      <h1 class="card-title p-3">{{rapiTip?.title}}</h1>
+
+      <div [innerHTML]="rapiTip?.body"></div>
+    </hk-container>
+  </ng-container>
+</ion-content>

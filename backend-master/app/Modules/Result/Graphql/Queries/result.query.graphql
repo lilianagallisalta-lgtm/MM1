@@ -1,0 +1,6 @@
+extend type Query {
+    result (
+        planId: ID!
+    ): Result
+        @field(resolver: "App\\Modules\\Result\\Graphql\\Queries\\ResultQuery@handle")
+}

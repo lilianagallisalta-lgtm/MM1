@@ -1,0 +1,30 @@
+@import "~@angular/material/theming";
+
+.question-button {
+  border: 1px solid mat-color($mat-blue, 300);
+
+  &.answered {
+    background-color: mat-color($mat-green, 50);
+    color: mat-color($mat-green, 800);
+    border: 1px solid mat-color($mat-green, 300);
+  }
+
+  &.active {
+    background-color: mat-color($mat-pink, 500);
+    border: 1px solid mat-color($mat-pink, 300);
+    color: #fff;
+  }
+
+  &.not-answered.next-question {
+    border: 1px solid mat-color($mat-pink, 300);
+
+    &:not(.active) {
+      background-color: mat-color($mat-pink, 50);
+    }
+  }
+}
+
+.scroll-content {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}

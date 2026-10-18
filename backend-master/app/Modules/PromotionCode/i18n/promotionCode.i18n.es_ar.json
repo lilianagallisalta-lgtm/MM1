@@ -1,0 +1,9 @@
+{
+  "mutation": {
+    "usePromotionCode": {
+      "code": {
+        "required": "Ingresa el código premium"
+      }
+    }
+  }
+}

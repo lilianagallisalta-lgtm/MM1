@@ -1,0 +1,11 @@
+ion-item {
+  &.hk-item-no-padding {
+    padding: 0;
+  }
+}
+
+ion-item[no-border] {
+  .item-inner {
+    border-bottom: none !important;
+  }
+}

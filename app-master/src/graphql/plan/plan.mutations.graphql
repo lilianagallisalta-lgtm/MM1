@@ -1,0 +1,5 @@
+mutation CreatePlan ($input: CreatePlanInput!) {
+  createPlan (input: $input) {
+    ...PlanFragment
+  }
+}

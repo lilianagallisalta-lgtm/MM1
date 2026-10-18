@@ -1,0 +1,61 @@
+$background: #EEF1F4;
+//$background: lighten($clr-blue-50, 4);
+
+$brand-color: #ae1d22;
+
+$menu-background: #141D26;
+
+.bg-menu-background {
+  background-color: $menu-background;
+}
+
+.tc-brand {
+  color: $brand-color;
+}
+
+//
+// Primary
+//
+
+$clr-primary-list: $clr-indigo-list;
+
+$clr-primary:      map-get($clr-primary-list, "base");
+
+$clr-primary-50:   map-get($clr-primary-list, "50");
+$clr-primary-100:  map-get($clr-primary-list, "100");
+$clr-primary-200:  map-get($clr-primary-list, "200");
+$clr-primary-300:  map-get($clr-primary-list, "300");
+$clr-primary-400:  map-get($clr-primary-list, "400");
+$clr-primary-500:  map-get($clr-primary-list, "500");
+$clr-primary-600:  map-get($clr-primary-list, "600");
+$clr-primary-700:  map-get($clr-primary-list, "700");
+$clr-primary-800:  map-get($clr-primary-list, "800");
+$clr-primary-900:  map-get($clr-primary-list, "900");
+$clr-primary-a100: map-get($clr-primary-list, "a100");
+$clr-primary-a200: map-get($clr-primary-list, "a200");
+$clr-primary-a400: map-get($clr-primary-list, "a400");
+$clr-primary-a700: map-get($clr-primary-list, "a700");
+
+
+//
+// Secondary
+//
+
+$clr-secondary-list: $clr-teal-list;
+
+$clr-secondary:      map-get($clr-secondary-list, "base");
+
+$clr-secondary-50:   map-get($clr-secondary-list, "50");
+$clr-secondary-100:  map-get($clr-secondary-list, "100");
+$clr-secondary-200:  map-get($clr-secondary-list, "200");
+$clr-secondary-300:  map-get($clr-secondary-list, "300");
+$clr-secondary-400:  map-get($clr-secondary-list, "400");
+$clr-secondary-500:  map-get($clr-secondary-list, "500");
+$clr-secondary-600:  map-get($clr-secondary-list, "600");
+$clr-secondary-700:  map-get($clr-secondary-list, "700");
+$clr-secondary-800:  map-get($clr-secondary-list, "800");
+$clr-secondary-900:  map-get($clr-secondary-list, "900");
+$clr-secondary-a100: map-get($clr-secondary-list, "a100");
+$clr-secondary-a200: map-get($clr-secondary-list, "a200");
+$clr-secondary-a400: map-get($clr-secondary-list, "a400");
+$clr-secondary-a700: map-get($clr-secondary-list, "a700");

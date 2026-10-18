@@ -1,0 +1,27 @@
+query AreasWithResult (
+  $childId: ID!
+  $planId: ID!
+  $stageId: ID!
+) {
+  areas {
+    data {
+      id
+      name
+      slug
+      picture (childId: $childId)
+
+      result (
+        planId: $planId
+        stageId: $stageId
+      ) {
+        id
+        slug
+        percentage
+
+        gaugeColor
+        gaugeCardColor
+        gaugeCardBackground
+      }
+    }
+  }
+}

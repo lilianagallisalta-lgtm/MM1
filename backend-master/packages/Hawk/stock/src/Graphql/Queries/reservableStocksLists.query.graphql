@@ -1,0 +1,8 @@
+#extend type Query {
+#    reservableStocksLists(
+#        slug: String
+#        stockeableType: String!
+#        stockeableId: String
+#    ): [ReservableStockList!]
+#        @collection(resolver: "Hawk\\Stock\\Graphql\\Queries\\ReservableStocksListsQuery@reservableStocksLists")
+#}

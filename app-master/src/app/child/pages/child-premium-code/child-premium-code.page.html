@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="['/children', childId]"></ion-back-button>
+    </ion-buttons>
+    <ion-title translate>Acceder con Código Premium</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <hk-loading-overlay *ngIf="loading"></hk-loading-overlay>
+
+  <hk-container *ngIf="(child$ | async) as child"
+                align="center center"
+                gap="3rem">
+    <ng-container *ngIf="success">
+      <div fxLayout="column"
+           fxLayoutAlign="center center"
+           fxLayoutGap="1rem"
+           class="app-container mx-auto min-h-full">
+        <div fxLayout="column"
+             fxLayoutAlign="center center"
+             class="p-3 sm:p-4 bg-green-50 text-center rounded border">
+          <div fxLayout="column"
+               fxLayoutAlign="center center"
+               fxLayoutGap="1rem">
+            <ion-icon name="checkmark" class="text-5xl text-green-700"></ion-icon>
+
+            <h1 class="text-2xl text-green-800">¡Excelente!</h1>
+
+            <h2 class="text-green-800">Ahora podrás realizar todas las etapas para {{child?.name}}</h2>
+
+            <p class="text-green-800">Al finalizarlas podrás hacer un seguimiento de tu niñ@.</p>
+          </div>
+
+          <ion-button (click)="goBack()"
+                      shape="round"
+                      class="my-4">Volver</ion-button>
+
+          <h1 class="mb-2 text-2xl text-green-800">¡Muchas gracias!</h1>
+          <img src="assets/img/logo.png"
+               class="h-16 w-auto">
+        </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="! success">
+      <p class="p-3 bg-blue-grey-50 text-blue-grey-800 rounded border border-blue-grey-300" translate>
+        ¡Si tienes un Código Premium, podrás potenciar las áreas de desarrollo de tu niñ@ completamente gratis!
+      </p>
+
+      <form *ngIf="form"
+            [formGroup]="form"
+            (ngSubmit)="submit()"
+            hkMutation="UsePromotionCode"
+            class="w-full sm:w-auto sm:min-w-2/3">
+        <ion-list class="shadow">
+          <ion-item>
+            <ion-label position="floating" translate>Código premium</ion-label>
+            <ion-input formControlName="code"></ion-input>
+          </ion-item>
+          <hk-errors control="code"></hk-errors>
+
+          <hk-list-actions>
+            <ion-button type="submit" translate>Aceptar</ion-button>
+          </hk-list-actions>
+        </ion-list>
+      </form>
+    </ng-container>
+  </hk-container>
+</ion-content>

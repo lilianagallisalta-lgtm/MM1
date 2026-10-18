@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Editar niño</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="Page">
+  <child-upsert *ngIf="(child$ | async) as child"
+                [child]="child"
+                (success)="navCtrl.pop()"></child-upsert>
+</ion-content>

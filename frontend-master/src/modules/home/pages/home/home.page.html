@@ -1,0 +1,42 @@
+<ion-content class="Page without-header">
+  <div *ngIf="! loading && ! loggedIn"
+       fxLayout="row wrap"
+       fxFlex
+       class="overflow-y-auto">
+    <div fxLayout="column"
+         fxLayoutAlign="center center"
+         fxFlex="100" fxFlex.gt-sm="50"
+         class="bg-blue-500">
+      <img src="../assets/img/logo.png"
+           class="h-24 sm:h-48 w-auto z-10">
+    </div>
+
+    <div fxLayout="column"
+         fxLayoutAlign="center"
+         fxFlex="100" fxFlex.gt-sm="50"
+         class="bg-white p-4">
+      <h1 class="text-4xl py-3 text-center">
+        Bienvenido a Mentes Mejorando Online
+      </h1>
+
+      <h2 class="text-3xl py-2 text-center">
+        Programa de Ayuda Solidaria
+      </h2>
+
+      <div fxLayout="row"
+           fxLayoutAlign="center"
+           class="py-4">
+        <div fxLayout="column"
+             fxLayoutAlign="start stretch"
+             fxLayoutGap="1rem"
+             fxFlex="90" fxFlex.gt-sm="60">
+          <a (click)="signup()" ripple
+             class="rounded-full p-3 text-center text-2xl bg-teal-500 text-white">Regístrate</a>
+
+          <a (click)="login()" ripple
+             class="rounded-full p-3 text-center text-2xl border border-teal-500 text-teal-500">Iniciar sesión</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

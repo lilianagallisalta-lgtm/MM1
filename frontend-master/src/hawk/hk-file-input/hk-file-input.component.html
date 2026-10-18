@@ -1,0 +1,56 @@
+<div *ngIf="mode == 'single'"
+     layout="column"
+     class="hk-file-input-wrapper">
+  <span class="label">{{placeholder}}</span>
+
+  <div class="hk-file-input-content">
+    <div layout="row" layout-align="space-between center">
+      <hk-loading *ngIf="loading"></hk-loading>
+
+      <div fxLayout="column"
+           fxFlexFill
+           class="picture-wrapper">
+        <div *ngIf="_preview"
+             fxLayout="column"
+             fxFlex
+             class="picture-preview">
+          <img [src]="_preview" class="hk-file-input-preview">
+        </div>
+
+        <div *ngIf="! _preview"
+             fxLayout="column"
+             fxFlex
+             class="picture-placeholder">
+          <button ion-button
+                  clear
+                  ngfSelect
+                  multiple="{{ multiple ? '1' : '0' }}"
+                  [(files)]="files">
+            Seleccionar imágen...
+          </button>
+        </div>
+
+        <div fxLayout="row">
+          <button ion-button
+                  hk-icon-button
+                  ngfSelect
+                  multiple="{{ multiple ? '1' : '0' }}"
+                  [(files)]="files">
+            <ion-icon name="camera"></ion-icon>
+          </button>
+
+          <button ion-button
+                  hk-icon-button
+                  (click)="delete()">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <ngfFormData [files]="files"
+                   [(FormData)]="formData"
+                   (FormDataChange)="formDataChange($event)"
+                   postName="{{postName}}"></ngfFormData>
+    </div>
+  </div>
+</div>

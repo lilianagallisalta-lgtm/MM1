@@ -1,0 +1,41 @@
+type Price {
+    id: ID!,
+
+    price: Float!,
+
+    start: String,
+        @permissions(includes: ["price.see"])
+    end: String,
+        @permissions(includes: ["price.see"])
+
+    perDay: Boolean!,
+
+    total: Float,
+
+    priceType: PriceType!
+        @permissions(includes: ["price.priceType.see"])
+}
+
+input UpsertPriceInput {
+    id: ID
+    from: String
+    to: String
+    price: Float!
+    perDay: Boolean
+    priceable_type: String
+    priceable_id: ID
+}
+
+input DeletePriceInput {
+    id: ID
+}
+
+extend type Mutation {
+    upsertPrice (input: UpsertPriceInput!): Price
+        @permissions(roles: ["sadmin"])
+        @hkMutation(class: "App\\Modules\\Price\\Graphql\\Mutations\\UpsertPriceMutation")
+
+    deletePrice (input: DeletePriceInput!): Boolean!
+        @permissions(roles: ["sadmin"])
+        @hkMutation(class: "App\\Modules\\Price\\Graphql\\Mutations\\DeletePriceMutation")
+}

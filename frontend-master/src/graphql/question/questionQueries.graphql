@@ -1,0 +1,29 @@
+query NextQuestion (
+  $stageId: ID!
+  $childId: ID!
+) {
+  nextQuestion (
+    stageId: $stageId
+    childId: $childId
+  ) {
+    id
+    display
+  }
+}
+
+query Questions (
+  $stageId: ID!
+  $childId: ID!
+) {
+  questions (
+    stageId: $stageId
+    childId: $childId
+  ) {
+    data {
+      id
+      display
+      idx
+      answered
+    }
+  }
+}

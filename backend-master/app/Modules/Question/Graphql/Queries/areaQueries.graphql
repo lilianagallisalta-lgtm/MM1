@@ -1,0 +1,19 @@
+type Area {
+    id: ID!
+    name: String!
+    slug: String!
+
+    picture(childId: ID): String!
+        @field(resolver: "App\\Modules\\Question\\Graphql\\Queries\\AreaQuery@picture")
+
+    result (
+        planId: ID!
+        stageId: ID!
+    ): Result
+        @field(resolver: "App\\Modules\\Question\\Graphql\\Queries\\AreaQuery@result")
+}
+
+extend type Query {
+    areas: [Area!]
+        @collection(model: "App\\Modules\\Question\\Models\\Area")
+}

@@ -1,0 +1,73 @@
+<ng-template #loading>
+  <hk-loading></hk-loading>
+</ng-template>
+
+<div *ngIf="(areas$ | async) as areas; else loading"
+     fxLayout="column"
+     fxLayoutGap="2rem"
+     class="app-container m-auto">
+  <div fxLayout="column">
+    <h1 class="p-3 card-title">Indicadores</h1>
+
+    <div fxLayout="row wrap">
+      <div *ngFor="let area of areas"
+           fxLayout="column"
+           fxLayoutAlign="start stretch"
+           fxFlex="100" fxFlex.gt-sm="33"
+           class="p-3">
+        <app-result-gauge [result]="area?.result"
+                          [area]="area"
+                          fxFlex>
+          <div fxLayout="row"
+               fxLayoutAlign="space-between center"
+               class="w-full p-2">
+            <img *ngIf="area?.result?.slug === 'bad' || area?.result?.slug === 'very bad'"
+                 src="assets/icon/siren.svg"
+                 class="siren mx-auto h-16 w-auto">
+
+            <span fxFlex></span>
+
+            <ion-button (click)="seeResult(area?.result)"
+                        color="light">Ver más</ion-button>
+          </div>
+        </app-result-gauge>
+        <!--<div fxLayout="column"-->
+             <!--fxLayoutAlign="start center"-->
+             <!--[style.background-color]="area?.result?.gaugeCardColor | safe: 'style'"-->
+             <!--class="relative rounded-lg shadow-lg">-->
+          <!--<ngx-gauge type="full"-->
+                     <!--[value]="(area?.result?.percentage * 100) | number: '1.0-0'"-->
+                     <!--[thick]="10"-->
+                     <!--backgroundColor="#757575"-->
+                     <!--[foregroundColor]="area?.result?.gaugeColor"-->
+                     <!--append="%"></ngx-gauge>-->
+
+          <!--<div fxLayout="column"-->
+               <!--fxLayoutAlign="start center"-->
+               <!--class="absolute pin w-full h-full p-2">-->
+            <!--<ngx-gauge-label>-->
+              <!--<div fxLayout="column"-->
+                   <!--fxLayoutAlign="center center"-->
+                   <!--fxLayoutGap="0.5rem"-->
+                   <!--style="width: 5rem; height: 5rem;"-->
+                   <!--class="-mt-4 bg-white rounded-full shadow">-->
+                <!--<img [src]="area?.picture"-->
+                     <!--class="mx-auto w-8 h-auto">-->
+              <!--</div>-->
+            <!--</ngx-gauge-label>-->
+
+            <!--<div fxLayout="column"-->
+                 <!--fxLayoutAlign="center"-->
+                 <!--fxFlex>-->
+              <!--<h1 class="text-xs text-grey-800 uppercase font-bold">{{area?.name}}</h1>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <!--<span fxFlex></span>-->
+
+         <!---->
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+</div>

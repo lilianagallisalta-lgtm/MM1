@@ -1,0 +1,8 @@
+extend type Query {
+    nextQuestion (
+        stageId: ID!
+        planId: ID!
+    ): Question
+        @middleware(checks: ["jwt.auth"])
+        @field(resolver: "App\\Modules\\Question\\Graphql\\Queries\\NextQuestionQuery@handle")
+}

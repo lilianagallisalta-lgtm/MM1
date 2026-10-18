@@ -1,0 +1,172 @@
+<form [formGroup]=form>
+  <hk-list>
+    <ion-item>
+      <ion-label floating>Nombre</ion-label>
+      <ion-input formControlName="firstname"
+                 autocomplete="given-name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Apellido</ion-label>
+      <ion-input formControlName="lastname"
+                 autocomplete="family-name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>E-mail</ion-label>
+      <ion-input formControlName="email"
+                 type="email"
+                 autocomplete="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Contraseña</ion-label>
+      <ion-input formControlName="password"
+                 type="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Repetir contraseña</ion-label>
+      <ion-input formControlName="passwordConfirmation"
+                 type="password"></ion-input>
+    </ion-item>
+
+    <hk-list-actions>
+      <span fxFlex></span>
+      <button ion-button color="secondary" (click)="submit()">Aceptar</button>
+    </hk-list-actions>
+  </hk-list>
+</form>
+
+<!--<form>-->
+  <!--<mat-tab-group *ngIf="user"-->
+                 <!--[selectedIndex]="type == 'particular' ? 0 : 1"-->
+                 <!--(selectedIndexChange)="indexChange($event)">-->
+    <!--<mat-tab label="Particular">-->
+      <!--<hk-list [hk-upsert]="user">-->
+        <!--<hk-errors apiKey="firstname">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Nombre</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.firstname"-->
+                       <!--name="firstname"-->
+                       <!--autocomplete="given-name"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="lastname">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Apellido</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.lastname"-->
+                       <!--name="lastname"-->
+                       <!--autocomplete="family-name"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="email">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>E-mail</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.email"-->
+                       <!--type="email"-->
+                       <!--name="email"-->
+                       <!--autocomplete="email"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="password">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Contraseña</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.password"-->
+                       <!--type="password"-->
+                       <!--name="password"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="passwordConfirmation">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Repetir contraseña</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.passwordConfirmation"-->
+                       <!--type="password"-->
+                       <!--name="passwordConfirmation"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-list-actions>-->
+          <!--<span fxFlex></span>-->
+          <!--<button ion-button color="secondary" (click)="submit()">Aceptar</button>-->
+        <!--</hk-list-actions>-->
+      <!--</hk-list>-->
+    <!--</mat-tab>-->
+
+    <!--<mat-tab label="Profesional">-->
+      <!--<hk-list [hk-upsert]="user">-->
+        <!--<hk-errors apiKey="firstname">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Nombre</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.firstname"-->
+                       <!--name="firstname"-->
+                       <!--autocomplete="given-name"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="lastname">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Apellido</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.lastname"-->
+                       <!--name="lastname"-->
+                       <!--autocomplete="family-name"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="email">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>E-mail</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.email"-->
+                       <!--type="email"-->
+                       <!--name="email"-->
+                       <!--autocomplete="email"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="location">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Localidad del país</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.location"-->
+                       <!--name="location"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="institute">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Institución</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.institute"-->
+                       <!--name="institute"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="password">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Contraseña</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.password"-->
+                       <!--type="password"-->
+                       <!--name="password"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-errors apiKey="passwordConfirmation">-->
+          <!--<ion-item>-->
+            <!--<ion-label floating>Repetir contraseña</ion-label>-->
+            <!--<ion-input [(ngModel)]="user.passwordConfirmation"-->
+                       <!--type="password"-->
+                       <!--name="passwordConfirmation"></ion-input>-->
+          <!--</ion-item>-->
+        <!--</hk-errors>-->
+
+        <!--<hk-list-actions>-->
+          <!--<span fxFlex></span>-->
+          <!--<button ion-button color="secondary" (click)="submit()">Aceptar</button>-->
+        <!--</hk-list-actions>-->
+      <!--</hk-list>-->
+    <!--</mat-tab>-->
+  <!--</mat-tab-group>-->
+<!--</form>-->
+

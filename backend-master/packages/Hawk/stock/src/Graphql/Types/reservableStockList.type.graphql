@@ -1,0 +1,22 @@
+type ReservableStockList {
+    id: ID!
+    slug: String!
+    display: String!
+
+
+#    "Indica si éste `ReservableStockList` se usa como fallback"
+#    isDefault: Boolean!
+
+    "El ítem que tiene un `ReservableStock`"
+    stockeable: Stockeable!
+        @hasOne
+
+    stockeableType: String @rename(attribute: "stockeable_type")
+    stockeableId: String @rename(attribute: "stockeable_id")
+
+    stocks: [ReservableStock!]
+        @collection(relation: "stocks")
+
+#    stock: ReservableStock
+#        @modelMethod(method: "getStock")
+}

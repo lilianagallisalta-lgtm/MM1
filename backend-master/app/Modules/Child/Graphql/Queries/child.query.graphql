@@ -1,0 +1,5 @@
+extend type Query {
+    child (id: ID!): Child!
+        @middleware(checks: ["jwt.auth"])
+        @field(resolver: "App\\Modules\\Child\\Graphql\\Queries\\ChildQuery@handle")
+}

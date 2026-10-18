@@ -1,0 +1,43 @@
+fragment ChildFragment on Child {
+  id
+  name
+  age
+  birthdate
+  gender
+  picture
+  licensePrice
+  hasActiveLicense
+
+  nextPlanAt
+  canCreatePlan
+  plansCompletedCount
+}
+
+query Children {
+  children {
+    data {
+      ...ChildFragment
+
+      currentPlan {
+        ...PlanFragment
+      }
+    }
+  }
+}
+
+query Child ($childId: ID!) {
+  child (id: $childId) {
+    ...ChildFragment
+
+    currentPlan {
+      ...PlanFragment
+    }
+  }
+}
+
+query ChildWithHistory ($id: ID!) {
+  child (id: $id) {
+    ...ChildFragment
+    history
+  }
+}

@@ -1,0 +1,14 @@
+input UpsertReservableStockInput {
+    id: ID
+    start: String
+    end: String
+    stock: Int!
+    allowsNegative: Boolean
+    reservableStockListId: ID
+}
+
+extend type Mutation {
+    upsertReservableStock (input: UpsertReservableStockInput!): ReservableStock!
+        @permissions(includes: ["stock.manage"])
+        @hkMutation(class: "Hawk\\Stock\\Graphql\\Mutations\\UpsertReservableStockMutation")
+}

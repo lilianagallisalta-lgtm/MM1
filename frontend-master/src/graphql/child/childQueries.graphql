@@ -1,0 +1,19 @@
+fragment ChildFragment on Child {
+  id
+  name
+  age
+}
+
+query Children {
+  children {
+    data {
+      ...ChildFragment
+    }
+  }
+}
+
+query Child ($id: ID!) {
+  child (id: $id) {
+    ...ChildFragment
+  }
+}

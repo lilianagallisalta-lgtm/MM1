@@ -1,0 +1,12 @@
+type RapiTip {
+
+    id: ID!
+        @rename(attribute: "uuid")
+
+    title: String!
+
+    body: String!
+
+    picture: String!
+
+}

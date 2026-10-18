@@ -1,0 +1,19 @@
+type Plan {
+
+    id: ID!
+        @rename(attribute: "uuid")
+
+    idx: Int!
+
+    completed: Boolean!
+
+    completedAt: DateTime
+        @rename(attribute: "completed_at")
+
+    stages: [Stage!]
+        @collection(resolver: "App\\Modules\\Plan\\Graphql\\Types\\PlanStagesField@handle")
+
+    child: Child!
+        @belongsTo
+
+}

@@ -1,0 +1,9 @@
+<div *ngFor="let error of errors | keyvalue"
+     class="errors">
+  <!--<pre>{{error | json}}</pre>-->
+  <ng-container [ngSwitch]="error.key">
+    <p *ngSwitchCase="'required'">Completa este campo</p>
+    <p *ngSwitchCase="'email'">Ingresa un e-mail válido</p>
+    <p *ngSwitchDefault>{{error.value}}</p>
+  </ng-container>
+</div>

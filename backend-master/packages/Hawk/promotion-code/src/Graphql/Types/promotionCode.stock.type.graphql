@@ -1,0 +1,5 @@
+extend type PromotionCode {
+    stock: Stock!
+        @permissions(role: ["admin"])
+        @hasOne
+}

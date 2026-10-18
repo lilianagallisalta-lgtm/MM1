@@ -1,0 +1,33 @@
+button[ion-button][hk-icon-button], a[ion-button][hk-icon-button] {
+  background-color: transparent;
+  color: rgba(#000, 0.54);
+  box-shadow: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+
+  &:hover {
+    background-color: #bdbdbd;
+  }
+
+  &[color="light"] {
+    color: color($colors, 'light');
+
+    &:hover {
+      background-color: rgba(#212121, 0.5);
+    }
+  }
+
+  &[color="warn"] {
+    color: color($colors, 'warn');
+
+    &:hover {
+      background-color: rgba(#212121, 0.5);
+    }
+  }
+
+  &[mini] {
+    width: 30px;
+    height: 30px;
+  }
+}

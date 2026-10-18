@@ -1,0 +1,51 @@
+query Result (
+  $id: ID!
+  $childId: ID!
+) {
+  result (id: $id) {
+    id
+    slug
+    percentage
+
+    info {
+      data {
+        display
+      }
+    }
+
+    games {
+      data {
+        id
+        title
+        body
+        materials
+      }
+    }
+
+    suggestions {
+      data {
+        id
+        title
+        body
+      }
+    }
+
+    gaugeColor
+    gaugeCardColor
+    gaugeCardBackground
+
+    plan {
+      id
+      child {
+        ...ChildFragment
+      }
+    }
+
+    area {
+      id
+      name
+      slug
+      picture (childId: $childId)
+    }
+  }
+}

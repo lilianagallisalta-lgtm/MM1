@@ -1,0 +1,106 @@
+@mixin font-size-xs-sm($xs, $sm) {
+  font-size: $xs;
+
+  @include gt-sm() {
+    font-size: $sm;
+  }
+}
+
+@mixin font-size-xs-md($xs, $md) {
+  font-size: $xs;
+
+  @include gt-md() {
+    font-size: $md;
+  }
+}
+
+.hk-page-title {
+  font-size: 2.5rem;
+  padding: 2rem 1rem;
+  color: $clr-grey-800;
+  text-align: center;
+}
+
+.hk-page-subtitle {
+  font-size: 2.5rem;
+  padding: 2rem 1rem;
+  color: $clr-grey-900;
+}
+
+
+
+
+.hk-headline {
+  font-size: 2.2rem;
+  line-height: 32px;
+  font-weight: 300;
+  color: #212121;
+
+  &.light {
+    color: #fff;
+  }
+}
+
+.hk-title {
+  font-size: 2rem;
+  line-height: 20px;
+  font-weight: 300;
+  color: #212121;
+}
+
+.hk-subhead {
+  font-size: 1.8rem;
+  line-height: 28px;
+  font-weight: 300;
+  color: #212121;
+}
+
+
+
+
+
+.md-headline {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.md-title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.md-subhead {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-wrap {
+  white-space: pre-wrap;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.tc-white-09 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}

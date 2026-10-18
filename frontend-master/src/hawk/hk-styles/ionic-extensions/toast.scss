@@ -1,0 +1,13 @@
+ion-toast.toast-success {
+  .toast-message {
+    background: $clr-green-700;
+    color: $clr-white;
+  }
+}
+
+ion-toast.hk-toast-error {
+  .toast-message {
+    background: $clr-red-700;
+    color: $clr-grey-100;
+  }
+}

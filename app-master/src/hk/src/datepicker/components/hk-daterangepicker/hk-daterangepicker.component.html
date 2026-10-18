@@ -1,0 +1,94 @@
+<mde-popover-target #localTarget="mdePopoverTarget"></mde-popover-target>
+
+<mde-popover #hkDaterangepickerPopover="mdePopover"
+             [mdePopoverOffsetX]="0"
+             [mdePopoverOffsetY]="0"
+             [mdePopoverCloseOnClick]="false"
+             [mdePopoverOverlapTrigger]="true"
+             class="hk-daterangepicker-popover h-full max-h-100vh max-w-full">
+  <div fxLayout="column"
+       fxLayoutAlign="stretch"
+       fxFlexFill
+       class="h-full max-h-100vh bg-white rounded mat-elevation-z4">
+    <div [fxLayout]="inputMode == 'auto' ? 'row wrap' : inputMode == 'horizontal' ? 'row' : 'column'"
+         [fxLayoutAlign]="inputMode == 'auto' ? 'space-between center' : inputMode == 'horizontal' ? 'start start' : 'start stretch'"
+         fxFlex="0 0 auto">
+      <ion-item fxFlex="100" fxFlex.gt-sm="1 1 auto">
+        <ion-label fxFlex="0 1 auto" position="floating">{{startLabel}}</ion-label>
+
+        <ion-input [ngModel]="startDisplayValue"
+                   (ionFocus)="willSet('start')"
+                   #startInput
+                   clearInput
+                   readonly
+                   class="cursor-pointer"></ion-input>
+      </ion-item>
+
+      <ion-item fxFlex="100" fxFlex.gt-sm="1 1 auto">
+        <ion-label fxFlex="0 1 auto" position="floating">{{endLabel}}</ion-label>
+
+        <ion-input [ngModel]="endDisplayValue"
+                   (ionFocus)="willSet('end')"
+                   #endInput
+                   clearInput
+                   readonly
+                   class="cursor-pointer"></ion-input>
+      </ion-item>
+
+      <button (click)="clear()" matRipple
+              class="relative px-3 py-2 text-grey-900 uppercase">Borrar</button>
+    </div>
+
+    <div fxLayout="column"
+         fxFlex="1 1 auto">
+      <hk-range-calendar [start]="range?.start"
+                         [end]="range?.end"
+                         [set]="_willSet"
+                         (rangeChange)="_rangeChange($event)"
+                         (willSet)="willSet($event)"
+                         class="overflow-auto"></hk-range-calendar>
+    </div>
+
+    <div fxLayout="row"
+         fxLayoutAlign="end center"
+         fxFlex="0 0 auto"
+         class="p-2 border-t">
+      <button (click)="submit()" matRipple
+              class="relative px-3 py-2 bg-primary text-white rounded shadow uppercase">Listo</button>
+    </div>
+  </div>
+</mde-popover>
+
+<div fxLayout="column"
+     class="relative"
+     (click)="showTarget()">
+  <div *ngIf="showBackdrop"
+       class="backdrop"></div>
+
+  <div fxLayout="column"
+       [mdePopoverTriggerFor]="hkDaterangepickerPopover"
+       [mdePopoverTargetAt]="media.isActive('lt-sm') ? foreignTarget : localTarget"
+       [mdePopoverTriggerOn]="'click'"
+       class="cursor-pointer">
+    <div [fxLayout]="inputMode == 'auto' ? 'row wrap' : inputMode == 'horizontal' ? 'row' : 'column'"
+         [fxLayoutAlign]="inputMode == 'auto' ? 'space-between center' : inputMode == 'horizontal' ? 'start start' : 'start stretch'">
+      <ion-item fxFlex="100" fxFlex.gt-sm="50">
+        <ion-label fxFlex="0 1 auto" position="floating">{{startLabel}}</ion-label>
+
+        <ion-input [ngModel]="startDisplayValue"
+                   (ionFocus)="willSet('start')"
+                   clearInput
+                   readonly></ion-input>
+      </ion-item>
+
+      <ion-item fxFlex="100" fxFlex.gt-sm="50">
+        <ion-label fxFlex="0 1 auto" position="floating">{{endLabel}}</ion-label>
+
+        <ion-input [ngModel]="endDisplayValue"
+                   (ionFocus)="willSet('end')"
+                   clearInput
+                   readonly></ion-input>
+      </ion-item>
+    </div>
+  </div>
+</div>

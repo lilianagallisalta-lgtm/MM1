@@ -1,0 +1,102 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// hk-styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+@import "../tailwind/tailwind";
+
+@import "../shared/styles/index";
+
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background-color: $clr-blue-500 !important;
+}
+
+ion-menu .content {
+  background-color: $menu-background;
+}
+
+
+ion-header.header {
+  &.header-md {
+    &::after {
+      background-image: none;
+    }
+  }
+
+  .toolbar-background {
+    &.toolbar-background-md, &.toolbar-background-ios {
+      background-color: $clr-light-blue-900 !important;
+    }
+  }
+
+  .toolbar-title {
+    &.toolbar-title-md, &.toolbar-title-ios {
+      font-weight: 300;
+      font-size: 2.2rem;
+      color: #fff;
+    }
+  }
+
+  ion-icon {
+    color: #fff !important;
+  }
+}
+
+
+.app-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .app-container {
+    max-width: 576px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    max-width: 768px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    max-width: 1200px;
+  }
+}
+
+.card-title {
+  color: #424242;
+  font-weight: 700;
+  font-size: 2rem;
+
+  @include breakpoint($gt-sm) {
+    font-size: 2.6rem;
+  }
+}
