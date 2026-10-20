@@ -5,35 +5,61 @@ import {Response} from "@angular/http";
 import {Toast} from "ionic-angular";
 import {ToastService} from "../hk-providers/toast.service";
 
-const getApiHost = (): string => {
-  if (typeof window === 'undefined') {
-    return 'https://mentesmejorando.hawk-srl.com';
+const normalizeBaseUrl = (value: string): string => {
+  if (!value) {
+    return 'http://localhost:8000/';
   }
 
-  const hostname = window.location.hostname;
-  const protocol = window.location.protocol;
+  let normalized = value.trim();
 
-  if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    return 'http://localhost';
+  if (!normalized.startsWith('http://') && !normalized.startsWith('https://')) {
+    normalized = `https://${normalized}`;
   }
 
-  if (hostname.includes('github.io')) {
-    return 'https://mentesmejorando.hawk-srl.com';
+  if (!normalized.endsWith('/')) {
+    normalized += '/';
   }
 
-  return `${protocol}//${hostname}`;
+  return normalized;
 };
 
-export const HOST = getApiHost();
-export const BASE_URL = HOST.includes('localhost')
-  ? `${HOST}:8000/`
-  : (HOST.endsWith('/') ? HOST : `${HOST}/`);
+const getConfiguredApiBase = (): string => {
+  const candidateFromWindow = typeof window !== 'undefined'
+    ? (window as any).__MM1_API_URL__ || (window as any).__API_URL__ || (window as any).API_URL
+    : null;
+
+  if (candidateFromWindow) {
+    return normalizeBaseUrl(candidateFromWindow);
+  }
+
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    const protocol = window.location.protocol;
+
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return 'http://localhost:8000/';
+    }
+
+    if (hostname.includes('github.io')) {
+      return 'https://mentesmejorando.hawk-srl.com/';
+    }
+
+    if (hostname.includes('mentesmejorando') || hostname.includes('localhost')) {
+      return normalizeBaseUrl(`${protocol}//${hostname}`);
+    }
+  }
+
+  return 'http://localhost:8000/';
+};
+
+export const HOST = getConfiguredApiBase();
+export const BASE_URL = HOST.endsWith('/') ? HOST : `${HOST}/`;
 export const IS_BROWSER: boolean = true;
 export const IS_LOCAL: boolean = HOST.includes('localhost') || HOST.includes('127.0.0.1');
 
 export const ECHO_SERVER_HOST = HOST;
 export const API_URL = BASE_URL + 'api/v1/';
-export const IS_CORDOVA: boolean = ! IS_BROWSER;
+export const IS_CORDOVA: boolean = !IS_BROWSER;
 
 @Injectable()
 export class ApiService {
@@ -197,7 +223,7 @@ export class ApiService {
     });
   }
 
-  handleError (response: Response | any) {
-    // console.error(response.json());
+  handleError(response: Response | any) {
+    console.error('API request failed:', response);
   }
 }
