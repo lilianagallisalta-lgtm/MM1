@@ -5,12 +5,31 @@ import {Response} from "@angular/http";
 import {Toast} from "ionic-angular";
 import {ToastService} from "../hk-providers/toast.service";
 
-export const HOST = 'http://localhost';
-// export const HOST = 'https://mentesmejorando.hawk-srl.com';
-export const BASE_URL = HOST + ':8000/';
-// export const BASE_URL = HOST + '/';
+const getApiHost = (): string => {
+  if (typeof window === 'undefined') {
+    return 'https://mentesmejorando.hawk-srl.com';
+  }
+
+  const hostname = window.location.hostname;
+  const protocol = window.location.protocol;
+
+  if (hostname === 'localhost' || hostname === '127.0.0.1') {
+    return 'http://localhost';
+  }
+
+  if (hostname.includes('github.io')) {
+    return 'https://mentesmejorando.hawk-srl.com';
+  }
+
+  return `${protocol}//${hostname}`;
+};
+
+export const HOST = getApiHost();
+export const BASE_URL = HOST.includes('localhost')
+  ? `${HOST}:8000/`
+  : (HOST.endsWith('/') ? HOST : `${HOST}/`);
 export const IS_BROWSER: boolean = true;
-export const IS_LOCAL: boolean = false;
+export const IS_LOCAL: boolean = HOST.includes('localhost') || HOST.includes('127.0.0.1');
 
 export const ECHO_SERVER_HOST = HOST;
 export const API_URL = BASE_URL + 'api/v1/';
