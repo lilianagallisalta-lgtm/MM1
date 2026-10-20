@@ -1,10 +1,11 @@
 const hostname = typeof window !== 'undefined' ? window.location.hostname : 'localhost';
 const isLocalFrontend = hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '0.0.0.0';
+const localGraphqlBase = hostname === 'localhost' ? 'http://localhost:8000/graphql' : 'http://127.0.0.1:8000/graphql';
 
 export const environment = {
   production: false,
   host: hostname,
-  graphql: isLocalFrontend ? 'http://127.0.0.1:8000/graphql' : '/graphql',
+  graphql: isLocalFrontend ? localGraphqlBase : '/graphql',
   isBrowser: true,
 
   mercadopago: {
@@ -12,7 +13,7 @@ export const environment = {
   },
 
   onesignal: {
-    appId: '4ed9561b-deae-4247b-28e515d6cbac',
+    appId: '4ed9561b-deae-4247-8f76-28e515d6cbac',
     googleProjectId: '1083951373649',
   },
 
